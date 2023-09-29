@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('begron.jpg'); /* Gambar latar belakang di body */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden; /* Mencegah scroll pada halaman utama */
+            color: #090909; /* Warna teks putih pada latar belakang */
+            position: relative; /* Tambahkan position: relative */
+            height: 100vh; /* Mengisi tinggi sepanjang tinggi viewport */
+        }
+
+        /* Styling header */
+        header {
+            position: absolute; /* Ubah menjadi absolute */
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color: transparent; /* Menghilangkan warna latar belakang header */
+            box-shadow: none; /* Menghilangkan bayangan pada header */
+        }
+
+        .logo {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000; /* Warna teks putih */
+        }
+
+        /* Styling konten */
+        .content {
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end; /* Menggeser konten ke kanan */
+            align-items: center; /* Pusatkan vertikal */
+            height: 100%; /* Menyamakan tinggi dengan tinggi viewport */
+        }
+
+        .left {
+            text-align: right; /* Pusatkan horizontal ke kanan */
+            max-width: 50%; /* Maksimum lebar untuk menghindari tumpang tindih dengan tombol Login dan Register */
+        }
+
+        .left h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .left p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Styling tombol Login dan Register */
+        .login-register {
+            position: absolute; /* Tambahkan position: absolute */
+            top: 20px;
+            right: 20px;
+        }
+
+        .login-register a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #b4d126ab;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Your Logo</div>
+    </header>
+
+    <div class="content">
+        <div class="left">
+            <h1>Welcome to Our Website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt, nisl non bibendum dictum, odio justo dignissim justo.</p>
+        </div>
+    </div>
+    
+    <!-- Tombol Login dan Register tetap di kanan body -->
+    <div class="login-register">
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </div>
+</body>
+</html>
