@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+
+      /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling Body */
+body {
+    font-family: Arial, sans-serif; /*mengatur font-family untuk teks di dalam elemen <body> */
+    background-color: #ece5e4; /*memberikan latar belakang berwarna abu-abu (#f4f4f4) kepada halaman web. */
+}
+
+/* Styling Header */
+header {
+    background-image: url('Header Page.jpg'); /* Latar belakang header dengan gambar */
+    background-size: cover; /* Gambar latar belakang mencakup seluruh header */
+    background-position: center; /* Posisi gambar di tengah header */
+    color: #0f0b0a; /* Warna teks */
+    padding: 100px; /* Ruang di sekitar konten header */
+    text-align: center; /* Teks ditengahkan */
+}
+
+/* Styling Header h1 */
+header h1 {
+    font-size: 5em; /* Ukuran font besar untuk judul */
+    margin-bottom: 100px; /* Jarak bawah untuk judul */
+}
+
+/* Styling Navigation (Menu Navigasi) */
+nav ul {
+    list-style: none; /* Menghilangkan bullet point dari daftar */
+}
+
+nav li {
+    display: inline; /* Menampilkan item navigasi secara horizontal */
+    margin-right: 50px; /* Jarak kanan antara item navigasi */
+}
+
+nav a {
+    text-decoration: none; /* Menghilangkan dekorasi tautan */
+    color: #0f0b0a; /* Warna teks tautan */
+    font-size: 1.2em; /* Ukuran font tautan */
+}
+
+/* Styling Produk */
+.produk {
+    display: flex; /* Menggunakan flexbox */
+    flex-wrap: wrap; /* Mengatur wrapping untuk item produk */
+    justify-content: space-around; /* Meratakan item produk dalam kontainer */
+    padding: 95px; /* Ruang di sekitar konten produk */
+}
+
+/* Styling Item Produk */
+.produk .item {
+    background-color: #cdc5b6; /* Warna latar belakang item */
+    border: 1px solid #ddd; /* Garis pinggir item */
+    padding: 20px; /* Ruang di sekitar konten item */
+    text-align: center; /* Teks ditengahkan dalam item */
+    margin: 30px; /* Jarak antara item */
+    border-radius: 5px; /* Sudut elemen dibulatkan */
+    width: calc(33.33% - 20px); /* Lebar item dengan margin */
+}
+
+/* Styling Gambar Produk */
+.produk img {
+    max-width: 100%; /* Gambar tidak melebihi lebar elemen yang berisi gambar */
+    height: auto; /* Tinggi gambar disesuaikan */
+    margin-bottom: 10px; /* Jarak bawah gambar */
+}
+
+/* Styling Judul Produk */
+.produk h2 {
+    font-size: 1.5em; /* Ukuran font judul produk */
+    margin-bottom: 10px; /* Jarak bawah judul produk */
+}
+
+/* Styling Harga Produk */
+.produk p {
+    font-size: 1.2em; /* Ukuran font harga produk */
+    color: #0f0b0a; /* Warna teks harga produk */
+    margin-bottom: 10px; /* Jarak bawah harga produk */
+}
+
+/* Styling Tautan Produk */
+.produk a {
+    display: inline-block; /* Menampilkan tautan sebagai elemen inline-block */
+    background-color: #cbdadc; /* Warna latar belakang tautan */
+    color: #0f0b0a; /* Warna teks tautan */
+    padding: 10px 20px; /* Ruang di sekitar tautan */
+    font-size: 1.2em; /* Ukuran font tautan */
+    text-decoration: none; /* Menghilangkan dekorasi tautan */
+    border-radius: 5px; /* Sudut elemen dibulatkan */
+    margin-top: 20px; /* Jarak atas tautan dari elemen di atasnya */
+    transition: background-color 0.3s ease; /* Transisi warna latar belakang saat hover */
+}
+
+/* Styling Tautan Produk saat Hover */
+.produk a:hover {
+    background-color: #596882; /* Warna latar belakang saat hover */
+    color: #0f0b0a; /* Warna teks saat hover */
+}
+
+/* Styling Footer */
+footer {
+    background-color: #cdc5b6; /* Warna latar belakang footer */
+    color: #0f0b0a; /* Warna teks footer */
+    text-align: center; /* Teks ditengahkan dalam footer */
+    padding: 10px 0; /* Ruang di sekitar konten footer */
+}
+
+/* Styling Teks dalam Footer */
+footer p {
+    font-size: 1.2em; /* Ukuran font teks dalam footer */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Store</h1>
+        <nav>
+            <ul>
+                <li><a href="beranda.html">Homepage</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="produk">
+        <!-- Item produk pertama -->
+        <div class="item">
+            <img src="BAKSO GORENG.jpg" alt="BAKSO GORENG">
+            <h2>BAKSO GORENG</h2>
+            <p>Price: Rp. 45.000/kg</p>
+            <a href="cart.html">Add to Cart</a>
+        </div>
+
+        <!-- Item produk kedua -->
+        <div class="item">
+            <img src="MAKARONI.jpg" alt="MAKARONI">
+            <h2>MAKARONI</h2>
+            <p>Price: Rp. 30.000/kg</p>
+            <a href="cart.html">Add to Cart</a>
+        </div>
+
+        <!-- Item produk ketiga -->
+        <div class="item">
+            <img src="KERIPIK KACA.jpg" alt="KERIPIK KACA">
+            <h2>KERIPIK KACA</h2>
+            <p>Price: Rp. 45.000/kg</p>
+            <a href="cart.html">Add to Cart</a>
+        </div>
+
+        <!-- Item produk keempat -->
+        <div class="item">
+            <img src="KERIPIK TEMPE.jpg" alt="KERIPIK TEMPE">
+            <h2>KERIPIK TEMPE</h2>
+            <p>Price: Rp. 45.000/kg</p>
+            <a href="cart.html">Add to Cart</a>
+        </div>
+
+        <!-- Tambahkan produk lainnya di sini -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Toko Online Kelompok 7</p>
+    </footer>
+</body>
+</html>
