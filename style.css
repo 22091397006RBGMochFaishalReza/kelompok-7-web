@@ -76,18 +76,27 @@ header {
 .left {
     text-align: right; /* Pusatkan horizontal ke kanan */
     max-width: 50%; /* Maksimum lebar untuk menghindari tumpang tindih dengan tombol Login dan Register */
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* Styling Heading 1 */
 .left h1 {
     font-size: 3em; /* Mengatur ukuran font menjadi 3em (3 kali ukuran font standar) */
     margin-bottom: 20px; /* Memberikan margin bawah sebesar 20px untuk menjaga jarak antara elemen-elemen */
+    position: relative;
+    top: -50px;
 }
 
 /* Styling Paragraf */
 .left p {
     font-size: 1.5em; /* Mengatur ukuran font menjadi 1.5em (1.5 kali ukuran font standar) */
     margin-bottom: 20px; /* Memberikan margin bawah sebesar 20px untuk menjaga jarak antara paragraf */
+    position: relative;
+    top: -50px;
 }
 
 
