@@ -30,7 +30,7 @@ header {
 
 /* Styling Logo */
 .logo {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 40px;
   width: 100px;
