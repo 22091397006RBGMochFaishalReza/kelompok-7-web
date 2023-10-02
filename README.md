@@ -214,7 +214,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
 
-Functional Requirement
+4. Functional Requirement
 
 <Area ini menggambarkan pengorganisasian persyaratan fungsional untuk produk dengan fitur sistem, layanan utama yang disediakan oleh produk>
 
@@ -225,95 +225,19 @@ ID
 Kebutuhan Fungsional
 Penjelasan
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Use Case Diagram
+4.1 Use Case Diagram
 
 ![alt text](https://github.com/rbgmochfaishalreza/rbgmochfaishalreza.github.io/blob/master/assets/USECASE%20WEB%20KEL%207.jpg)
 
-Nama Use Case 
-Deskripsi Use Case 
-	Dalam use case diagram diatas dijelaskan : 
-User : dapat melakukan login, register untuk registrasi, menjual produk untuk penjual, dan membeli produk untuk pembeli.
-Admin : dapat mengatur data login user, menyimpan data login user, menyimpan data produk dijual dan terjual, maintenance dan upgrade sistem. 
+4.2 Deskripsi Use Case 
+	
+Dalam use case diagram diatas dijelaskan  bahwa user dapat melakukan login, register untuk registrasi, menjual produk untuk penjual, dan membeli produk untuk pembeli. Admin dapat mengatur data login user, menyimpan data login user, menyimpan data produk dijual dan terjual, maintenance dan upgrade sistem. 
 
+4.3 Flowchart
 
-
-
-
-Flowchart
 4.3.1	Flowchart User
+
+![alt text]()
 
 Deskripsi Flowchart User
 
