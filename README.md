@@ -176,12 +176,12 @@ Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi mahasiswa yan
 2.3 Penggolongan Karakterik Pengguna
 
 Tabel 1 Karakteristik Pengguna
-| Kategori Pengguna | Tugas | Hak Akses Ke Aplikasi | Kemampuan Yang Harus Dimiliki |
-Tugas
-Hak Akses ke aplikasi
-Kemampuan yang harus dimiliki
-User/
-Mahasiswa(Penjual Produk)
+
+| Kategori Pengguna              | Tugas          | Hak Akses Ke Aplikasi       | Kemampuan Yang Harus Dimiliki          |
+|--------------------------------|----------------|-----------------------------|----------------------------------------|
+|User/ Mahasiswa(Penjual Produk) |Jual/Beli Produk|Login, Registrasi, Cek Produk|Mengisi Data, Menetapkan Harga, Membayar|
+
+
 Menjual produk, menambahkan nama dan gambar produk, Menetapkan harga produk
 Melakukan registrasi, Melakukan login, Memantau produk terjual
 Mengisi data registrasi sesuai data mahasiswa tersebut
