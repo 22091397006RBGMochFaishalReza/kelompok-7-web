@@ -179,7 +179,7 @@ Tabel Karakteristik Pengguna
 
 | Kategori Pengguna              | Tugas          | Hak Akses Ke Aplikasi       | Kemampuan Yang Harus Dimiliki          |
 |--------------------------------|----------------|-----------------------------|----------------------------------------|
-|User/ Mahasiswa(Penjual Produk) |Jual Produk dan Tambahkan Gambar|Login, Registrasi, Cek Produk|Mengisi Data, Menetapkan Harga, Membayar|
+|User/ Mahasiswa(Penjual Produk) |Jual produk, tambahkan gambar produk, tetapkan harga produk|Login, registrasi, cek produk terjual|Mengisi data registrasi yang sesuai|
 
 
 Menjual produk, menambahkan nama dan gambar produk, Menetapkan harga produk
