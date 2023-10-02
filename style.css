@@ -31,8 +31,8 @@ header {
 /* Styling Logo */
 .logo {
   position: fixed;
-  left: 40px;
-  top: 40px;
+  top: 20px;
+  right: 40px;
   width: 100px;
   height: 100px;
   display: block; /* Membuat logo menjadi blok untuk mengatur margin dan padding */
