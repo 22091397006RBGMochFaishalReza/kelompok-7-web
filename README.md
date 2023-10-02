@@ -232,6 +232,7 @@ Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat w
 
 
 5. Non Functional Requirements
+
 <Uraikan dengan ringkas kebutuhan non fungsional dalam tabel sebagai berikut. Isilah Kolom Kebutuhan dengan kalimat yang jelas dan kelak dapat ditest untuk dipenuhi. ID adalah nomor kebutuhan yang harus ditelusuri pada saat test. Tuliskan N/A bila Not Applicable>
 
 |      ID      |          Parameter          |              Kebutuhan              |
