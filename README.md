@@ -181,28 +181,7 @@ Tabel Karakteristik Pengguna
 |-------------------------------|----------------|-----------------------------|----------------------------------------|
 |User/ Mahasiswa(Penjual Produk)|Jual produk, tambahkan gambar produk, tetapkan harga produk|Registrasi, login, cek produk terjual|Mengisi data registrasi yang sesuai|
 |User/ Mahasiswa (Pembeli Produk)|Membeli produk, menambahkan ke ke keranjang|Melakukan registrasi, melakukan login, memantau produk yg dibeli|Mengisi data registrasi yang sesuai, melakukan pembayaran produk yang dibeli|
-
-
-User/
-Mahasiswa (Pembeli Produk)
-Membeli produk, Menambahkan ke ke keranjang
-Melakukan registrasi, Melakukan login, Memantau produk yg dibeli
-Mengisi data registrasi sesuai data mahasiswa tersebut, Melakukan pembayaran produk yang dibeli
-
-
-Admin
-Membuat website, Maintenance dan upgrade sistem
-Memberikan akses masuk untuk user, Menyimpan data register,data login,dan riwayat login,
-Menyediakan kebutuhan fungsional sistem, Menyediakan fasilitas menu pilihan jual/beli, Mengatur data register dan login, Mengecek data register dan login
-
-
-
-
-
-
-
-
-
+|Admin|Membuat website, maintenance dan upgrade sistem|Memberikan akses masuk untuk user, menyimpan data register,data login,dan riwayat login|Menyediakan kebutuhan fungsional sistem, menyediakan fasilitas menu pilihan jual/beli, Mengatur data register dan login, Mengecek data register dan login|
 
 2.4 Lingkungan Operasi 
 
