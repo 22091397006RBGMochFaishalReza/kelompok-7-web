@@ -87,13 +87,7 @@ header {
     font-weight: bold; /* Teks menjadi tebal */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Style latar belakang halaman */
+/* Style Login latar belakang halaman */
 body {
     display: flex; /* Menggunakan model display flex */
     justify-content: center; /* Pusatkan elemen horizontal */
