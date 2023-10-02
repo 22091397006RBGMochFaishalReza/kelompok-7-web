@@ -73,6 +73,8 @@ Revision History
 |      |      |                    |         |
 |      |      |                    |         |
 
+
+
 1. Pendahuluan
 
 1.1 Tujuan Penulisan Dokumen
@@ -126,8 +128,6 @@ Platform	:	Sebuah wadah digital yang banyak dipakai manusia untuk berbagai macam
 
 Website	:	Kumpulan halaman web yang saling terhubung dan dapat diakses melalui internet
 
-
-
 1.5 Referensi
 Nana Saharna, Kasman Ruku. “Perancangan Sistem E-Commerce Berbasis Web Pada Toko Indah Surya Furniture.” Jurnal Vokasional Teknik Elektronika dan Informatika, E - ISSN: 2302-3295 Vol. 7, No. 1(2019).
 
@@ -136,15 +136,11 @@ Muhammad Susilo, Rezki Kurniati, Kasmawi. “Rancang Bangun Website Toko Online 
 Intan Anuggrah Yuandi, Siti Rahmawati Kahar, Arrum Purnama. “Perancangan Web E-Commerce Mahasiswa Berbasis Digital Marketing Untuk Menumbuhkan Jiwa Ekonomi Digital.” Jurnal Informatika Teknologi dan Sains, E - ISSN: 2686-3359 Vol. 5, No. 1(2023):183-190.
 
 
-
-
-
 2. Deskripsi Keseluruhan
 
 2.1 Deskripsi Produk 
 
 Platform website penjualan produk mahasiswa adalah situs website yang dirancang khusus untuk memungkinkan mahasiswa dapat menjual produk mereka. Platform website ini memfasilitasi transaksi jual beli antar mahasiswa khususnya mahasiswa Universitas Negeri Surabaya. Mahasiswa yang ingin menjual produk mereka dapat menambahkan produk mereka ke dalam pemilihan menu jual produk, mahasiswa dapat menambahkan nama produk,foto serta menetapkan harga untuk dijual. Sebaliknya mahasiswa yang ingin membeli produk maka mahasiswa tersebut dapat memilih menu beli untuk melihat berbagai macam produk yang dijual oleh sesama mahasiswa Universitas Negeri Surabaya. 
-
 
 2.2 Fungsi Produk 
 
@@ -190,6 +186,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 3.4 Communication Interface
 
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
+
 
 4. Functional Requirement
 
