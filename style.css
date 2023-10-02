@@ -32,11 +32,33 @@ header {
 .logo {
   float: left; /*mengatur agar logo muncul di sebelah kiri login */
   margin-right: 20px; /*mengatur jarak antara logo dan tombol login */
+    width: 80px;
 }
 
 .logo-image {
-    width: 80px; /* menyesuaikan lebar logo*/
+    width: 100%; /* menyesuaikan lebar logo*/
     height: auto; /* otomatis agar sesuai */
+}
+
+
+/* Styling Tombol Login dan Register */
+.login-register {
+    float: left;
+    /*
+    position: absolute; /* Tambahkan position: absolute */
+    /*top: 20px; /* Jarak dari atas */
+    /*right: 20px; /* Jarak dari kanan */ 
+}
+
+/* Styling Link Login dan Register */
+.login-register a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #fff; /* Warna teks putih */
+    background-color: #cdc5b6; /* Warna latar belakang dengan opacity */
+    padding: 10px 20px; /* Padding 10px atas dan bawah, 20px kiri dan kanan */
+    border-radius: 5px; /* Membuat sudut elemen menjadi agak bulat */
+    margin-right: 10px; /* Jarak kanan antara tombol */
+    font-weight: bold; /* Teks menjadi tebal */
 }
 
 /* Styling konten */
@@ -67,20 +89,3 @@ header {
 }
 
 
-/* Styling Tombol Login dan Register */
-.login-register {
-    position: absolute; /* Tambahkan position: absolute */
-    top: 20px; /* Jarak dari atas */
-    right: 20px; /* Jarak dari kanan */
-}
-
-/* Styling Link Login dan Register */
-.login-register a {
-    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
-    color: #fff; /* Warna teks putih */
-    background-color: #cdc5b6; /* Warna latar belakang dengan opacity */
-    padding: 10px 20px; /* Padding 10px atas dan bawah, 20px kiri dan kanan */
-    border-radius: 5px; /* Membuat sudut elemen menjadi agak bulat */
-    margin-right: 10px; /* Jarak kanan antara tombol */
-    font-weight: bold; /* Teks menjadi tebal */
-}
