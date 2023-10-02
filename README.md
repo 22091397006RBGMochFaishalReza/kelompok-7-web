@@ -80,39 +80,41 @@ Version
 Tujuan kelompok kami dalam penulisan dokumen ini adalah untuk memberikan suatu rancangan ide sebuah platform untuk mahasiswa Universitas Negeri Surabaya dalam penjualan makanan ringan sebagai bentuk usaha memudahkan para mahasiswa Universitas Negeri Surabaya yang ingin memasarkan produknya agar dapat terjual luas.
 
 
-Audien yang Dituju dan Pembaca yang Disarankan
+1.2 Audien yang Dituju dan Pembaca yang Disarankan
+
 Dokumen ini ditujukan untuk kalangan remaja kisaran umur 18 tahun keatas. Audien yang akan dituju dalam konteks platform website ini adalah mahasiswa yang berniat menjual produk usahanya berupa produk buatan asli mahasiswa Universitas Negeri Surabaya.
 
-Batasan Produk
+1.3 Batasan Produk
+
 Platform website penjualan produk mahasiswa adalah situs web yang dirancang khusus untuk memungkinkan mahasiswa untuk menjual produk mereka. Platform ini memfasilitasi transaksi jual beli antara mahasiswa.
 
-Tujuan dari platform ini adalah:
+1.3.1 Tujuan dari platform ini adalah:
 
-Membantu mahasiswa untuk menjual produk-produk yang mereka hasilkan, seperti makanan, baju, bahkan kerajinan.
+a. Membantu mahasiswa untuk menjual produk-produk yang mereka hasilkan, seperti makanan, baju, bahkan kerajinan.
 
-Menghasilkan penghasilan tambahan dan memberikan kesempatan bagi mahasiswa untuk menghasilkan uang tambahan dari penjualan produk buatan mereka, sehingga dapat membantu memenuhi kebutuhan finansial mereka.
+b. Menghasilkan penghasilan tambahan dan memberikan kesempatan bagi mahasiswa untuk menghasilkan uang tambahan dari penjualan produk buatan mereka, sehingga dapat membantu memenuhi kebutuhan finansial mereka.
 
-Membangun komunitas di antara mahasiswa dengan memfasilitasi pertukaran barang dan mendukung usaha-usaha kecil yang dimiliki oleh mahasiswa.
+c. Membangun komunitas di antara mahasiswa dengan memfasilitasi pertukaran barang dan mendukung usaha-usaha kecil yang dimiliki oleh mahasiswa.
 
-Manfaat yang relevan dari platform ini meliputi:
+1.3.2 Manfaat yang relevan dari platform ini meliputi:
 
-Mendorong kreativitas mahasiswa untuk dapat mempromosikan produk buatan mereka atau produk-produk kreatif lainnya seperti kerajinan, mendukung pertumbuhan kreativitas mahasiswa.
+a. Mendorong kreativitas mahasiswa untuk dapat mempromosikan produk buatan mereka atau produk-produk kreatif lainnya seperti kerajinan, mendukung pertumbuhan kreativitas mahasiswa.
 
-Dapat dijadikan penghasilan sampingan bagi mahasiswa. Mahasiswa dapat menghasilkan penghasilan sampingan dari penjualan produk mereka di platform ini, yang dapat membantu kebutuhan mahasiswa.
+b. Dapat dijadikan penghasilan sampingan bagi mahasiswa. Mahasiswa dapat menghasilkan penghasilan sampingan dari penjualan produk mereka di platform ini, yang dapat membantu kebutuhan mahasiswa.
 
-Platform ini dapat membantu dalam mendukung usaha kecil dan ekonomi lokal dengan memberikan mahasiswa tempat untuk menjual produk-produk mereka.
+c. Platform ini dapat membantu dalam mendukung usaha kecil dan ekonomi lokal dengan memberikan mahasiswa tempat untuk menjual produk-produk mereka.
 
-Tujuan bisnis yang mungkin terkait dengan platform ini dapat mencakup:
+1.3.3 Tujuan bisnis yang mungkin terkait dengan platform ini dapat mencakup:
 
-Jika platform ini ditujukan untuk bisnis, maka tujuannya untuk menghasilkan keuntungan dari komisi atau biaya yang dikenakan pada penjual atau pembeli.
+a. Jika platform ini ditujukan untuk bisnis, maka tujuannya untuk menghasilkan keuntungan dari komisi atau biaya yang dikenakan pada penjual atau pembeli.
 
-Tujuan juga berfokus pada pertumbuhan pengguna aktif di platform ini, yang dapat menjadi indikator keberhasilan dalam membangun komunitas mahasiswa yang kuat.
+b. Tujuan juga berfokus pada pertumbuhan pengguna aktif di platform ini, yang dapat menjadi indikator keberhasilan dalam membangun komunitas mahasiswa yang kuat.
 
-Developer atau admin selaku pembuat website yang mengoperasikan platform ini dapat mempertimbangkan untuk menambahkan layanan atau fitur tambahan untuk memperluas bisnis.
+c. Developer atau admin selaku pembuat website yang mengoperasikan platform ini dapat mempertimbangkan untuk menambahkan layanan atau fitur tambahan untuk memperluas bisnis.
 
-Mendukung mahasiswa dan ekosistem kreatif mereka dapat menjadi bagian dari strategi bisnis ini untuk menciptakan dampak positif dan menciptakan hubungan jangka panjang dengan komunitas mahasiswa.
+d. Mendukung mahasiswa dan ekosistem kreatif mereka dapat menjadi bagian dari strategi bisnis ini untuk menciptakan dampak positif dan menciptakan hubungan jangka panjang dengan komunitas mahasiswa.
 
-Definisi dan Istilah
+1.4 Definisi dan Istilah
 
 SRS	:	Software Requirements Specification, atau 
 	   Spesifikasi Kebutuhan Perangkat Lunak (SKPL)
