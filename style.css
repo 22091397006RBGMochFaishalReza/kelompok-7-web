@@ -30,15 +30,13 @@ header {
 
 /* Styling Logo */
 .logo {
-  float: right;
-  position: absolute;
-  top: 10px;
-  right: 40px;
-  width: 100px;
-  height: 100px;
-  display: block; /* Membuat logo menjadi blok untuk mengatur margin dan padding */
-  margin: 10px auto; /* Mengatur margin atas dan bawah 10px dan horizontal menjadi auto untuk pemusatannya */
+  float: left; /*mengatur agar logo muncul di sebelah kiri login */
+  margin-right: 20px; /*mengatur jarak antara logo dan tombol login */
+}
 
+.logo-image {
+    width: 80px; /* menyesuaikan lebar logo*/
+    height: auto; /* otomatis agar sesuai */
 }
 
 /* Styling konten */
