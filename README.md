@@ -198,9 +198,14 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 <Tulis Kebutuhan Fungsional / Functional Requirement disini>
 Diawali dengan membuat daftar kebutuhan fungsional P/L, lengkap dengan ID dan penjelasan jika perlu. Bisa dibuat dalam bentuk tabel.
 
-ID
-Kebutuhan Fungsional
-Penjelasan
+|      ID      |        Kebutuhan Fungsional       |            Penjelasan            |
+|--------------|-----------------------------------|----------------------------------|
+|              |                                   |                                  |
+|              |                                   |                                  |
+|              |                                   |                                  |
+|              |                                   |                                  |
+|              |                                   |                                  |
+
 
 4.1 Use Case Diagram
 
@@ -229,73 +234,23 @@ Untuk penjelasan pada flowchart yang akan dilakukan oleh user adalah pertama tam
 Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat website yang berkaitan tentang hal yang akan kita buat. Setelah itu kita selain membuat website juga menyediakan kebutuhan fungsional sistem, kemudian menyediakan fasilitas bagi user penjual/pembeli. Lalu kita menyimpan data register user, setelah itu mengatur data user. Kemudian kita memisahkan data register dan login. Jika belum register kita memberikan fitur membuat dan memasukkan data register lalu menyimpan data register, mengecek data register user, dan memberikan akses masuk ke website. Jika sudah bisa mengecek data register danmemberikan akses masuk ke website, setelah itu memberikan fitur pilihan jual/beli. Setelah itu semua sudah selesai admin akan menyimpan data produk dijual dan terjual, lalu menyimpan riwayat login user. Jika sistem dalam perbaikan akan maintenance dan upgrade sistem, end.
 
 
-Non Functional Requirements
+5. Non Functional Requirements
 <Uraikan dengan ringkas kebutuhan non fungsional dalam tabel sebagai berikut. Isilah Kolom Kebutuhan dengan kalimat yang jelas dan kelak dapat ditest untuk dipenuhi. ID adalah nomor kebutuhan yang harus ditelusuri pada saat test. Tuliskan N/A bila Not Applicable>
 
-ID
-Parameter
-Kebutuhan
-
-
-Availability
-
-
-
-
-Reliability
-
-
-
-
-Ergonomy
-
-
-
-
-Portability
-
-
-
-
-Memory
-
-
-
-
-Response time
-
-
-
-
-Safety
-N/A
-
-
-Security
-
-
-
-
-
-
-
-
-
-
-Others 1: Bahasa komunikasi
-Misalnya : semua tanya jawab harus dalam bahasa Indonesia
-
-
-
-
-Setiap layar harus mengandung logo PT Pos Indonesia
-
-
-
-
-
-
-
+|      ID      |          Parameter          |              Kebutuhan              |
+|--------------|-----------------------------|-------------------------------------|
+|              |Availability                 |                                     |
+|              |Reliability                  |                                     |
+|              |Ergonomy                     |                                     |
+|              |Portability                  |                                     |
+|              |Memory                       |                                     |
+|              |Response time                |                                     |
+|              |Safety                       |N/A                                  |
+|              |Security                     |                                     |
+|              |                             |                                     |
+|              |Others 1: Bahasa komunikasi  |Misalnya : semua tanya jawab harus dalam bahasa Indonesia|
+|              |                             |Setiap layar harus mengandung logo PT Pos Indonesia|
+|              |                             |                                     |
 
 Catatan :
 Availability : ketersediaan aplikasi, misalnya harus terus menerus beroperasi 7 hari perminggu, 24 jam per haritanpa gagal
