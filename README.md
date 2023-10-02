@@ -67,33 +67,10 @@ Table of Contents
 5.	Non Functional Requirements	
 
 Revision History
-Name
-Date
-Reason For Changes
-Version
--
 
-
-
-
-
-
--
-
-
-
-
-
-
--
-
-
-
-
-
-
-
-
+|Name|Date|Reason For Changes|Version|
+|----|----|------------------|-------|
+|----|----|------------------|-------|
 
 
 1. Pendahuluan
