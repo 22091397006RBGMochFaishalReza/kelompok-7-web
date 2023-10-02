@@ -19,10 +19,10 @@ body {
 
 /* Styling Header */
 header {
-    position: absolute; /* Header ditempatkan di bagian atas dengan posisi absolut */
-    top: 0; /* Header dimulai dari bagian atas halaman */
-    left: 0; /* Header dimulai dari sisi kiri halaman */
-    right: 0; /* Header berakhir di sisi kanan halaman */
+    position: relative;/*absolute; /* Header ditempatkan di bagian atas dengan posisi absolut */
+    /*top: 0; /* Header dimulai dari bagian atas halaman */
+    /*left: 0; /* Header dimulai dari sisi kiri halaman */
+    /*right: 0; /* Header berakhir di sisi kanan halaman */
     height: 80px; /* Mengatur tinggi header */
     background-color: transparent; /* Menghilangkan warna latar belakang header */
     box-shadow: none; /* Menghilangkan bayangan (shadow) pada header */
@@ -30,9 +30,12 @@ header {
 
 /* Styling Logo */
 .logo {
-  float: left; /*mengatur agar logo muncul di sebelah kiri login */
-  margin-right: 20px; /*mengatur jarak antara logo dan tombol login */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
     width: 80px;
+    height: auto;
 }
 
 .logo-image {
@@ -43,11 +46,10 @@ header {
 
 /* Styling Tombol Login dan Register */
 .login-register {
-    float: left;
-    /*
     position: absolute; /* Tambahkan position: absolute */
-    /*top: 20px; /* Jarak dari atas */
-    /*right: 20px; /* Jarak dari kanan */ 
+    top: 50%; /*20px; /* Jarak dari atas */
+    transform: translateY(-50%);
+    right: 20px; /* Jarak dari kanan */ 
 }
 
 /* Styling Link Login dan Register */
