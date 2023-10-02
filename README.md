@@ -18,53 +18,53 @@ Prepared by :
 02/10/2023
 
 Table of Contents
-1.	Pendahuluan	1
+1. Pendahuluan	
 
-1.1	Tujuan Penulisan Dokumen	1
+1.1	Tujuan Penulisan Dokumen	
 
-1.2	Audien yang Dituju dan Pembaca yang Disarankan	1
+1.2	Audien yang Dituju dan Pembaca yang Disarankan	
 
-1.3	Batasan Produk	1
+1.3	Batasan Produk	
 
-1.4	Definisi dan Istilah	1
+1.4	Definisi dan Istilah	
 
-1.5	Referensi	1
+1.5	Referensi	
 
-2.	Deskripsi Keseluruhan	2
+2.	Deskripsi Keseluruhan	
 
-2.1	Deskripsi Produk	2
+2.1	Deskripsi Produk	
 
-2.2	Fungsi Produk	2
+2.2	Fungsi Produk	
 
-2.3	Penggolongan Karakterik Pengguna	2
+2.3	Penggolongan Karakterik Pengguna	
 
-2.4	Lingkungan Operasi	2
+2.4	Lingkungan Operasi	
 
-2.5	Batasan Desain dan Implementasi	2
+2.5	Batasan Desain dan Implementasi	
 
-2.6	Dokumentasi Pengguna	3
+2.6	Dokumentasi Pengguna	
 
-3.	Kebutuhan Antarmuka Eksternal	4
+3.	Kebutuhan Antarmuka Eksternal	
 
-3.1	User Interfaces	4
+3.1	User Interfaces	
 
-3.2	Hardware Interface	4
+3.2	Hardware Interface	
 
-3.3	Software Interface	4
+3.3	Software Interface	
 
-3.4	Communication Interface	4
+3.4	Communication Interface	
 
-4.	Functional Requirement	5
+4.	Functional Requirement	
 
-4.1	Use Case Diagram	5
+4.1	Use Case Diagram	
 
-4.2	Nama Use Case 1	5
+4.2	Nama Use Case 1	
 
-4.3	Nama Use Case 2	5
+4.3	Nama Use Case 2	
 
-4.4	Class Diagram	6
+4.4	Class Diagram	
 
-5.	Non Functional Requirements	7
+5.	Non Functional Requirements	
 
 Revision History
 Name
