@@ -173,7 +173,7 @@ Platform website penjualan produk mahasiswa adalah situs website yang dirancang 
 
 Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi mahasiswa yang ingin menjual produk buatannya di website ini serta memudahkan mahasiswa lain untuk membeli produk yang dijual di website ini. Website ini harus memberikan pelayanan fasilitas yang baik dan memungkinkan mahasiswa untuk menyalurkan potensi produk mereka supaya dapat dijual dan memberikan keuntungan tersendiri bagi mahasiswa yang menjual produk tersebut serta memungkinkan mahasiswa yang ingin membeli produk yang bermanfaat di website ini. 
 
-Penggolongan Karakterik Pengguna
+2.3 Penggolongan Karakterik Pengguna
 
 Tabel 1 Karakteristik Pengguna
 Kategori Pengguna
@@ -206,26 +206,39 @@ Menyediakan kebutuhan fungsional sistem, Menyediakan fasilitas menu pilihan jual
 
 
 
-Lingkungan Operasi 
+2.4 Lingkungan Operasi 
+
 Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website beroperasi khususnya di wilayah kampus Universitas Negeri Surabaya. Website ini dapat diakses oleh mahasiswa Universitas Negeri Surabaya. 
-Batasan Desain dan Implementasi 
+
+2.5 Batasan Desain dan Implementasi 
+
 <Jelaskan setiap item atau masalah yang akan membatasi pilihan yang tersedia untuk para pengembang / developer. Ini mungkin termasuk: kebijakan perusahaan atau peraturan; keterbatasan hardware (persyaratan memori); teknologi tertentu, alat, dan database yang akan digunakan; persyaratan bahasa; protokol komunikasi; pertimbangan keamanan; atau standar pemrograman>
-Dokumentasi Pengguna
+
+2.6 Dokumentasi Pengguna
+
 <Daftar komponen dokumentasi pengguna (seperti user manual, on-line help, dan tutorial) yang akan disampaikan bersama dengan perangkat lunak yang akan dikirim>
 
 
-Kebutuhan Antarmuka Eksternal
-User Interfaces 
+3. Kebutuhan Antarmuka Eksternal
+
+3.1 User Interfaces 
+
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
 
-Hardware Interface
+3.2 Hardware Interface
+
 <Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
-Software Interface
+
+3.3 Software Interface
+
 <Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.>
 
-Communication Interface
+3.4 Communication Interface
+
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
+
 Functional Requirement
+
 <Area ini menggambarkan pengorganisasian persyaratan fungsional untuk produk dengan fitur sistem, layanan utama yang disediakan oleh produk>
 
 <Tulis Kebutuhan Fungsional / Functional Requirement disini>
