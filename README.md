@@ -18,7 +18,7 @@ Prepared by :
 02/10/2023
 
 Table of Contents
-1. Pendahuluan	
+1. 	Pendahuluan	
 
 1.1	Tujuan Penulisan Dokumen	
 
