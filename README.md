@@ -300,7 +300,7 @@ Penjelasan
 
 Use Case Diagram
 
-![Alt text](assets/USECASE WEB KEL 7.jpg)
+![Alt text](rbgmochfaishalreza.github.io/assets/USECASE WEB KEL 7.jpg)
 
 Nama Use Case 
 Deskripsi Use Case 
