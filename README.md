@@ -76,7 +76,8 @@ Version
 1. Pendahuluan
 
 1.1 Tujuan Penulisan Dokumen
-	
+
+ 
 	Tujuan kelompok kami dalam penulisan dokumen ini adalah untuk memberikan suatu rancangan ide sebuah platform untuk mahasiswa Universitas Negeri Surabaya dalam penjualan makanan ringan sebagai bentuk usaha memudahkan para mahasiswa Universitas Negeri Surabaya yang ingin memasarkan produknya agar dapat terjual luas.
 
 
