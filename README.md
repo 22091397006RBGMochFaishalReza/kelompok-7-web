@@ -300,6 +300,8 @@ Penjelasan
 
 Use Case Diagram
 
+assets/USECASE WEB KEL 7.jpg
+
 Nama Use Case 
 Deskripsi Use Case 
 	Dalam use case diagram diatas dijelaskan : 
