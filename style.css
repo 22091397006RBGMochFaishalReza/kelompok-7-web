@@ -61,7 +61,7 @@ header {
     border-radius: 5px; /* Membuat sudut elemen menjadi agak bulat */
     margin-right: 10px; /* Jarak kanan antara tombol */
     font-weight: bold; /* Teks menjadi tebal */
-    transition: backgorund-color 0.3s ease;
+    transition: backgorund-color 0.7s ease;
 }
 
 .login-register a:hover {
