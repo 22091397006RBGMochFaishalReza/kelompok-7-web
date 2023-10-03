@@ -177,15 +177,15 @@ User Interface dari website ini pada awalnya ada sebuah landing page aplikasi ka
 
 3.2 Hardware Interface
 
-<Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
+Pembuatan website tidak dikhususkan bagi siapapun karena website ini akan mudah dijangkau oleh siapapun yang menggunakan hardware low to high. Untuk menjangkau website ini tidak dibutuhkan spesifikasi yg tinggi dikarenakan pada umumnya pengguna atau user di kalangan kampus sudah memiliki perangkat dengan hardware yang lebih dari cukup untuk menjangkau atau membuka website ini.
 
 3.3 Software Interface
 
-<Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.>
+Antarmuka perangkat lunak dari situs web penjualan camilan yang diimplementasikan dalam kode HTML dan CSS di atas adalah sebuah halaman web dengan header yang mencakup logo perusahaan, tombol "Login" dan "Register" di landing page, serta latar belakang yang menarik. Konten utama halaman terdiri dari pesan selamat dengan deskripsi yang menjelaskan layanan atau produk yang ditawarkan, semuanya ditampilkan secara rapi dan responsif. Antarmuka ini berfungsi sebagai tampilan depan situs web dan memungkinkan pengguna untuk mengakses layanan penjualan camilan dengan mudah melalui tombol-tombol Login dan Register di landing page.
 
 3.4 Communication Interface
 
-<Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
+Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementasikan dalam kode HTML dan CSS di atas adalah berdasarkan protokol HTTP melalui peramban web pengguna. Ketika pengguna mengakses halaman web, permintaan HTTP dikirimkan ke server web untuk mengambil dan menampilkan konten halaman. Halaman web ini juga dapat menyediakan formulir elektronik yang memungkinkan pengguna mengirimkan pesan atau data melalui metode HTTP POST. Dalam konteks ini, antarmuka komunikasi terutama berfokus pada interaksi antara peramban web pengguna dan server web untuk menampilkan dan mengirimkan informasi terkait penjualan camilan. Keamanan komunikasi melalui protokol HTTPS dapat diterapkan untuk melindungi data sensitif dan transmisi aman.
 
 
 4. Functional Requirement
