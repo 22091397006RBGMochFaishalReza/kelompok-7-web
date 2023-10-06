@@ -81,7 +81,7 @@ header .icons a:hover{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(hitam.jpg);
+    background: url(assets/hitam.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -340,7 +340,7 @@ header .icons a:hover{
 }
 
 .left{
-	background: url("kucing.jpg") no-repeat center;
+	background: url("assets/kucing.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
