@@ -1,4 +1,4 @@
-												**Software Requirements Specification**
+												__Software Requirements Specification__
 
 												Snack Sales Platform for College Students
 
