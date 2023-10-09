@@ -74,7 +74,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color: cadetblue;
+    color:cadetblue;
 }
 
 .home{
@@ -173,14 +173,15 @@ header .icons a:hover{
 
 .card {
     position: relative;
-    width: 320px; 
-    height: auto; 
+    width: 320px; /* Sesuaikan lebar kartu sesuai kebutuhan */
+    height: auto; /* Ubah menjadi auto untuk menyesuaikan tinggi berdasarkan konten */
     background: #191919;
     border-radius: 20px;
     overflow: hidden;
-    margin: 49px; 
-    display: inline-block; 
-    vertical-align: top; 
+    margin: 49px; /* Sesuaikan margin untuk menjaga jarak antara kartu */
+    display: inline-block; /* Tetapkan kartu secara inline */
+    vertical-align: top; /* Alihkan kartu ke atas */
+}
 
 .card .contentBox {
     position: relative;
@@ -198,7 +199,7 @@ header .icons a:hover{
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 10px; 
+    margin-top: 10px; /* Adjust as needed */
 }
 
 .card .contentBox .price {
@@ -206,7 +207,7 @@ header .icons a:hover{
     color: white;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-top: 10px; 
+    margin-top: 10px; /* Adjust as needed */
 }
 
 .card .contentBox .buy {
@@ -229,23 +230,23 @@ header .icons a:hover{
 }
 
 .keripik {
-    height: auto; 
-    max-width: 100%; 
+    height: auto; /* Adjust the height based on your image size */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 .makaroni {
-    height: auto; 
-    max-width: 100%; 
+    height: auto; /* Adjust the height based on your image size */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 .basreng {
-    height: auto; 
-    max-width: 100%; 
+    height: auto; /* Adjust the height based on your image size */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 .mie  {
-    height: auto; 
-    max-width: 100%; 
+    height: auto; /* Adjust the height based on your image size */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 .review {
@@ -255,7 +256,7 @@ header .icons a:hover{
 
 .review .heading {
     text-align: center;
-    font-size: 5rem; 
+    font-size: 5rem; /* Adjust the font size to your liking */
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
@@ -273,23 +274,23 @@ header .icons a:hover{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center; 
+    align-items: center; /* Menengahkan konten vertikal dalam kolom */
+    text-align: center; /* Menengahkan teks horizontal dalam kolom */
     margin: 50px;
-    display: inline-block; 
+    display: inline-block; /* Tetapkan kartu secara inline */
 }
 
 .reviews {
     background: #f2f2f2;
     padding: 20px;
-    text-align: center; 
+    text-align: center; /* Menengahkan teks horizontal dalam kotak review */
 }
 
 .reviews img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-bottom: 20px; 
+    margin-bottom: 20px; /* Menambahkan jarak antara gambar dan teks */
 }
 
 .name {
@@ -310,7 +311,7 @@ header .icons a:hover{
 
 .contact .heading {
     text-align: center;
-    font-size: 5rem; 
+    font-size: 5rem; /* Adjust the font size to your liking */
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
@@ -356,9 +357,7 @@ h2{
 
 .field{
 	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
