@@ -68,10 +68,10 @@ Table of Contents
 
 Revision History
 
-| Name | Date | Reason For Changes | Version |
-|------|------|--------------------|---------|
-|      |      |                    |         |
-|      |      |                    |         |
+|  Name  |  Date  |  Reason For Changes  |  Version  |
+|--------|--------|----------------------|-----------|
+|        |        |                      |           |
+|        |        |                      |           |
 
 
 
