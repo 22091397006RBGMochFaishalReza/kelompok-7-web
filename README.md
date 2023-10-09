@@ -270,6 +270,7 @@ Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada aw
 Untuk menampilkan tanda &lt; dan &gt; secara harfiah dalam README di GitHub, maka perlu menggantikannya dengan menggunakan karakter khusus HTML atau entity HTML. Berikut adalah beberapa contoh:
 
 &lt; dapat digantikan dengan menuliskan & lalu l lalu t dan terakhir;
+
 &gt; dapat digantikan dengan menuliskan & lalu g lalu t dan terakhir;
 
 Tulis dengan urut dan benar. 
