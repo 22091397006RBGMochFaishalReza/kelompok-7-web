@@ -266,3 +266,5 @@ Security : aspek keamanan yang harus dipenuhi
 PENJELASAN HTML LOGIN PAGE
 
 1. Pertama ada DOCTYPE html : Semua dokumen HTML harus dimulai dengan <!DOCTYPE>deklarasi. Deklarasi ini bukan tag HTML. Ini adalah "informasi" ke browser tentang jenis dokumen apa yang diharapkan.
+
+2. <head>
