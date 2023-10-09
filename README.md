@@ -6,9 +6,9 @@
 
   <p>	22091397006 - R.BG.Moch Faishal Reza
 	22091397032 - Farrel Yosan Navyansyah
-	22091397035 - Roy Nurfaza
+	22091397035 - Roy Nurfaza </p>
 
-	02/10/2023 </p>
+<p>	02/10/2023 </p>
 </div>
 	       
 **Table of Contents**
