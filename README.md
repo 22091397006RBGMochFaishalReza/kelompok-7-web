@@ -296,3 +296,21 @@ Tulis dengan urut dan benar.
 10. &lt;div class="container"&gt; : Ini adalah div dengan kelas "container" yang digunakan untuk mengelompokkan konten halaman.
 
 11. &lt;div class="login"&gt; : Ini adalah div dengan kelas "login" yang digunakan untuk mengelompokkan elemen-elemen yang berkaitan dengan formulir login.
+
+&lt;form action="home.html"&gt; : Ini adalah elemen form dengan atribut action yang menunjukkan ke halaman "home.html" yang akan diarahkan jika formulir tersebut disubmit.
+
+&lt;h1&gt;Login&lt;/h1&gt;: Ini adalah judul besar yang menampilkan teks "Login".
+
+&lt;hr>: Ini adalah elemen garis horizontal untuk memberikan pemisah antara judul dan paragraf berikutnya.
+
+&lt;p&gt;Snack sales platform for college students&lt;/p&gt;: Ini adalah paragraf yang menjelaskan tujuan dari halaman, yaitu "Snack sales platform for college students".
+
+&lt;label for="Email"&gt;Email&lt;/label&gt;: Ini adalah label untuk input email, yang dikaitkan dengan input email menggunakan atribut for.
+
+&lt;input type="text" placeholder="example@gmail.com" name="email"&gt;: Ini adalah input teks untuk email dengan placeholder default "example@gmail.com" dan nama "email".
+
+&lt;label for="Password"&gt;Password&lt;/label&gt;: Ini adalah label untuk input password, yang dikaitkan dengan input password menggunakan atribut for.
+
+&lt;input type="password" placeholder="Password" name="password"&gt;: Ini adalah input password dengan placeholder default "Password" dan nama "password".
+
+&lt;button&gt;Login&lt;/button&gt;: Ini adalah tombol dengan teks "Login" yang digunakan untuk mengirimkan formulir.
