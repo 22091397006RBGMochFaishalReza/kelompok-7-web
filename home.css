@@ -199,7 +199,7 @@ header .icons a:hover{
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
 }
 
 .card .contentBox .price {
@@ -246,7 +246,7 @@ header .icons a:hover{
 
 .mie  {
     height: auto; 
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 .review {
