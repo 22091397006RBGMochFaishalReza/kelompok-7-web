@@ -4,9 +4,9 @@
   <h1>	Version 1.0 approved </h1>
   <h1>	Prepared by : </h1>
 
-  <p>	22091397006 - R.BG.Moch Faishal Reza
-	22091397032 - Farrel Yosan Navyansyah
-	22091397035 - Roy Nurfaza </p>
+  <p>	22091397006 - R.BG.Moch Faishal Reza </p>
+  <p>	22091397032 - Farrel Yosan Navyansyah </p>
+  <p>	22091397035 - Roy Nurfaza </p>
 
 <p>	02/10/2023 </p>
 </div>
