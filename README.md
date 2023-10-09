@@ -286,3 +286,15 @@ Tulis dengan urut dan benar.
 5. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter encoding dokumen HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
 
 6. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; : Meta tag ini digunakan untuk mengatur kompatibilitas dengan Internet Explorer (versi terbaru).
+
+7. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel, dengan mengatur skala awal dan lebar tampilan.
+
+8. &lt;title&gt;Login Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
+
+9. &lt;link rel="stylesheet" href="login.css"&gt; : Ini adalah tag &lt;link"&gt; yang menghubungkan dokumen ke berkas CSS eksternal bernama "login.css" untuk mengatur tampilan halaman.
+
+10. &lt;body"&gt; : Ini adalah elemen tubuh halaman yang berisi konten utama yang akan ditampilkan di halaman web.
+
+11. &lt;div class="container""&gt;: Ini adalah div dengan kelas "container" yang digunakan untuk mengelompokkan konten halaman.
+
+12. &lt;div class="login""&gt; : Ini adalah div dengan kelas "login" yang digunakan untuk mengelompokkan elemen-elemen yang berkaitan dengan formulir login.
