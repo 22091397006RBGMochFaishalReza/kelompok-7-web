@@ -264,3 +264,6 @@ Security : aspek keamanan yang harus dipenuhi
 # Kelompok-7-Web
 
 PENJELASAN HTML LOGIN PAGE
+
+<!DOCTYPE html>:	Semua dokumen HTML harus dimulai dengan <!DOCTYPE>deklarasi.
+			Deklarasi ini bukan tag HTML. Ini adalah "informasi" ke browser tentang jenis dokumen apa yang diharapkan.
