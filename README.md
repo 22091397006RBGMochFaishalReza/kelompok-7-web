@@ -1,21 +1,15 @@
-												Software Requirements Specification
+<div align="center">
+  <h1>	Software Requirements Specification
+	Snack Sales Platform for College Students
+	Version 1.0 approved
+	Prepared by :</h1>
 
-												Snack Sales Platform for College Students
+  <p>	22091397006 - R.BG.Moch Faishal Reza
+	22091397032 - Farrel Yosan Navyansyah
+	22091397035 - Roy Nurfaza
 
-														Version 1.0 approved
-
-															Prepared by : 
-
-												22091397006 - R.BG.Moch Faishal Reza
-
-												22091397032 - Farrel Yosan Navyansyah
-
-												22091397035 - Roy Nurfaza
-
-
-
-
-															02/10/2023
+	02/10/2023</p>
+</div>
 	       
 **Table of Contents**
 1. 	Pendahuluan	
