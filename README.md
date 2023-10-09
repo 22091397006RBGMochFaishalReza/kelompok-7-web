@@ -263,10 +263,12 @@ Security : aspek keamanan yang harus dipenuhi
 
 # Kelompok-7-Web
 
-**PENJELASAN INDEX HTML**
+**PENJELASAN INDEX HTML :**
 
 
-**PENJELASAN HTML LOGIN PAGE** 
+
+
+**PENJELASAN HTML LOGIN PAGE :** 
 
 Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
 
