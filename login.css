@@ -11,7 +11,7 @@ body {
     justify-content: center; /* Pusatkan elemen horizontal */
     align-items: center; /* Pusatkan elemen vertikal */
     min-height: 100vh; /* Tinggi minimum setara dengan tinggi viewport */
-    background: #ece5e4; /* Warna latar belakang */
+    background: rgba(100, 168, 237, 0.212); /* Warna latar belakang */
 }
 
 /* Style kontainer utama */
