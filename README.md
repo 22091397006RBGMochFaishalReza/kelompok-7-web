@@ -284,29 +284,29 @@ Tulis dengan urut dan benar.
 
 6. &lt;title&gt;Landing Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
 
-7. &lt;link rel="stylesheet" href="style.css"&gt;: Ini adalah tautan ke berkas CSS eksternal dengan atribut href yang menghubungkan halaman HTML ke berkas "style.css" yang akan mengatur tampilan dan gaya halaman.
+7. &lt;link rel="stylesheet" href="style.css"&gt; : Ini adalah tautan ke berkas CSS eksternal dengan atribut href yang menghubungkan halaman HTML ke berkas "style.css" yang akan mengatur tampilan dan gaya halaman.
 
-8. &lt;body&gt;: Ini adalah elemen tubuh halaman yang berisi konten utama yang akan ditampilkan di halaman web.
+8. &lt;body&gt; : Ini adalah elemen tubuh halaman yang berisi konten utama yang akan ditampilkan di halaman web.
 
-9. &lt;header&gt;: Ini adalah elemen header yang umumnya digunakan untuk menampilkan bagian atas halaman web yang berisi elemen-elemen seperti logo, navigasi, dan lainnya.
+9. &lt;header&gt; : Ini adalah elemen header yang umumnya digunakan untuk menampilkan bagian atas halaman web yang berisi elemen-elemen seperti logo, navigasi, dan lainnya.
 
-10. &lt;div class="logo"&gt;: Ini adalah div dengan kelas "logo" yang digunakan untuk mengelompokkan elemen logo perusahaan.
+10. &lt;div class="logo"&gt; : Ini adalah div dengan kelas "logo" yang digunakan untuk mengelompokkan elemen logo perusahaan.
 
-11. &lt;img src="assets/logo.png" alt="logo perusahaan" class="logo-image"&gt;: Ini adalah elemen gambar yang menampilkan logo perusahaan dengan sumber gambar "assets/logo.png" dan atribut alternatif (alt) yang digunakan untuk teks pengganti jika gambar tidak dapat ditampilkan.
+11. &lt;img src="assets/logo.png" alt="logo perusahaan" class="logo-image"&gt; : Ini adalah elemen gambar yang menampilkan logo perusahaan dengan sumber gambar "assets/logo.png" dan atribut alternatif (alt) yang digunakan untuk teks pengganti jika gambar tidak dapat ditampilkan.
 
-12. &lt;div class="login-register"&gt;: Ini adalah div dengan kelas "login-register" yang digunakan untuk mengelompokkan elemen-elemen tautan "Login" dan "Register".
+12. &lt;div class="login-register"&gt; : Ini adalah div dengan kelas "login-register" yang digunakan untuk mengelompokkan elemen-elemen tautan "Login" dan "Register".
 
-13. &lt;a href="login.html"&gt;Login&lt;/a&gt;: Ini adalah tautan "Login" yang mengarahkan ke halaman "login.html".
+13. &lt;a href="login.html"&gt;Login&lt;/a&gt; : Ini adalah tautan "Login" yang mengarahkan ke halaman "login.html".
 
-14. &lt;a href="register.html"&gt;Register&lt;/a&gt;: Ini adalah tautan "Register" yang mengarahkan ke halaman "register.html".
+14. &lt;a href="register.html"&gt;Register&lt;/a&gt; : Ini adalah tautan "Register" yang mengarahkan ke halaman "register.html".
 
-15. &lt;div class="content"&gt;: Ini adalah div dengan kelas "content" yang digunakan untuk mengelompokkan konten utama halaman.
+15. &lt;div class="content"&gt; : Ini adalah div dengan kelas "content" yang digunakan untuk mengelompokkan konten utama halaman.
 
-16. &lt;div class="left"&gt;: Ini adalah div dengan kelas "left" yang digunakan untuk mengelompokkan konten yang berada di sisi kiri halaman.
+16. &lt;div class="left"&gt; : Ini adalah div dengan kelas "left" yang digunakan untuk mengelompokkan konten yang berada di sisi kiri halaman.
 
-17. &lt;h1&gt;Hello Food Buddy&lt;/h1&gt;: Ini adalah judul besar yang menampilkan teks "Hello Food Buddy".
+17. &lt;h1&gt;Hello Food Buddy&lt;/h1&gt; : Ini adalah judul besar yang menampilkan teks "Hello Food Buddy".
 
-18. &lt;p&gt;Do you want a snack? Or you want to order something?&lt;/p&gt;: Ini adalah paragraf yang berisi teks "Do you want a snack? Or you want to order something?" yang akan ditampilkan di halaman sebagai deskripsi atau isi konten.
+18. &lt;p&gt;Do you want a snack? Or you want to order something?&lt;/p&gt; : Ini adalah paragraf yang berisi teks "Do you want a snack? Or you want to order something?" yang akan ditampilkan di halaman sebagai deskripsi atau isi konten.
 
 
 
