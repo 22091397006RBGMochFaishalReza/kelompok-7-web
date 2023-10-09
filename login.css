@@ -99,7 +99,7 @@ button {
 
 /* Style tombol saat dihover */
 button:hover {
-    background: rgb(205, 186, 15); /* Warna latar belakang tombol saat dihover */
+    background: whitesmoke; /* Warna latar belakang tombol saat dihover */
 }
 
 /* Style link "Lupa Kata Sandi?" yang lebih kecil */
