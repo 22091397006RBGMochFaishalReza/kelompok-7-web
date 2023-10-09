@@ -94,12 +94,12 @@ button {
     cursor: pointer; /* Kursor berubah menjadi tangan saat dihover */
     margin-top: 20px; /* Margin dari atas tombol */
     border-radius: 5px; /* Sudut bulatan tombol */
-    background: #cbdadc; /* Warna latar belakang tombol */
+    background: burlywood; /* Warna latar belakang tombol */
 }
 
 /* Style tombol saat dihover */
 button:hover {
-    background: #596882; /* Warna latar belakang tombol saat dihover */
+    background: cadetblue; /* Warna latar belakang tombol saat dihover */
 }
 
 /* Style link "Lupa Kata Sandi?" yang lebih kecil */
