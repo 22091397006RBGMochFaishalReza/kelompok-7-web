@@ -11,7 +11,7 @@ body {
     justify-content: center; /* Pusatkan elemen horizontal */
     align-items: center; /* Pusatkan elemen vertikal */
     min-height: 100vh; /* Tinggi minimum setara dengan tinggi viewport */
-    background: rgba(100, 168, 237, 0.212); /* Warna latar belakang */
+    background: cadetblue; /* Warna latar belakang */
 }
 
 /* Style kontainer utama */
@@ -19,7 +19,7 @@ body {
     width: 100%; /* Lebar kontainer 100% dari lebar layar */
     display: flex; /* Menggunakan model display flex */
     max-width: 850px; /* Lebar maksimum kontainer */
-    background: #bbbbbb; /* Warna latar belakang kontainer */
+    background: rgba(100, 168, 237, 0.212); /* Warna latar belakang kontainer */
     border-radius: 15px; /* Sudut bulatan kontainer */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan kontainer */
 }
