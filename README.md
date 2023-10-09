@@ -279,22 +279,20 @@ Tulis dengan urut dan benar.
 
 2. Selanjutnya ada &lt;html lang="en"&gt; : Tag pembuka untuk elemen HTML utama dengan atribut lang yang menentukan bahasa dokumen (dalam hal ini menggunakan bahasa Inggris).
 
-3. &lt;html lang="en"&gt; : Tag pembuka untuk elemen HTML utama dengan atribut lang yang menentukan bahasa dokumen (dalam hal ini, bahasa Inggris).
+3. &lt;head&gt; : Ini adalah elemen kepala dokumen HTML, yang berisi meta-informasi dan referensi ke berkas-berkas eksternal seperti CSS dan JavaScript.
 
-4. &lt;head&gt; : Ini adalah elemen kepala dokumen HTML, yang berisi meta-informasi dan referensi ke berkas-berkas eksternal seperti CSS dan JavaScript.
+4. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter encoding dokumen HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
 
-5. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter encoding dokumen HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
+5. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; : Meta tag ini digunakan untuk mengatur kompatibilitas dengan Internet Explorer (versi terbaru).
 
-6. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; : Meta tag ini digunakan untuk mengatur kompatibilitas dengan Internet Explorer (versi terbaru).
+6. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel, dengan mengatur skala awal dan lebar tampilan.
 
-7. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel, dengan mengatur skala awal dan lebar tampilan.
+7. &lt;title&gt;Login Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
 
-8. &lt;title&gt;Login Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
+8. &lt;link rel="stylesheet" href="login.css"&gt; : Ini adalah tag &lt;link"&gt; yang menghubungkan dokumen ke berkas CSS eksternal bernama "login.css" untuk mengatur tampilan halaman.
 
-9. &lt;link rel="stylesheet" href="login.css"&gt; : Ini adalah tag &lt;link"&gt; yang menghubungkan dokumen ke berkas CSS eksternal bernama "login.css" untuk mengatur tampilan halaman.
+9. &lt;body&gt; : Ini adalah elemen tubuh halaman yang berisi konten utama yang akan ditampilkan di halaman web.
 
-10. &lt;body&gt; : Ini adalah elemen tubuh halaman yang berisi konten utama yang akan ditampilkan di halaman web.
+10. &lt;div class="container"&gt; : Ini adalah div dengan kelas "container" yang digunakan untuk mengelompokkan konten halaman.
 
-11. &lt;div class="container"&gt; : Ini adalah div dengan kelas "container" yang digunakan untuk mengelompokkan konten halaman.
-
-12. &lt;div class="login"&gt; : Ini adalah div dengan kelas "login" yang digunakan untuk mengelompokkan elemen-elemen yang berkaitan dengan formulir login.
+11. &lt;div class="login"&gt; : Ini adalah div dengan kelas "login" yang digunakan untuk mengelompokkan elemen-elemen yang berkaitan dengan formulir login.
