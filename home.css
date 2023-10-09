@@ -160,7 +160,7 @@ header .icons a:hover{
 
 .product .heading {
     text-align: center;
-    font-size: 5rem; /* Adjust the font size to your liking */
+    font-size: 5rem; 
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
@@ -207,7 +207,7 @@ header .icons a:hover{
     color: white;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
 }
 
 .card .contentBox .buy {
@@ -230,23 +230,23 @@ header .icons a:hover{
 }
 
 .keripik {
-    height: auto; /* Adjust the height based on your image size */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; 
+    max-width: 100%; 
 }
 
 .makaroni {
-    height: auto; /* Adjust the height based on your image size */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; 
+    max-width: 100%; 
 }
 
 .basreng {
-    height: auto; /* Adjust the height based on your image size */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; 
+    max-width: 100%; 
 }
 
 .mie  {
-    height: auto; /* Adjust the height based on your image size */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; 
+    max-width: 100%;
 }
 
 .review {
@@ -256,7 +256,7 @@ header .icons a:hover{
 
 .review .heading {
     text-align: center;
-    font-size: 5rem; /* Adjust the font size to your liking */
+    font-size: 5rem; 
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
@@ -311,7 +311,7 @@ header .icons a:hover{
 
 .contact .heading {
     text-align: center;
-    font-size: 5rem; /* Adjust the font size to your liking */
+    font-size: 5rem; 
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
