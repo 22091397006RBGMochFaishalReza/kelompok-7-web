@@ -299,18 +299,18 @@ Tulis dengan urut dan benar.
 
 12. &lt;form action="home.html"&gt; : Ini adalah elemen form dengan atribut action yang menunjukkan ke halaman "home.html" yang akan diarahkan jika formulir tersebut disubmit.
 
-13. &lt;h1&gt;Login&lt;/h1&gt;: Ini adalah judul besar yang menampilkan teks "Login".
+13. &lt;h1&gt;Login&lt;/h1&gt; : Ini adalah judul besar yang menampilkan teks "Login".
 
-14. &lt;hr>: Ini adalah elemen garis horizontal untuk memberikan pemisah antara judul dan paragraf berikutnya.
+14. &lt;hr&gt; : Ini adalah elemen garis horizontal untuk memberikan pemisah antara judul dan paragraf berikutnya.
 
-15. &lt;p&gt;Snack sales platform for college students&lt;/p&gt;: Ini adalah paragraf yang menjelaskan tujuan dari halaman, yaitu "Snack sales platform for college students".
+15. &lt;p&gt;Snack sales platform for college students&lt;/p&gt; : Ini adalah paragraf yang menjelaskan tujuan dari halaman, yaitu "Snack sales platform for college students".
 
-16. &lt;label for="Email"&gt;Email&lt;/label&gt;: Ini adalah label untuk input email, yang dikaitkan dengan input email menggunakan atribut for.
+16. &lt;label for="Email"&gt;Email&lt;/label&gt; : Ini adalah label untuk input email, yang dikaitkan dengan input email menggunakan atribut for.
 
-17. &lt;input type="text" placeholder="example@gmail.com" name="email"&gt;: Ini adalah input teks untuk email dengan placeholder default "example@gmail.com" dan nama "email".
+17. &lt;input type="text" placeholder="example@gmail.com" name="email"&gt; : Ini adalah input teks untuk email dengan placeholder default "example@gmail.com" dan nama "email".
 
-18. &lt;label for="Password"&gt;Password&lt;/label&gt;: Ini adalah label untuk input password, yang dikaitkan dengan input password menggunakan atribut for.
+18. &lt;label for="Password"&gt;Password&lt;/label&gt; : Ini adalah label untuk input password, yang dikaitkan dengan input password menggunakan atribut for.
 
-19. &lt;input type="password" placeholder="Password" name="password"&gt;: Ini adalah input password dengan placeholder default "Password" dan nama "password".
+19. &lt;input type="password" placeholder="Password" name="password"&gt; : Ini adalah input password dengan placeholder default "Password" dan nama "password".
 
-20. &lt;button&gt;Login&lt;/button&gt;: Ini adalah tombol dengan teks "Login" yang digunakan untuk mengirimkan formulir.
+20. &lt;button&gt;Login&lt;/button&gt; : Ini adalah tombol dengan teks "Login" yang digunakan untuk mengirimkan formulir.
