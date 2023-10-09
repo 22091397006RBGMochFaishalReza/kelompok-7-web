@@ -19,7 +19,7 @@ body {
     width: 100%; /* Lebar kontainer 100% dari lebar layar */
     display: flex; /* Menggunakan model display flex */
     max-width: 850px; /* Lebar maksimum kontainer */
-    background: cadetblue; /* Warna latar belakang kontainer */
+    background: rgba(100, 168, 237, 0.212); /* Warna latar belakang kontainer */
     border-radius: 15px; /* Sudut bulatan kontainer */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan kontainer */
 }
@@ -99,7 +99,7 @@ button {
 
 /* Style tombol saat dihover */
 button:hover {
-    background: whitesmoke; /* Warna latar belakang tombol saat dihover */
+    background: cadetblue; /* Warna latar belakang tombol saat dihover */
 }
 
 /* Style link "Lupa Kata Sandi?" yang lebih kecil */
