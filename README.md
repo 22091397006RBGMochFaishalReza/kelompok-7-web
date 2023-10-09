@@ -1,8 +1,8 @@
 <div align="center">
   <h1>	Software Requirements Specification </h1>
   <h1>	Snack Sales Platform for College Students </h1>
-  <h1>	Version 1.0 approved </h1>
-  <h1>	Prepared by : </h1>
+  <h2>	Version 1.0 approved </h2>
+  <h2>	Prepared by : </h2>
 
   <p>	22091397006 - R.BG.Moch Faishal Reza </p>
   <p>	22091397032 - Farrel Yosan Navyansyah </p>
