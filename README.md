@@ -75,7 +75,7 @@ Revision History
 
 
 
-1. Pendahuluan
+**1. Pendahuluan**
 
 1.1 Tujuan Penulisan Dokumen
 	
@@ -136,7 +136,7 @@ Muhammad Susilo, Rezki Kurniati, Kasmawi. “Rancang Bangun Website Toko Online 
 Intan Anuggrah Yuandi, Siti Rahmawati Kahar, Arrum Purnama. “Perancangan Web E-Commerce Mahasiswa Berbasis Digital Marketing Untuk Menumbuhkan Jiwa Ekonomi Digital.” Jurnal Informatika Teknologi dan Sains, E - ISSN: 2686-3359 Vol. 5, No. 1(2023):183-190.
 
 
-2. Deskripsi Keseluruhan
+**2. Deskripsi Keseluruhan**
 
 2.1 Deskripsi Produk 
 
@@ -169,7 +169,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 <Daftar komponen dokumentasi pengguna (seperti user manual, on-line help, dan tutorial) yang akan disampaikan bersama dengan perangkat lunak yang akan dikirim>
 
 
-3. Kebutuhan Antarmuka Eksternal
+**3. Kebutuhan Antarmuka Eksternal**
 
 3.1 User Interfaces 
 
@@ -188,7 +188,7 @@ Antarmuka perangkat lunak dari situs web penjualan camilan yang diimplementasika
 Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementasikan dalam kode HTML dan CSS di atas adalah berdasarkan protokol HTTP melalui peramban web pengguna. Ketika pengguna mengakses halaman web, permintaan HTTP dikirimkan ke server web untuk mengambil dan menampilkan konten halaman. Halaman web ini juga dapat menyediakan formulir elektronik yang memungkinkan pengguna mengirimkan pesan atau data melalui metode HTTP POST. Dalam konteks ini, antarmuka komunikasi terutama berfokus pada interaksi antara peramban web pengguna dan server web untuk menampilkan dan mengirimkan informasi terkait penjualan camilan. Keamanan komunikasi melalui protokol HTTPS dapat diterapkan untuk melindungi data sensitif dan transmisi aman.
 
 
-4. Functional Requirement
+**4. Functional Requirement**
 
 <Area ini menggambarkan pengorganisasian persyaratan fungsional untuk produk dengan fitur sistem, layanan utama yang disediakan oleh produk>
 
@@ -231,7 +231,7 @@ Untuk penjelasan pada flowchart yang akan dilakukan oleh user adalah pertama tam
 Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat website yang berkaitan tentang hal yang akan kita buat. Setelah itu kita selain membuat website juga menyediakan kebutuhan fungsional sistem, kemudian menyediakan fasilitas bagi user penjual/pembeli. Lalu kita menyimpan data register user, setelah itu mengatur data user. Kemudian kita memisahkan data register dan login. Jika belum register kita memberikan fitur membuat dan memasukkan data register lalu menyimpan data register, mengecek data register user, dan memberikan akses masuk ke website. Jika sudah bisa mengecek data register danmemberikan akses masuk ke website, setelah itu memberikan fitur pilihan jual/beli. Setelah itu semua sudah selesai admin akan menyimpan data produk dijual dan terjual, lalu menyimpan riwayat login user. Jika sistem dalam perbaikan akan maintenance dan upgrade sistem, end.
 
 
-5. Non Functional Requirements
+**5. Non Functional Requirements**
 
 <Uraikan dengan ringkas kebutuhan non fungsional dalam tabel sebagai berikut. Isilah Kolom Kebutuhan dengan kalimat yang jelas dan kelak dapat ditest untuk dipenuhi. ID adalah nomor kebutuhan yang harus ditelusuri pada saat test. Tuliskan N/A bila Not Applicable>
 
@@ -263,7 +263,7 @@ Security : aspek keamanan yang harus dipenuhi
 
 # Kelompok-7-Web
 
-PENJELASAN HTML LOGIN PAGE 
+**PENJELASAN HTML LOGIN PAGE** 
 
 Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
 
