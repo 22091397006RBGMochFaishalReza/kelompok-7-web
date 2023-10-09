@@ -257,7 +257,21 @@ Security : aspek keamanan yang harus dipenuhi
 
 # Kelompok-7-Web
 
+**PENJELASAN HTML**
+
+Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
+
+Untuk menampilkan tanda &lt; dan &gt; secara harfiah dalam README di GitHub, maka perlu menggantikannya dengan menggunakan karakter khusus HTML atau entity HTML. Maka:
+
+&lt; dapat digantikan dengan menuliskan & lalu l lalu t dan terakhir;
+
+&gt; dapat digantikan dengan menuliskan & lalu g lalu t dan terakhir;
+
+Tulis dengan urut dan benar. 
+
 **PENJELASAN INDEX HTML :**
+
+
 1. Pertama ada &lt;!1DOCTYPE html&gt; : Semua dokumen HTML harus dimulai dengan <!DOCTYPE>deklarasi. Deklarasi ini bukan tag HTML. Ini adalah "informasi" ke browser tentang jenis dokumen apa yang diharapkan.
 
 2. Selanjutnya ada &lt;html lang="en"&gt; : Tag pembuka untuk elemen HTML utama dengan atribut lang yang menentukan bahasa dokumen (dalam hal ini menggunakan bahasa Inggris).
@@ -269,16 +283,6 @@ Security : aspek keamanan yang harus dipenuhi
 
 
 **PENJELASAN HTML LOGIN PAGE :** 
-
-Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
-
-Untuk menampilkan tanda &lt; dan &gt; secara harfiah dalam README di GitHub, maka perlu menggantikannya dengan menggunakan karakter khusus HTML atau entity HTML. Maka:
-
-&lt; dapat digantikan dengan menuliskan & lalu l lalu t dan terakhir;
-
-&gt; dapat digantikan dengan menuliskan & lalu g lalu t dan terakhir;
-
-Tulis dengan urut dan benar. 
 
 1. Pertama ada &lt;!1DOCTYPE html&gt; : Semua dokumen HTML harus dimulai dengan <!DOCTYPE>deklarasi. Deklarasi ini bukan tag HTML. Ini adalah "informasi" ke browser tentang jenis dokumen apa yang diharapkan.
 
