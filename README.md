@@ -263,6 +263,9 @@ Security : aspek keamanan yang harus dipenuhi
 
 # Kelompok-7-Web
 
+**PENJELASAN INDEX HTML**
+
+
 **PENJELASAN HTML LOGIN PAGE** 
 
 Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
@@ -314,3 +317,5 @@ Tulis dengan urut dan benar.
 19. &lt;input type="password" placeholder="Password" name="password"&gt; : Ini adalah input password dengan placeholder default "Password" dan nama "password".
 
 20. &lt;button&gt;Login&lt;/button&gt; : Ini adalah tombol dengan teks "Login" yang digunakan untuk mengirimkan formulir.
+
+21. &lt;p&gt;&lt;a href="reset password.html" class="small-link"&gt;Forgot Password?&lt;/a&gt;&lt;/p&gt; : Ini adalah paragraf dengan tautan "Forgot Password?" yang mengarahkan ke halaman "reset password.html". Tautan tersebut memiliki kelas "small-link".
