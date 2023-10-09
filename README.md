@@ -321,3 +321,7 @@ Tulis dengan urut dan benar.
 20. &lt;button&gt;Login&lt;/button&gt; : Ini adalah tombol dengan teks "Login" yang digunakan untuk mengirimkan formulir.
 
 21. &lt;p&gt;&lt;a href="reset password.html" class="small-link"&gt;Forgot Password?&lt;/a&gt;&lt;/p&gt; : Ini adalah paragraf dengan tautan "Forgot Password?" yang mengarahkan ke halaman "reset password.html". Tautan tersebut memiliki kelas "small-link".
+
+22. &lt;div class="right"&gt; : Ini adalah div dengan kelas "right" yang digunakan untuk mengelompokkan elemen gambar di sebelah kanan halaman.
+
+23. &lt;img src="assets/image login.png" alt=""&gt; : Ini adalah elemen gambar yang menampilkan gambar "image login.png" dari direktori "assets" dengan atribut alternatif kosong (alt).
