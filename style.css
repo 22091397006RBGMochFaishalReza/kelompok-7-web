@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat; /* Mengatur agar gambar latar belakang tidak diulang */
     background-position: center; /* Mengatur posisi gambar latar belakang ke tengah */
     overflow: hidden; /* Mencegah scroll pada halaman utama */
-    color: whitesmoke; /* Mengatur warna teks pada latar belakang */
+    color: #0f0b0a; /* Mengatur warna teks pada latar belakang */
     position: relative; /*untuk mengendalikan posisi elemen di dalamnya */
     height: 100vh; /* Menyamakan tinggi dengan tinggi viewport */
 }
@@ -65,7 +65,7 @@ header {
 }
 
 .login-register a:hover {
-    background-color: #a09b8c;
+    background-color: whitesmoke;
 }
 
 /* Styling konten */
