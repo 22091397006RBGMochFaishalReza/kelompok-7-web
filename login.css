@@ -11,7 +11,7 @@ body {
     justify-content: center; /* Pusatkan elemen horizontal */
     align-items: center; /* Pusatkan elemen vertikal */
     min-height: 100vh; /* Tinggi minimum setara dengan tinggi viewport */
-    background: burlywood; /* Warna latar belakang */
+    background: cadetblue; /* Warna latar belakang */
 }
 
 /* Style kontainer utama */
@@ -19,7 +19,7 @@ body {
     width: 100%; /* Lebar kontainer 100% dari lebar layar */
     display: flex; /* Menggunakan model display flex */
     max-width: 850px; /* Lebar maksimum kontainer */
-    background: rgba(100, 168, 237, 0.212); /* Warna latar belakang kontainer */
+    background: #fff; /* Warna latar belakang kontainer */
     border-radius: 15px; /* Sudut bulatan kontainer */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan kontainer */
 }
@@ -41,7 +41,7 @@ h1 {
     text-align: center; /* Teks di tengah secara horizontal */
     font-weight: bolder; /* Ketebalan font */
     text-transform: uppercase; /* Huruf besar */
-    color: #0f0b0a;
+    color: rgb(205, 186, 15);
 }
 
 /* Style garis pemisah */
@@ -89,12 +89,12 @@ button {
     outline: none; /* Menghapus outline pada fokus */
     padding: 8px; /* Padding tombol */
     width: 252px; /* Lebar tombol */
-    color: #232946; /* Warna teks tombol */
+    color: #fff; /* Warna teks tombol */
     font-size: 16px; /* Ukuran font tombol */
     cursor: pointer; /* Kursor berubah menjadi tangan saat dihover */
     margin-top: 20px; /* Margin dari atas tombol */
     border-radius: 5px; /* Sudut bulatan tombol */
-    background: burlywood; /* Warna latar belakang tombol */
+    background: #333; /* Warna latar belakang tombol */
 }
 
 /* Style tombol saat dihover */
@@ -109,10 +109,3 @@ button:hover {
     margin-top: 5px; /* Margin dari atas */
 }
 
-/* Media query untuk layar berlebar kurang dari atau sama dengan 880px */
-@media (max-width: 880px) {
-    .container {
-        width: 100%;
-        max-width: 750px; /* Lebar maksimum pada layar berlebar kecil */
-    }
-}
