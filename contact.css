@@ -9,6 +9,38 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1001;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0);
+}
+
+header .logo img {
+    width: 30px; 
+    height: auto; 
+}
+
+header .navbar a{
+    font-size: 13px;
+    padding: 30px;
+    color: black;
+}
+
+header .icons a{
+    font-size: 15px;
+    color: black;
+    margin-left: 50px;
+}
+
+header .icons a:hover{
+    color:cadetblue;
+}
 
 .contact {
     background: #fff;
