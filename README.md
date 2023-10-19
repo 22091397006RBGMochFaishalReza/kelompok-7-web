@@ -451,7 +451,41 @@ Tulis dengan urut dan benar.
 
 13. &lt;div class="icons"&gt; : Ini adalah div dengan kelas "icons" yang berisi ikon keranjang belanja (shopping cart) yang mengarahkan ke halaman "cart.html".
 
-14. 
+14. &lt;section class="home" id="home"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "home" dan ID "home", yang berisi konten beranda atau beranda utama.
+
+15. &lt;div class="content"&gt; : Ini adalah div dengan kelas "content" yang berisi teks dan tautan untuk mengundang pengunjung untuk berbelanja.
+
+16. &lt;h3&gt;Welcome To Our Store &lt;/h3&gt;, &lt;span&gt;eat something&lt;/span&gt;, &lt;p&gt;Silahkan Memilih Jajanan Kesukaan Kamuuu&lt;/p&gt;, dan &lt;a href="#" class="btn"&gt;shop now&lt;/a&gt; : Ini adalah elemen-elemen teks dan tautan yang digunakan untuk menyambut pengunjung dan mengundang mereka untuk berbelanja.
+
+17. &lt;section class="about" id="about"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "about" dan ID "about", yang berisi informasi tentang perusahaan atau situs web.
+
+18. &lt;h1 class="heading"&gt; &lt;span&gt; about &lt;/span&gt; us &lt;/h1&gt; : Ini adalah judul yang berisi teks "about us".
+
+19. &lt;div class="row"&gt; : Ini adalah div dengan kelas "row" yang digunakan untuk mengelompokkan elemen-elemen dalam sejumlah kolom.
+
+20. &lt;div class="video-container"&gt; : Ini adalah div dengan kelas "video-container" yang berisi elemen video yang memainkan video tentang perusahaan atau situs web.
+
+21. &lt;video src="assets/about.mp4" loop autoplay muted&gt;&lt;/video&gt; : Ini adalah elemen video yang menampilkan video dari berkas "about.mp4" dengan pengaturan looping (loop), otomatis mulai (autoplay), dan suara dimatikan (muted).
+
+22. &lt;div class="content"&gt; : Ini adalah div dengan kelas "content" yang berisi teks dan tautan yang menjelaskan mengapa pengunjung harus memilih perusahaan atau situs web ini.
+
+23. &lt;h3&gt;why chose us?&lt;/h3&gt; : Ini adalah subjudul yang menjelaskan alasan memilih perusahaan atau situs web.
+
+24. &lt;p&gt;karena kami adalah website penyedia ...&lt;/p&gt; : Ini adalah paragraf yang menjelaskan alasan-alasan untuk memilih situs web.
+
+25. &lt;a href="learn more.html" class="btn"&gt;learn more&lt;/a&gt; : Ini adalah tautan "Learn More" yang mengarahkan pengunjung ke halaman eksternal "learn more.html".
+
+26. &lt;section class="product" id="product"&gt; : Ini adalah bagian dari halaman web yang berisi daftar produk yang ditawarkan.
+
+27. &lt;h1 class="heading"&gt; &lt;span&gt;Our&lt;/span&gt; Products &lt;/h1&gt; : Ini adalah judul yang berisi teks "Our Products".
+
+28. &lt;div class="card"&gt; dan elemen-elemen berikutnya: Ini adalah kartu produk yang berisi gambar, nama produk, harga, dan tautan "Add To Cart".
+
+29. &lt;section class="review" id="review"&gt; : Ini adalah bagian yang berisi ulasan pelanggan.
+
+30. &lt;h1 class="heading"&gt; &lt;span&gt;Review&lt;/span&gt; Customer &lt;/h1&gt; Ini adalah judul yang berisi teks "Review Customer".
+
+31. &lt;div class="col"&gt; dan elemen-elemen berikutnya: Ini adalah kolom yang berisi ulasan pelanggan, dengan gambar pelanggan, nama, bintang ulasan, dan teks ulasan.
 
 **PENJELASAN HTML ABOUT US PAGE :**
 
