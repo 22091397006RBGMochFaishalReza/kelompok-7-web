@@ -14,10 +14,6 @@ html{
     font-size: 62.5%;
 }
 
-section{
-    padding: 2rem 9%;
-}
-
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -29,7 +25,6 @@ header{
     z-index: 1001;
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0);
 }
-
 header .logo img {
     width: 30px; 
     height: auto; 
@@ -51,18 +46,22 @@ header .icons a:hover{
     color:cadetblue;
 }
 
+.about {
+    background: #fff;
+    padding: 2rem 0;
+}
 
-.heading{
+.about .heading {
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem; 
     color: #333;
-    padding: 4rem;
-    margin: 2rem o;
+    padding: 1rem;
+    margin: 2rem 0;
     background: rgba(100, 168, 237, 0.212);
 }
 
-.heading span{
-    color:rgb(205, 186, 15);
+.about .heading span {
+    color: rgb(205, 186, 15);
 }
 
 .about .row{
