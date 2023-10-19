@@ -511,7 +511,7 @@ Tulis dengan urut dan benar.
 
 6. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini adalah meta tag yang digunakan untuk mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel. Itu memungkinkan halaman untuk menyesuaikan lebar dengan lebar perangkat dan mengatur tingkat pembesaran awal (skala awal).
 
-7. &lt;title&gt;Home Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
+7. &lt;title&gt;About Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
 
 8. &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"&gt; : Ini adalah tautan ke berkas CSS dari Font Awesome yang digunakan untuk ikon dalam halaman Anda.
 
@@ -543,9 +543,39 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN PRODUCT DAN CART PAGE :**
 
-
-
 **PENJELASAN REVIEW PAGE :**
+
+1. &lt;!DOCTYPE html&gt; : Ini adalah deklarasi tipe dokumen HTML yang menunjukkan bahwa dokumen HTML ini menggunakan versi HTML terbaru.
+
+2. &lt;html lang="en"&gt; : Ini adalah elemen root (paling atas) dari halaman web yang menandakan dimulainya dokumen HTML. Atribut lang="en" menunjukkan bahwa bahasa dokumen adalah bahasa Inggris.
+
+3. &lt;head&gt; : Ini adalah elemen kepala dokumen HTML yang berisi informasi tentang halaman seperti meta tag, judul, dan tautan ke berkas eksternal.
+
+4. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter encoding dokumen HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
+
+5. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; : Ini adalah meta tag yang digunakan untuk mengatur kompatibilitas dengan Internet Explorer (IE) dengan mode terbaru.
+
+6. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini adalah meta tag yang digunakan untuk mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel. Itu memungkinkan halaman untuk menyesuaikan lebar dengan lebar perangkat dan mengatur tingkat pembesaran awal (skala awal).
+
+7. &lt;title&gt;Review Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
+
+8. &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"&gt; : Ini adalah tautan ke berkas CSS dari Font Awesome yang digunakan untuk ikon dalam halaman Anda.
+
+9. &lt;link rel="stylesheet" href="review.css"&gt; : Ini adalah tautan ke berkas CSS lokal (dalam hal ini "review.css") yang akan mengatur tampilan dan gaya halaman.
+
+10. &lt;header&gt; : Ini adalah elemen header yang umumnya digunakan untuk menampilkan bagian atas halaman web yang berisi elemen-elemen seperti logo, navigasi, dan lainnya.
+
+11. &lt;a href="#" class="logo"&gt; : Ini adalah tautan logo perusahaan dengan atribut href="#", yang dalam hal ini mengarahkan ke halaman yang sama (dalam halaman beranda). Gambar logo perusahaan ditampilkan dengan elemen &lt;img&gt;
+
+12. &lt;nav class="navbar"&gt; : Ini adalah elemen navigasi yang berisi tautan-tautan menu navigasi. Anda memiliki tautan ke beranda ("home.html"), halaman "about" (yang merupakan halaman saat ini), "product," "review," dan "contact.
+
+13. &lt;div class="icons"&gt; : Ini adalah div dengan kelas "icons" yang berisi ikon keranjang belanja (shopping cart) yang tidak memiliki tautan yang ditentukan (href="#").
+
+14. &lt;section class="review" id="review"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "about" dan ID "about", yang berisi konten beranda atau beranda utama.
+
+15. &lt;h1 class="heading"&gt; &lt;span&gt;Review&lt;/span&gt; Customer &lt;/h1&gt; : Ini adalah judul yang berisi teks "Review Customer."
+
+16. &lt;div class="col"&gt; : Ini adalah div dengan kelas "col" yang digunakan untuk mengelompokkan setiap ulasan dari pelanggan. Dalam dokumen Anda, Anda memiliki tiga ulasan pelanggan yang masing-masing dikelompokkan dalam div ini.
 
 **PENJELASAN CONTACT PAGE :**
 
