@@ -168,19 +168,7 @@ Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementas
 
 **4. Functional Requirement**
 
-Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus berperilaku. Ini mendefinisikan apa yang harus dilakukan sistem untuk memenuhi kebutuhan atau harapan pengguna. Persyaratan fungsional dapat dianggap sebagai fitur yang dideteksi pengguna. Mereka berbeda dari persyaratan non-fungsional, yang menentukan bagaimana sistem harus bekerja secara internal (misalnya, kinerja, keamanan, dll.).
-
-<Tulis Kebutuhan Fungsional / Functional Requirement disini>
-Diawali dengan membuat daftar kebutuhan fungsional P/L, lengkap dengan ID dan penjelasan jika perlu. Bisa dibuat dalam bentuk tabel.
-
-|      ID      |        Kebutuhan Fungsional       |            Penjelasan            |
-|--------------|-----------------------------------|----------------------------------|
-|              |                                   |                                  |
-|              |                                   |                                  |
-|              |                                   |                                  |
-|              |                                   |                                  |
-|              |                                   |                                  |
-
+Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus berperilaku. Ini mendefinisikan apa yang harus dilakukan sistem untuk memenuhi kebutuhan atau harapan pengguna. Persyaratan fungsional dapat dianggap sebagai fitur yang dideteksi pengguna. berbeda dari persyaratan non-fungsional, yang menentukan bagaimana sistem harus bekerja secara internal (misalnya, kinerja, keamanan, dll.).
 
 4.1 Use Case Diagram
 
@@ -234,7 +222,7 @@ Catatan : Memahami serta memenuhi persyaratan non-fungsional ini akan membantu m
 
 # Kelompok-7-Web
 
-<h2> - PENJELASAN HTML </h2>
+<h2>PENJELASAN HTML</h2>
 
 Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
 
@@ -441,6 +429,13 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN PRODUCT DAN CART PAGE :**
 
-**PENJELASAN CONTACT PAGE**
+**PENJELASAN REVIEW PAGE :**
+
+**PENJELASAN CONTACT PAGE :**
 
 **PENJELASAN HTML LEARN MORE PAGE :**
+
+
+<h2>PENJELASAN CSS</h2>
+
+**PENJELASAN STYLE CSS :**
