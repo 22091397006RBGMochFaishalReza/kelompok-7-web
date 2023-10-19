@@ -66,6 +66,7 @@ header {
 
 .login-register a:hover {
     background-color: cadetblue;
+    transition: background-color 0.3s ease;
 }
 
 /* Styling konten */
