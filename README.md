@@ -609,7 +609,23 @@ Tulis dengan urut dan benar.
 
 15. &lt;h1 class="heading"&gt; &lt;span&gt;Contact&lt;/span&gt; Us &lt;/h1&gt; : Ini adalah judul yang berisi teks "Contact Us."
 
-16. 
+16. &lt;div class="container"&gt; : Ini adalah div yang digunakan untuk mengelompokkan elemen-elemen dalam bentuk kontak. Dalam hal ini, Anda memiliki dua div lagi, yaitu "contact-box" yang dibagi menjadi "left" dan "right."
+
+17. &lt;div class="left"&gt; : Ini adalah div bagian kiri dari "contact-box," yang dalam kode yang Anda berikan tidak berisi konten apa pun. Anda mungkin akan menambahkan gambar atau elemen lainnya di sini.
+
+18. &lt;div class="right"&gt; : Ini adalah div bagian kanan dari "contact-box," yang berisi elemen-elemen formulir kontak seperti input teks, textarea, dan tombol "Send To Admin."
+
+19. &lt;h2&gt;Contact Admin&lt;/h2&gt; : Ini adalah subjudul yang menyatakan "Contact Admin" dan mungkin digunakan untuk menunjukkan bahwa ini adalah formulir kontak untuk menghubungi admin.
+
+20. &lt;input type="text" class="field" placeholder="Your Name"&gt; : Ini adalah elemen input teks untuk nama pengirim pesan. Atribut placeholder memberikan petunjuk tentang apa yang harus dimasukkan ke dalam input ini.
+
+21. &lt;input type="text" class="field" placeholder="Your Email"&gt; : Ini adalah elemen input teks untuk alamat email pengirim pesan.
+
+22. &lt;input type="text" class="field" placeholder="Phone"&gt; : Ini adalah elemen input teks untuk nomor telepon pengirim pesan.
+
+23. &lt;textarea placeholder="Message" class="field"&gt;&lt;/textarea&gt; : Ini adalah elemen textarea yang memungkinkan pengirim pesan untuk menulis pesan atau pertanyaan.
+
+24. &lt;button class="btn"&gt;Send To Admin&lt;/button&gt; : Ini adalah tombol "Send To Admin" yang, ketika ditekan, akan mengirimkan pesan atau data yang dimasukkan dalam formulir ini kepada admin.
 
 **PENJELASAN HTML LEARN MORE PAGE :**
 
