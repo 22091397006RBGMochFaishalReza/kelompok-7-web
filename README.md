@@ -332,7 +332,7 @@ Tulis dengan urut dan benar.
 
 4.  &lt;meta charset="utf-8" /&gt;: Mendefinisikan karakter set dokumen sebagai UTF-8, yang merupakan karakter set umum yang digunakan untuk dokumen web.
 
-5.  &lt;title&Gt;Registration Page&lt;/title&gt;: Ini adalah judul halaman yang akan ditampilkan di tab browser.
+5.  &lt;title&gt;Registration Page&lt;/title&gt;: Ini adalah judul halaman yang akan ditampilkan di tab browser.
 
 6.  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;: Mendefinisikan pengaturan tampilan untuk tampilan responsif di perangkat seluler dengan lebar yang sesuai dan skala awal 1.
 
@@ -385,43 +385,43 @@ Tulis dengan urut dan benar.
 
 5. &lt;title&gt;Reset Password Page&lt;/title&gt;: Ini adalah judul halaman yang akan ditampilkan di tab browser.
 
-6. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&lt;: Ini adalah meta tag yang memberi petunjuk kepada Internet Explorer (IE) untuk menggunakan mode kompatibilitas terbaru.
+6. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;: Ini adalah meta tag yang memberi petunjuk kepada Internet Explorer (IE) untuk menggunakan mode kompatibilitas terbaru.
 
-7. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&lt;: Mendefinisikan pengaturan tampilan yang disesuaikan dengan perangkat, dengan lebar tampilan sesuai dengan perangkat dan skala awal 1.0.
+7. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Mendefinisikan pengaturan tampilan yang disesuaikan dengan perangkat, dengan lebar tampilan sesuai dengan perangkat dan skala awal 1.0.
 
-8. &lt;link rel="stylesheet" href="reset password.css"&lt;: Ini adalah tautan ke file CSS eksternal dengan nama "reset password.css" yang akan digunakan untuk menggaya halaman HTML.
+8. &lt;link rel="stylesheet" href="reset password.css"&gt;: Ini adalah tautan ke file CSS eksternal dengan nama "reset password.css" yang akan digunakan untuk menggaya halaman HTML.
 
-9. &lt;/head&lt;: Menutup bagian kepala dokumen HTML.
+9. &lt;/head&gt;: Menutup bagian kepala dokumen HTML.
 
-10. &lt;body&lt;: Bagian tubuh dokumen HTML yang akan berisi konten yang akan ditampilkan di halaman web.
+10. &lt;body&gt;: Bagian tubuh dokumen HTML yang akan berisi konten yang akan ditampilkan di halaman web.
 
-11. &lt;div class="wrapper"&lt;: Ini adalah div dengan kelas CSS "wrapper" yang mengelompokkan elemen-elemen dalam tata letak halaman.
+11. &lt;div class="wrapper"&gt;: Ini adalah div dengan kelas CSS "wrapper" yang mengelompokkan elemen-elemen dalam tata letak halaman.
 
-12. &lt;div class="container"&lt;: Ini adalah div dengan kelas CSS "container" yang mengelompokkan konten utama halaman.
+12. &lt;div class="container"&gt;: Ini adalah div dengan kelas CSS "container" yang mengelompokkan konten utama halaman.
 
-13. &lt;div class="title-section"&lt;: Ini adalah div yang mengelompokkan elemen-elemen dalam bagian judul.
+13. &lt;div class="title-section"&gt;: Ini adalah div yang mengelompokkan elemen-elemen dalam bagian judul.
 
-14. &lt;h2 class="title"&lt;Reset Password&lt;/h2&lt;: Ini adalah elemen judul (heading) dengan kelas CSS "title" yang berisi teks "Reset Password".
+14. &lt;h2 class="title"&gt;Reset Password&lt;/h2&gt;: Ini adalah elemen judul (heading) dengan kelas CSS "title" yang berisi teks "Reset Password".
 
-15. &lt;p class="para"&lt;...: Ini adalah elemen paragraf dengan kelas CSS "para" yang berisi teks penjelasan tentang proses reset password.
+15. &lt;p class="para"&gt;...: Ini adalah elemen paragraf dengan kelas CSS "para" yang berisi teks penjelasan tentang proses reset password.
 
-16. &lt;form action="index.html" class="from"&lt;: Ini adalah elemen formulir dengan atribut action yang menentukan ke mana data formulir akan dikirim setelah di-submit (dalam hal ini, ke "index.html"). Formulir ini juga memiliki kelas CSS "from".
+16. &lt;form action="index.html" class="from"&gt;: Ini adalah elemen formulir dengan atribut action yang menentukan ke mana data formulir akan dikirim setelah di-submit (dalam hal ini, ke "index.html"). Formulir ini juga memiliki kelas CSS "from".
 
-17. &lt;div class="input-group"&lt;: Ini adalah div yang mengelompokkan elemen-elemen dalam kelompok input.
+17. &lt;div class="input-group"&gt;: Ini adalah div yang mengelompokkan elemen-elemen dalam kelompok input.
 
-18. &lt;label for="" class="label-title"&lt;Enter Your Email&lt;/label&lt;: Ini adalah label dengan kelas CSS "label-title" yang terkait dengan kolom input untuk alamat email. Label ini membantu dalam mengidentifikasi input.
+18. &lt;label for="" class="label-title"&gt;Enter Your Email&lt;/label&gt;: Ini adalah label dengan kelas CSS "label-title" yang terkait dengan kolom input untuk alamat email. Label ini membantu dalam mengidentifikasi input.
 
-19. &lt;input type="email" name="email" placeholder="Enter your email"&lt;: Ini adalah elemen input email dengan atribut name dan atribut placeholder yang menggambarkan input.
+19. &lt;input type="email" name="email" placeholder="Enter your email"&gt;: Ini adalah elemen input email dengan atribut name dan atribut placeholder yang menggambarkan input.
 
-20. &lt;span class="icon"&lt;&#9993;&lt;/span&lt;: Ini adalah elemen teks yang berfungsi sebagai ikon email. Karakter khusus ✉ digunakan untuk menampilkan ikon.
+20. &lt;span class="icon"&gt;&#9993;&lt;/span&gt;: Ini adalah elemen teks yang berfungsi sebagai ikon email. Karakter khusus ✉ digunakan untuk menampilkan ikon.
 
-21. &lt;/form&lt;: Menutup elemen formulir.
+21. &lt;/form&gt;: Menutup elemen formulir.
 
-22. &lt;/div&lt;: Menutup div dengan kelas CSS "container".
+22. &lt;/div&gt;: Menutup div dengan kelas CSS "container".
 
-23. &lt;/body&lt;: Menutup elemen tubuh halaman HTML.
+23. &lt;/body&gt;: Menutup elemen tubuh halaman HTML.
 
-24. &lt;/html&lt;: Menutup elemen HTML.
+24. &lt;/html&gt;: Menutup elemen HTML.
 
 **PENJELASAN HTML HOME PAGE :**
 
