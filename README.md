@@ -60,14 +60,6 @@
 
 5.	Non Functional Requirements	
 
-Revision History
-
-|  Name  |  Date  |  Reason For Changes  |  Version  |
-|--------|--------|----------------------|-----------|
-|        |        |                      |           |
-|        |        |                      |           |
-
-
 
 **1. Pendahuluan**
 
@@ -231,7 +223,8 @@ Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat w
 
 |      ID      |          Parameter          |              Kebutuhan              |
 |--------------|-----------------------------|-------------------------------------|
-|              |Availability                 |                                     |
+|1|Kinerja|Kinerja website dalam merespon dapat bekerja dengan maksimal dengan memberikan waktu respon yang cepat. 
+Kapasitas dalam pembuatan website ini juga efektif untuk digunakan pengguna dalam waktu 24 jam dan berfungsi setiap hari.|
 |              |Reliability                  |                                     |
 |              |Ergonomy                     |                                     |
 |              |Portability                  |                                     |
@@ -459,5 +452,11 @@ Tulis dengan urut dan benar.
 24. &lt;/html&lt;: Menutup elemen HTML.
 
 **PENJELASAN HTML HOME PAGE :**
+
+**PENJELASAN HTML ABOUT US PAGE :**
+
+**PENJELASAN PRODUCT DAN CART PAGE :**
+
+**PENJELASAN CONTACT PAGE**
 
 **PENJELASAN HTML LEARN MORE PAGE :**
