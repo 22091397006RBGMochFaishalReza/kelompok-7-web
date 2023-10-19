@@ -100,6 +100,7 @@ button {
 /* Style tombol saat dihover */
 button:hover {
     background: cadetblue; /* Warna latar belakang tombol saat dihover */
+    transition: background-color 0.5s ease;
 }
 
 /* Style link "Lupa Kata Sandi?" yang lebih kecil */
