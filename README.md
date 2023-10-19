@@ -134,7 +134,7 @@ Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi mahasiswa yan
 
 2.3 Penggolongan Karakterik Pengguna
 
-Tabel Karakteristik Pengguna
+Tabel Karakteristik Pengguna : 
 
 | Kategori Pengguna             | Tugas          | Hak Akses Ke Aplikasi       | Kemampuan Yang Harus Dimiliki          |
 |-------------------------------|----------------|-----------------------------|----------------------------------------|
