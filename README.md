@@ -571,7 +571,7 @@ Tulis dengan urut dan benar.
 
 13. &lt;div class="icons"&gt; : Ini adalah div dengan kelas "icons" yang berisi ikon keranjang belanja (shopping cart) yang tidak memiliki tautan yang ditentukan (href="#").
 
-14. &lt;section class="review" id="review"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "about" dan ID "about", yang berisi konten beranda atau beranda utama.
+14. &lt;section class="review" id="review"&gt; :  Ini adalah bagian dari halaman web yang diberi kelas "review" dan ID "review," yang berisi ulasan dari pelanggan.
 
 15. &lt;h1 class="heading"&gt; &lt;span&gt;Review&lt;/span&gt; Customer &lt;/h1&gt; : Ini adalah judul yang berisi teks "Review Customer."
 
@@ -605,9 +605,11 @@ Tulis dengan urut dan benar.
 
 13. &lt;div class="icons"&gt; : Ini adalah div dengan kelas "icons" yang berisi ikon keranjang belanja (shopping cart) yang tidak memiliki tautan yang ditentukan (href="#").
 
-14. &lt;section class="contact" id="contact"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "about" dan ID "about", yang berisi konten beranda atau beranda utama.
+14. &lt;section class="contact" id="contact"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "contact" dan ID "contact," yang berisi formulir kontak.
 
 15. &lt;h1 class="heading"&gt; &lt;span&gt;Contact&lt;/span&gt; Us &lt;/h1&gt; : Ini adalah judul yang berisi teks "Contact Us."
+
+16. 
 
 **PENJELASAN HTML LEARN MORE PAGE :**
 
