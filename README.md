@@ -170,7 +170,7 @@ Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementas
 
 Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus berperilaku. Ini mendefinisikan apa yang harus dilakukan sistem untuk memenuhi kebutuhan atau harapan pengguna. Persyaratan fungsional dapat dianggap sebagai fitur yang dideteksi pengguna. berbeda dari persyaratan non-fungsional, yang menentukan bagaimana sistem harus bekerja secara internal (misalnya, kinerja, keamanan, dll.).
 
-4.1 Use Case Diagram
+4.1 Use Case Diagram 
 
 ![alt text](https://github.com/rbgmochfaishalreza/rbgmochfaishalreza.github.io/blob/master/assets/USECASE%20WEB%20KEL%207.jpg)
 
@@ -541,9 +541,9 @@ Tulis dengan urut dan benar.
 
 21. &lt;a href="learn more.html" class="btn"&gt;learn more&lt;/a&gt; : Ini adalah tautan "Learn More" yang mengarahkan pengunjung ke halaman eksternal "learn more.html."
 
-
-
 **PENJELASAN PRODUCT DAN CART PAGE :**
+
+
 
 **PENJELASAN REVIEW PAGE :**
 
