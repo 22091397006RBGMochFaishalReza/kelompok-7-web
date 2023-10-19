@@ -425,7 +425,25 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN HTML HOME PAGE :**
 
-1. &lt;!DOCTYPE html&gt;
+1. &lt;!DOCTYPE html&gt; : Ini adalah deklarasi tipe dokumen HTML yang menunjukkan bahwa dokumen HTML ini menggunakan versi HTML terbaru.
+
+2. &lt;html lang="en"&gt; : Ini adalah elemen root (paling atas) dari halaman web yang menandakan dimulainya dokumen HTML. Atribut lang="en" menunjukkan bahwa bahasa dokumen adalah bahasa Inggris.
+
+3. &lt;head&gt; : Ini adalah elemen kepala dokumen HTML yang berisi informasi tentang halaman seperti meta tag, judul, dan tautan ke berkas eksternal.
+
+4. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter encoding dokumen HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
+
+5. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; : Ini adalah meta tag yang digunakan untuk mengatur kompatibilitas dengan Internet Explorer (IE) dengan mode terbaru.
+
+6. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini adalah meta tag yang digunakan untuk mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel. Itu memungkinkan halaman untuk menyesuaikan lebar dengan lebar perangkat dan mengatur tingkat pembesaran awal (skala awal).
+
+7. &lt;title&gt;Home Page&lt;/title&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
+
+8. &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"&gt; : Ini adalah tautan ke berkas CSS dari Font Awesome yang digunakan untuk ikon dalam halaman Anda.
+
+9. &lt;link rel="stylesheet" href="home.css"&gt; : Ini adalah tautan ke berkas CSS lokal (dalam hal ini "home.css") yang akan mengatur tampilan dan gaya halaman.
+
+10. 
 
 **PENJELASAN HTML ABOUT US PAGE :**
 
