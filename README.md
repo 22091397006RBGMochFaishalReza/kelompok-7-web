@@ -425,6 +425,8 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN HTML HOME PAGE :**
 
+1. &lt;!DOCTYPE html&gt;
+
 **PENJELASAN HTML ABOUT US PAGE :**
 
 **PENJELASAN PRODUCT DAN CART PAGE :**
