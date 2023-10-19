@@ -17,10 +17,7 @@ body {
 }
 
 header {
-    position: relative;/*absolute; 
-    /*top: 0; /* Header dimulai dari bagian atas halaman */
-    /*left: 0; /* Header dimulai dari sisi kiri halaman */
-    /*right: 0; /* Header berakhir di sisi kanan halaman */
+    position: relative;
     height: 80px; /* Mengatur tinggi header */
     background-color: transparent;
     box-shadow: none;
@@ -55,7 +52,7 @@ header {
     border-radius: 5px; 
     margin-right: 10px; 
     font-weight: bold; 
-    transition: backgorund-color 1s ease;
+    transition: background-color 1s ease;
 }
 
 .login-register a:hover {
