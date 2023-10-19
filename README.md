@@ -443,7 +443,15 @@ Tulis dengan urut dan benar.
 
 9. &lt;link rel="stylesheet" href="home.css"&gt; : Ini adalah tautan ke berkas CSS lokal (dalam hal ini "home.css") yang akan mengatur tampilan dan gaya halaman.
 
-10. 
+10. &lt;header&gt; : Ini adalah elemen header yang umumnya digunakan untuk menampilkan bagian atas halaman web yang berisi elemen-elemen seperti logo, navigasi, dan lainnya.
+
+11. &lt;a href="#" class="logo"&gt; : Ini adalah tautan logo perusahaan dengan atribut href="#", yang dalam hal ini mengarahkan ke halaman yang sama (dalam halaman beranda). Gambar logo perusahaan ditampilkan dengan elemen &lt;img&gt;
+
+12. &lt;nav class="navbar"&gt; : Ini adalah elemen navigasi yang berisi tautan-tautan menu navigasi. Anda memiliki tautan ke berbagai bagian halaman dan beberapa halaman eksternal.
+
+13. &lt;div class="icons"&gt; : Ini adalah div dengan kelas "icons" yang berisi ikon keranjang belanja (shopping cart) yang mengarahkan ke halaman "cart.html".
+
+14. 
 
 **PENJELASAN HTML ABOUT US PAGE :**
 
