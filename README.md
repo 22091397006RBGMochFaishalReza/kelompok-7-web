@@ -487,6 +487,16 @@ Tulis dengan urut dan benar.
 
 31. &lt;div class="col"&gt; dan elemen-elemen berikutnya: Ini adalah kolom yang berisi ulasan pelanggan, dengan gambar pelanggan, nama, bintang ulasan, dan teks ulasan.
 
+32. &lt;section class="contact" id="contact"&gt; : Ini adalah bagian yang berisi formulir kontak untuk menghubungi admin atau perusahaan.
+
+33. &lt;h1 class="heading"&gt; &lt;span&gt;Contact&lt;/span&gt; Us &lt;/h1&gt; : Ini adalah judul yang berisi teks "Contact Us".
+
+34. &lt;div class="container"&gt;, &lt;div class="contact-box"&gt;, dan elemen-elemen berikutnya: Ini adalah div yang berisi formulir kontak dengan kolom nama, email, telepon, pesan, dan tombol "Send To Admin".
+
+35. &lt;footer class="footer"&gt; : Ini adalah elemen footer yang berisi tautan-tautan dan informasi kontak.
+
+36. &lt;div class="container-footer"&gt;, &lt;div class="row-footer"&gt;, dan elemen-elemen berikutnya: Ini adalah div yang berisi tautan-tautan menu, informasi kontak, dan tautan media sosial.
+
 **PENJELASAN HTML ABOUT US PAGE :**
 
 **PENJELASAN PRODUCT DAN CART PAGE :**
