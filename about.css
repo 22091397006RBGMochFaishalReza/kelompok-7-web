@@ -12,13 +12,7 @@
 
 html{
     font-size: 62.5%;
-   
 }
-
-section{
-    padding: 2rem 9%;
-}
-
 
 header{
     position: fixed;
@@ -31,6 +25,7 @@ header{
     z-index: 1001;
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0);
 }
+
 header .logo img {
     width: 30px; 
     height: auto; 
