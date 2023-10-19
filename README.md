@@ -527,6 +527,22 @@ Tulis dengan urut dan benar.
 
 14. &lt;section class="about" id="about"&gt; : Ini adalah bagian dari halaman web yang diberi kelas "about" dan ID "about", yang berisi konten beranda atau beranda utama.
 
+15. &lt;h1 class="heading"&gt; &lt;span&gt; about &lt;/span&gt; us &lt;/h1&gt; : Ini adalah judul yang berisi teks "about us."
+
+16. &lt;div class="row"&gt; : Ini adalah div dengan kelas "row" yang digunakan untuk mengelompokkan elemen-elemen dalam sejumlah kolom.
+
+17. &lt;div class="video-container"&gt; : Ini adalah div dengan kelas "video-container" yang berisi elemen video yang memainkan video dari berkas "about.mp4" dengan pengaturan looping, otomatis mulai, dan suara dimatikan.
+
+18. &lt;div class="content"&gt; : Ini adalah div dengan kelas "content" yang berisi teks dan tautan yang menjelaskan mengapa pengunjung harus memilih perusahaan atau situs web ini.
+
+19. &lt;h3&gt;why chose us?&lt;/h3&gt; : Ini adalah subjudul yang menjelaskan alasan memilih perusahaan atau situs web.
+
+20. &lt;p&gt;kenapa memilih kami ...&lt;/p&gt; : Ini adalah paragraf yang menjelaskan alasan-alasan untuk memilih situs web.
+
+21. &lt;a href="learn more.html" class="btn"&gt;learn more&lt;/a&gt; : Ini adalah tautan "Learn More" yang mengarahkan pengunjung ke halaman eksternal "learn more.html."
+
+
+
 **PENJELASAN PRODUCT DAN CART PAGE :**
 
 **PENJELASAN REVIEW PAGE :**
