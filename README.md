@@ -332,58 +332,58 @@ Tulis dengan urut dan benar.
 
 4.  &lt;meta charset="utf-8" /&gt;: Mendefinisikan karakter set dokumen sebagai UTF-8, yang merupakan karakter set umum yang digunakan untuk dokumen web.
 
-5.  &lt;title&lt;Registration Page</title>: Ini adalah judul halaman yang akan ditampilkan di tab browser.
+5.  &lt;title&Gt;Registration Page&lt;/title&gt;: Ini adalah judul halaman yang akan ditampilkan di tab browser.
 
-6.  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&lt;: Mendefinisikan pengaturan tampilan untuk tampilan responsif di perangkat seluler dengan lebar yang sesuai dan skala awal 1.
+6.  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;: Mendefinisikan pengaturan tampilan untuk tampilan responsif di perangkat seluler dengan lebar yang sesuai dan skala awal 1.
 
-7.  &lt;link rel="stylesheet" href="register.css" /&lt;: Ini adalah tautan ke file CSS eksternal bernama "register.css" yang akan digunakan untuk menggaya halaman HTML.
+7.  &lt;link rel="stylesheet" href="register.css" /&gt;: Ini adalah tautan ke file CSS eksternal bernama "register.css" yang akan digunakan untuk menggaya halaman HTML.
 
-8.  &lt;/head&lt;: Menutup bagian kepala dokumen HTML.
+8.  &lt;/head&gt;: Menutup bagian kepala dokumen HTML.
 
-9.  &lt;body&lt;: Bagian tubuh dokumen HTML yang akan berisi konten yang akan ditampilkan di halaman web.
+9.  &lt;body&gt;: Bagian tubuh dokumen HTML yang akan berisi konten yang akan ditampilkan di halaman web.
 
-10.  &lt;div class="container"&lt;: Ini adalah sebuah div dengan kelas CSS "container" yang digunakan untuk mengelompokkan elemen-elemen dalam tata letak halaman.
+10.  &lt;div class="container"&gt;: Ini adalah sebuah div dengan kelas CSS "container" yang digunakan untuk mengelompokkan elemen-elemen dalam tata letak halaman.
 
-11.  &lt;h1 class="form-title"&lt;Registration&lt;/h1&lt;: Ini adalah elemen judul utama (heading) dengan kelas CSS "form-title" yang berisi teks "Registration".
+11.  &lt;h1 class="form-title"&gt;Registration&lt;/h1&gt;: Ini adalah elemen judul utama (heading) dengan kelas CSS "form-title" yang berisi teks "Registration".
 
-12.  &lt;form action="index.html"&lt;: Ini adalah elemen formulir dengan atribut action yang menentukan ke mana data formulir akan dikirim setelah di-submit (dalam hal ini, ke "index.html").
+12.  &lt;form action="index.html"&gt;: Ini adalah elemen formulir dengan atribut action yang menentukan ke mana data formulir akan dikirim setelah di-submit (dalam hal ini, ke "index.html").
 
-13.  &lt;div class="main-user-info"&lt;: Ini adalah div yang mengelompokkan elemen-elemen yang berisi informasi utama pengguna.
+13.  &lt;div class="main-user-info"&gt;: Ini adalah div yang mengelompokkan elemen-elemen yang berisi informasi utama pengguna.
 
-14.  &lt;div class="user-input-box"&lt;: Ini adalah div dengan kelas CSS "user-input-box" yang mengelompokkan setiap kolom input.
+14.  &lt;div class="user-input-box"&gt;: Ini adalah div dengan kelas CSS "user-input-box" yang mengelompokkan setiap kolom input.
 
-15.  &lt;label for="fullName"&lt;Full Name&lt;/label&lt;: Ini adalah label yang terkait dengan kolom input untuk "Full Name". Label ini membantu dalam mengidentifikasi input.
+15.  &lt;label for="fullName"&gt;Full Name&lt;/label&gt;: Ini adalah label yang terkait dengan kolom input untuk "Full Name". Label ini membantu dalam mengidentifikasi input.
 
-16.  &lt;input type="text" id="fullName" name="fullName" placeholder="Enter Full Name"/&lt;: Ini adalah elemen input teks untuk "Full Name" dengan atribut id, name, dan placeholder yang menggambarkan input.
+16.  &lt;input type="text" id="fullName" name="fullName" placeholder="Enter Full Name"/&gt;: Ini adalah elemen input teks untuk "Full Name" dengan atribut id, name, dan placeholder yang menggambarkan input.
 
-17.  &lt;div class="gender-details-box"&lt;: Ini adalah div yang mengelompokkan elemen-elemen yang berkaitan dengan informasi gender pengguna.
+17.  &lt;div class="gender-details-box"&gt;: Ini adalah div yang mengelompokkan elemen-elemen yang berkaitan dengan informasi gender pengguna.
 
-18.  &lt;span class="gender-title"&lt;Gender&lt;/span&lt;: Ini adalah elemen teks yang menggambarkan "Gender".
+18.  &lt;span class="gender-title"&gt;Gender&lt;/span&gt;: Ini adalah elemen teks yang menggambarkan "Gender".
 
-19.  &lt;div class="gender-category"&lt;: Ini adalah div yang mengelompokkan elemen-elemen yang berhubungan dengan pilihan gender.
+19.  &lt;div class="gender-category"&gt;: Ini adalah div yang mengelompokkan elemen-elemen yang berhubungan dengan pilihan gender.
 
-20.  &lt;div class="form-submit-btn"&lt;: Ini adalah div yang mengelompokkan tombol "Register".
+20.  &lt;div class="form-submit-btn"&gt;: Ini adalah div yang mengelompokkan tombol "Register".
 
-21.  &lt;input type="submit" value="Register"&lt;: Ini adalah tombol "Register" yang akan mengirimkan data formulir ketika diklik.
+21.  &lt;input type="submit" value="Register"&gt;: Ini adalah tombol "Register" yang akan mengirimkan data formulir ketika diklik.
 
-22.  &lt;/form&lt;: Menutup elemen formulir.
+22.  &lt;/form&gt;: Menutup elemen formulir.
 
-23.  &lt;/div&lt;: Menutup div dengan kelas CSS "container".
+23.  &lt;/div&gt;: Menutup div dengan kelas CSS "container".
 
-24.  &lt;/body&lt;: Menutup elemen tubuh halaman HTML.
+24.  &lt;/body&gt;: Menutup elemen tubuh halaman HTML.
 
-25.  &lt;/html&lt;: Menutup elemen HTML.
+25.  &lt;/html&gt;: Menutup elemen HTML.
 
 **PENJELASAN HTML RESET PASSWORD PAGE :**
-1. &lt;!DOCTYPE html&lt;: Ini adalah deklarasi dokumen HTML yang memberi tahu browser bahwa dokumen ini adalah dokumen HTML, dan menggunakan bahasa Inggris ("en").
+1. &lt;!DOCTYPE html&gt;: Ini adalah deklarasi dokumen HTML yang memberi tahu browser bahwa dokumen ini adalah dokumen HTML, dan menggunakan bahasa Inggris ("en").
 
-2. &lt;html lang="en"&lt;: Tag pembuka untuk elemen HTML dengan atribut "lang" yang menunjukkan bahasa dokumen (dalam hal ini, bahasa Inggris).
+2. &lt;html lang="en"&gt;: Tag pembuka untuk elemen HTML dengan atribut "lang" yang menunjukkan bahasa dokumen (dalam hal ini, bahasa Inggris).
 
-3. &lt;head&lt;: Bagian kepala dokumen HTML yang mengandung informasi tentang dokumen, seperti judul, karakter set, dan tautan ke file eksternal.
+3. &lt;head&gt;: Bagian kepala dokumen HTML yang mengandung informasi tentang dokumen, seperti judul, karakter set, dan tautan ke file eksternal.
 
-4. &lt;meta charset="UTF-8"&lt;: Mendefinisikan karakter set dokumen sebagai UTF-8, yang adalah karakter set umum yang digunakan untuk dokumen web.
+4. &lt;meta charset="UTF-8"&gt;: Mendefinisikan karakter set dokumen sebagai UTF-8, yang adalah karakter set umum yang digunakan untuk dokumen web.
 
-5. &lt;title&lt;Reset Password Page&lt;/title&lt;: Ini adalah judul halaman yang akan ditampilkan di tab browser.
+5. &lt;title&gt;Reset Password Page&lt;/title&gt;: Ini adalah judul halaman yang akan ditampilkan di tab browser.
 
 6. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&lt;: Ini adalah meta tag yang memberi petunjuk kepada Internet Explorer (IE) untuk menggunakan mode kompatibilitas terbaru.
 
