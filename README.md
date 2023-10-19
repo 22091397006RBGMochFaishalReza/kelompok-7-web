@@ -231,10 +231,10 @@ Persyaratan non-fungsional menunjukkan karakteristik berikut:
 
 |      ID      |          Parameter          |              Kebutuhan              |
 |--------------|-----------------------------|-------------------------------------|
-|1|Kinerja|Kinerja website dalam merespon dapat bekerja dengan maksimal dengan memberikan waktu respon yang cepat. Kapasitas dalam pembuatan website ini juga efektif untuk digunakan pengguna dalam waktu 24 jam dan berfungsi setiap hari.|
-|              |Reliability                  |                                     |
-|              |Ergonomy                     |                                     |
-|              |Portability                  |                                     |
+|1|Kinerja|Kinerja website dalam merespon dapat bekerja dengan maksimal dengan memberikan waktu respon yang cepat. Kapasitas dalam pembuatan website ini juga efektif untuk digunakan pengguna dalam waktu 24 jam dan berfungsi setiap hari. Efisiensi website harus dapat dioptimalkan sesuai server|
+|2|Keamanan|Website dapat memiliki fitur perlindungan data atau informasi pribadi. Informasi pribadi pengguna dan data transaksi harus dienkripsi dan dilindungi dengan baik untuk mencegah akses-akses yang terlarang. Sistem pada website harus memiliki kontrol otentikasi dan otorisasi yang kuat dan tingkat akses pengguna yang sesuai.|
+|3|Scalability|Website harus dapat meningkatkan kemampuan atau fitut-fiturnya. Website harus dapat dengan mudah ditingkatkan untuk mengakomodasi pertumbuhan pengguna dan produk yang lebih besar.|
+|4|Pengalaman Pengguna(User Experience)|Website harus memiliki navigasi yang mudah. Website harus memiliki interface yang mudah dinavigasi, dengan pencarian yang efisien dan filter produk yang baik. Website harus memiliki kecepatan dan keterbacaan dengan baik. Halaman website harus dimuat dengan cepat, dan harus mudah dibaca dan dimengerti. Website harus memiliki desain yang menarik dan mengundang pengguna untuk menjelajah dan berbelanja.|
 |              |Memory                       |                                     |
 |              |Response time                |                                     |
 |              |Safety                       |N/A                                  |
