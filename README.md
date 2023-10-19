@@ -219,7 +219,15 @@ Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat w
 
 **5. Non Functional Requirements**
 
-<Uraikan dengan ringkas kebutuhan non fungsional dalam tabel sebagai berikut. Isilah Kolom Kebutuhan dengan kalimat yang jelas dan kelak dapat ditest untuk dipenuhi. ID adalah nomor kebutuhan yang harus ditelusuri pada saat test. Tuliskan N/A bila Not Applicable>
+Persyaratan non-fungsional, sering disingkat NFR, melengkapi persyaratan fungsional dengan menentukan bagaimana sistem perangkat lunak harus menjalankan fungsi tertentu. Developer mendefinisikan kualitas, karakteristik, dan batasan sistem, bukan fitur spesifiknya. Intinya, persyaratan non-fungsional menetapkan standar kinerja, keamanan, dan kegunaan sistem.
+
+Karakteristik Persyaratan Non Fungsional
+
+Persyaratan non-fungsional menunjukkan karakteristik berikut:
+- Kualitatif: Berbeda dengan persyaratan fungsional, yang biasanya bersifat kuantitatif, persyaratan non-fungsional berfokus pada aspek kualitatif seperti kinerja, keandalan, dan keamanan.
+- Global: Persyaratan non-fungsional berlaku untuk keseluruhan sistem dan berdampak pada perilakunya secara keseluruhan.
+- Stabilitas: Mereka umumnya lebih stabil sepanjang siklus hidup proyek, dengan perubahan yang lebih jarang terjadi dibandingkan dengan persyaratan fungsional.
+- Dapat diukur: Meskipun persyaratan non-fungsional mungkin sulit untuk diukur secara tepat, persyaratan tersebut masih dapat diukur dan diuji.
 
 |      ID      |          Parameter          |              Kebutuhan              |
 |--------------|-----------------------------|-------------------------------------|
