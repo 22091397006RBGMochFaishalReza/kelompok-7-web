@@ -10,6 +10,10 @@
     transition: .2s linear;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
