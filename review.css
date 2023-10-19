@@ -26,9 +26,8 @@ header{
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0);
 }
 header .logo img {
-    /* Tambahkan properti berikut untuk mengatur lebar dan tinggi logo */
-    width: 30px; /* Sesuaikan dengan ukuran yang Anda inginkan */
-    height: auto; /* Ini akan menjaga rasio aspek agar tidak terdistorsi */
+    width: 30px;
+    height: auto; 
 }
 
 header .navbar a{
@@ -56,7 +55,7 @@ header .icons a:hover{
     text-align: center;
     font-size: 5rem; 
     color: #333;
-    padding: 1rem;
+    padding: 4rem;
     margin: 2rem 0;
     background: rgba(100, 168, 237, 0.212);
 }
