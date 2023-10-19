@@ -227,25 +227,10 @@ Persyaratan non-fungsional menunjukkan karakteristik berikut:
 |2|Keamanan|Website dapat memiliki fitur perlindungan data atau informasi pribadi. Informasi pribadi pengguna dan data transaksi harus dienkripsi dan dilindungi dengan baik untuk mencegah akses-akses yang terlarang. Sistem pada website harus memiliki kontrol otentikasi dan otorisasi yang kuat dan tingkat akses pengguna yang sesuai.|
 |3|Scalability|Website harus dapat meningkatkan kemampuan atau fitut-fiturnya. Website harus dapat dengan mudah ditingkatkan untuk mengakomodasi pertumbuhan pengguna dan produk yang lebih besar.|
 |4|Pengalaman Pengguna(User Experience)|Website harus memiliki navigasi yang mudah. Website harus memiliki interface yang mudah dinavigasi, dengan pencarian yang efisien dan filter produk yang baik. Website harus memiliki kecepatan dan keterbacaan dengan baik. Halaman website harus dimuat dengan cepat, dan harus mudah dibaca dan dimengerti. Website harus memiliki desain yang menarik dan mengundang pengguna untuk menjelajah dan berbelanja.|
-|              |Memory                       |                                     |
-|              |Response time                |                                     |
-|              |Safety                       |N/A                                  |
-|              |Security                     |                                     |
-|              |                             |                                     |
-|              |Others 1: Bahasa komunikasi  |Misalnya : semua tanya jawab harus dalam bahasa Indonesia|
-|              |                             |Setiap layar harus mengandung logo PT Pos Indonesia|
-|              |                             |                                     |
+|5|Kualitas dan Ketersediaan Data|Memastikan data produk mulai dari nama produk, harga produk, dan ketersediaan produk atau tidaknya harus diperbarui secara real time untuk menghindari kesalahan dalam pemesanan maupun penjualan yang dilakukan oleh pengguna.|
+|6|Bahasa|Pengguanaan bahasa dalam website menggunakan bahasa Indonesia dan ada beberapa sebagian menggunakan bahasa Inggris.|
 
-Catatan :
-Availability : ketersediaan aplikasi, misalnya harus terus menerus beroperasi 7 hari perminggu, 24 jam per haritanpa gagal
-Reliability : keandalan, misalnya tidak pernah boleh gagal(atau kegagalan yang ditolerir adalah …%)  sehingga harus dipikirkan fault tolerant architecture. Biasanya hanya perlu untuk Critical Application yang jika gagal akan berakibat fatal.
-Ergonomy : kenyamanan pakai bagi pengguna
-Portability : kemudahan untuk dibawa dan dioperasikan ke mesin/sistem operasi/platform yang lain
-Memory : jika perhitungan kapasitas memori internal kritis (misalnya untuk SW yang harus dijadikan CHIPS dan ukurannya harus kecil
-Response time : Batasan waktu yang harus dipenuhi. Sangat penting untuk aplikasi Real Time. Contoh: “Aaplikasi harus mampu menampilkan hasil dalam 4 detik”, atau “ATM harus menarik kembali kartu yang tidak diambil dalam waktu 3 menit”
-Safety: yang menyangkut keselamatan manusia, misalnya untuk SW yang dipakai pada sistem kontrol di pabrik
-Security : aspek keamanan yang harus dipenuhi
-
+Catatan : Memahami serta memenuhi persyaratan non-fungsional ini akan membantu memastikan bahwa website jual beli makanan/snack dapat memberikan pengalaman yang baik dan aman bagi pengguna, serta dapat terus berkembang untuk kedepannya. 
 
 # Kelompok-7-Web
 
