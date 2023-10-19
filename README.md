@@ -324,13 +324,13 @@ Tulis dengan urut dan benar.
 23. &lt;img src="assets/image login.png" alt=""&gt; : Ini adalah elemen gambar yang menampilkan gambar "image login.png" dari direktori "assets" dengan atribut alternatif kosong (alt).
 
 **PENJELASAN HTML REGISTER PAGE :**
-1. &lt;!DOCTYPE html&lt;: Ini adalah deklarasi dokumen yang memberi tahu browser bahwa dokumen ini adalah dokumen HTML.
+1. &lt;!DOCTYPE html&gt;: Ini adalah deklarasi dokumen yang memberi tahu browser bahwa dokumen ini adalah dokumen HTML.
 
-2.  &lt;html&lt;: Tag pembuka untuk elemen HTML. Semua konten HTML harus berada di dalam tag ini.
+2.  &lt;html&gt;: Tag pembuka untuk elemen HTML. Semua konten HTML harus berada di dalam tag ini.
 
-3.  &lt;head&lt;: Bagian kepala dokumen HTML yang mengandung informasi tentang dokumen, seperti judul, karakter set, dan tautan ke file eksternal.
+3.  &lt;head&gt;: Bagian kepala dokumen HTML yang mengandung informasi tentang dokumen, seperti judul, karakter set, dan tautan ke file eksternal.
 
-4.  &lt;meta charset="utf-8" /&lt;: Mendefinisikan karakter set dokumen sebagai UTF-8, yang merupakan karakter set umum yang digunakan untuk dokumen web.
+4.  &lt;meta charset="utf-8" /&gt;: Mendefinisikan karakter set dokumen sebagai UTF-8, yang merupakan karakter set umum yang digunakan untuk dokumen web.
 
 5.  &lt;title&lt;Registration Page</title>: Ini adalah judul halaman yang akan ditampilkan di tab browser.
 
