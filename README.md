@@ -223,8 +223,7 @@ Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat w
 
 |      ID      |          Parameter          |              Kebutuhan              |
 |--------------|-----------------------------|-------------------------------------|
-|1|Kinerja|Kinerja website dalam merespon dapat bekerja dengan maksimal dengan memberikan waktu respon yang cepat. 
-Kapasitas dalam pembuatan website ini juga efektif untuk digunakan pengguna dalam waktu 24 jam dan berfungsi setiap hari.|
+|1|Kinerja|Kinerja website dalam merespon dapat bekerja dengan maksimal dengan memberikan waktu respon yang cepat. Kapasitas dalam pembuatan website ini juga efektif untuk digunakan pengguna dalam waktu 24 jam dan berfungsi setiap hari.|
 |              |Reliability                  |                                     |
 |              |Ergonomy                     |                                     |
 |              |Portability                  |                                     |
