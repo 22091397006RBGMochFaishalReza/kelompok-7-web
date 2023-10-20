@@ -15,6 +15,15 @@ body {    font-family: Arial, sans-serif; /* Mengatur jenis font */
     position: relative; /*untuk mengendalikan posisi elemen di dalamnya */
     height: 100vh; /* Menyamakan tinggi dengan tinggi viewport */}
 
+/* Styling Logo */
+.logo {
+    position: absolute; /* Mengatur posisi elemen sebagai absolute */
+    left: 20px; /* Jarak dari sisi kiri elemen ke tepi kiri kontainer */
+    top: 20px; /* Jarak dari sisi atas elemen ke tepi atas kontainer */
+    font-size: 24px; /* Ukuran font 24 piksel */
+    font-weight: bold; /* Ketebalan font tebal */
+}
+
 
 /* Styling Header */
 header {
@@ -27,14 +36,6 @@ header {
     box-shadow: none; /* Menghilangkan bayangan (shadow) pada header */
 }
 
-/* Styling Logo */
-.logo {
-    position: absolute; /* Mengatur posisi elemen sebagai absolute */
-    left: 20px; /* Jarak dari sisi kiri elemen ke tepi kiri kontainer */
-    top: 20px; /* Jarak dari sisi atas elemen ke tepi atas kontainer */
-    font-size: 24px; /* Ukuran font 24 piksel */
-    font-weight: bold; /* Ketebalan font tebal */
-}
 
 /* Styling konten */
 
@@ -80,6 +81,7 @@ header {
     border-radius: 5px; /* Membuat sudut elemen menjadi agak bulat */
     margin-right: 10px; /* Jarak kanan antara tombol */
     font-weight: bold; /* Teks menjadi tebal */
+    transition: background-color 0.3s ease;
 }
 .login-register a:hover {
     background-color: cadetblue;
