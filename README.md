@@ -629,6 +629,32 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN HTML LEARN MORE PAGE :**
 
+1. &lt;!DOCTYPE html&gt;': Ini adalah deklarasi dokumen HTML yang memberi tahu browser bahwa halaman ini adalah dokumen HTML.
+
+2. &lt;html lang="en"&gt;: Ini adalah elemen awal yang menandakan awal dari dokumen HTML. lang="en" menandakan bahwa bahasa yang digunakan dalam halaman ini adalah bahasa Inggris.
+
+3. &lt;head&gt;: Ini adalah bagian kepala dokumen HTML. Biasanya, di sini Anda akan menaruh informasi-informasi yang berkaitan dengan halaman web, seperti meta tag, judul halaman, dan tautan ke berkas-berkas eksternal.
+
+4. &lt;meta charset="UTF-8"&gt;: Ini adalah meta tag yang mengindikasikan bahwa karakter encoding yang digunakan adalah UTF-8, yang merupakan encoding umum untuk dokumen web.
+
+5. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;: Ini adalah meta tag yang digunakan untuk mengatur mode kompatibilitas Internet Explorer.
+
+6. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Ini adalah meta tag yang digunakan untuk mengatur tampilan halaman web di perangkat seluler. Dengan mengatur viewport, Anda memastikan bahwa halaman web akan responsif.
+
+7. &lt;title&gt;Learn More&lt;/title&gt;: Ini adalah judul dari halaman web yang akan ditampilkan di tab browser.
+
+8. &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"&gt;: Ini adalah tautan ke berkas CSS eksternal dari Font Awesome, yang digunakan untuk ikon-ikon.
+
+9. &lt;link rel="stylesheet" href="learn more.css"&gt;: Ini adalah tautan ke berkas CSS lokal yang digunakan untuk mengatur tampilan halaman web.
+
+10. &lt;body&gt;: Ini adalah elemen tubuh dokumen HTML, di mana konten utama halaman web akan ditempatkan.
+
+11. &lt;div class="containers"&gt;: Ini adalah div dengan kelas "containers" yang digunakan untuk mengelompokkan konten halaman web.
+
+12. &lt;h1 class="heading"&gt;&lt;span&gt;Our&lt;/span&gt; Team&lt;/h1&gt;: Ini adalah elemen judul h1 dengan kelas "heading", yang mungkin digunakan untuk menampilkan judul halaman. Teks "Our" dikelilingi oleh elemen &lt;span&gt;, yang memungkinkan untuk pengaturan gaya khusus dalam CSS.
+
+13. &lt;div class="profiles"&gt;: Ini adalah div dengan kelas "profiles" yang digunakan untuk mengelompokkan profil tim.
+
 
 <h2>PENJELASAN CSS</h2>
 
