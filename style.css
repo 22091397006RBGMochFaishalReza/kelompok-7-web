@@ -4,92 +4,173 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif; 
-    background-image: url('assets/background.jpg'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    overflow: hidden; 
-    color: #0f0b0a; 
-    position: relative; 
-    height: 100vh; 
-}
+/* Styling Body */
+body {    font-family: Arial, sans-serif; /* Mengatur jenis font */
+    background-image: url('assets/background.jpg'); /* Mengatur gambar latar belakang di body */
+    background-size: cover; /* Mengatur tampilan latar belakang agar mencakup seluruh area elemen */
+    background-repeat: no-repeat; /* Mengatur agar gambar latar belakang tidak diulang */
+    background-position: center; /* Mengatur posisi gambar latar belakang ke tengah */
+    overflow: hidden; /* Mencegah scroll pada halaman utama */
+    color: #0f0b0a; /* Mengatur warna teks pada latar belakang */
+    position: relative; /*untuk mengendalikan posisi elemen di dalamnya */
+    height: 100vh; /* Menyamakan tinggi dengan tinggi viewport */}
 
+
+/* Styling Header */
 header {
-    position: relative;
+    position: absolute; /* Header ditempatkan di bagian atas dengan posisi absolut */
+    top: 0; /* Header dimulai dari bagian atas halaman */
+    left: 0; /* Header dimulai dari sisi kiri halaman */
+    right: 0; /* Header berakhir di sisi kanan halaman */
     height: 80px; /* Mengatur tinggi header */
-    background-color: transparent;
-    box-shadow: none;
+    background-color: transparent; /* Menghilangkan warna latar belakang header */
+    box-shadow: none; /* Menghilangkan bayangan (shadow) pada header */
 }
 
+/* Styling Logo */
 .logo {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20px;
-    width: 80px;
-    height: auto;
+    position: absolute; /* Mengatur posisi elemen sebagai absolute */
+    left: 20px; /* Jarak dari sisi kiri elemen ke tepi kiri kontainer */
+    top: 20px; /* Jarak dari sisi atas elemen ke tepi atas kontainer */
+    font-size: 24px; /* Ukuran font 24 piksel */
+    font-weight: bold; /* Ketebalan font tebal */
 }
 
-.logo-image {
-    width: 100%; 
-    height: auto;
-}
-
-.login-register {
-    position: absolute; 
-    top: 50%; /*20px; 
-    transform: translateY(-50%);
-    right: 20px; 
-}
-
-.login-register a {
-    text-decoration: none;
-    color: #fff; 
-    background-color: black; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    margin-right: 10px; 
-    font-weight: bold; 
-    transition: background-color 1s ease;
-}
-
-.login-register a:hover {
-    background-color: cadetblue;
-    transition: background-color 0.3s ease;
-}
+/* Styling konten */
 
 .content {
-    padding: 20px; 
-    display: flex; 
-    justify-content: flex-end; 
-    align-items: center;
-    height: 100%; 
+    padding: 20px; /* Memberikan padding sebesar 20px di sekitar konten */
+    display: flex; /* Menggunakan tampilan fleksibel untuk mengatur susunan elemen-elemen di dalam konten */
+    justify-content: flex-end; /* Mengatur konten agar terletak di sebelah kanan */
+    align-items: center; /* Pusatkan konten secara vertikal */
+    height: 100%; /* Mengisi tinggi sepanjang tinggi viewport */
 }
 
 .left {
-    text-align: right; 
-    max-width: 50%; 
-    margin-left: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    text-align: right; /* Pusatkan horizontal ke kanan */
+    max-width: 50%; /* Maksimum lebar untuk menghindari tumpang tindih dengan tombol Login dan Register */
 }
 
+/* Styling Heading 1 */
 .left h1 {
-    font-size: 3em; 
-    margin-bottom: 20px; 
-    position: relative;
-    top: -90px;
+    font-size: 3em; /* Mengatur ukuran font menjadi 3em (3 kali ukuran font standar) */
+    margin-bottom: 20px; /* Memberikan margin bawah sebesar 20px untuk menjaga jarak antara elemen-elemen */
 }
 
+/* Styling Paragraf */
 .left p {
-    font-size: 1.5em;
-    margin-bottom: 20px; 
-    position: relative;
-    top: -100px;
+    font-size: 1.5em; /* Mengatur ukuran font menjadi 1.5em (1.5 kali ukuran font standar) */
+    margin-bottom: 20px; /* Memberikan margin bawah sebesar 20px untuk menjaga jarak antara paragraf */
 }
 
 
+/* Styling Tombol Login dan Register */
+.login-register {
+    position: absolute; /* Tambahkan position: absolute */
+    top: 20px; /* Jarak dari atas */
+    right: 20px; /* Jarak dari kanan */
+}
+
+/* Styling Link Login dan Register */
+.login-register a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #fff; /* Warna teks putih */
+    background-color: #cdc5b6; /* Warna latar belakang dengan opacity */
+    padding: 10px 20px; /* Padding 10px atas dan bawah, 20px kiri dan kanan */
+    border-radius: 5px; /* Membuat sudut elemen menjadi agak bulat */
+    margin-right: 10px; /* Jarak kanan antara tombol */
+    font-weight: bold; /* Teks menjadi tebal */
+}
+
+/*style reset password*/
+.wrapper{
+    background-color: #cdc5b6;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.08) 0px 4px 12px;
+}
+.title-section{
+    margin-bottom: 30px;
+}
+.title{
+    color: #0f0b0a;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.para{
+    color: #38475a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.input-group{
+    position: relative;
+}
+.input-group .label-title{
+    color: #38475a;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+}
+
+.input-group input{
+    width: 100%;
+    background-color: none;
+    color: #38475a;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #EAECF0;
+    padding: 9px 18px 9px 52px;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.input-group input::placeholder{
+    color: #38475a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-group .icon{
+    position: absolute;
+    color: #38475a;
+    left: 13px;
+    top:  calc(50% - 11px);
+    text-align: center;
+    font-size: 23px;
+}
+.submit-btn{
+    width: 100%;
+    background-color: #cdc5b6;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    padding: 13px 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    opacity: 0.95;
+}
