@@ -82,7 +82,7 @@ header {
     font-weight: bold; /* Teks menjadi tebal */
 }
 .login-register:hover {
-    background-color: codetblue;
+    background-color: cadetblue;
     transition: background-color 0.3s ease;
 }
 
