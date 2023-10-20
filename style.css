@@ -20,8 +20,8 @@ body {    font-family: Arial, sans-serif; /* Mengatur jenis font */
     position: absolute; /* Mengatur posisi elemen sebagai absolute */
     left: 20px; /* Jarak dari sisi kiri elemen ke tepi kiri kontainer */
     top: 20px; /* Jarak dari sisi atas elemen ke tepi atas kontainer */
-    font-size: 24px; /* Ukuran font 24 piksel */
-    font-weight: bold; /* Ketebalan font tebal */
+    width: 50px;
+    height: auto;
 }
 
 
