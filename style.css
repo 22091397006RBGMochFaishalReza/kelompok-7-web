@@ -81,6 +81,10 @@ header {
     margin-right: 10px; /* Jarak kanan antara tombol */
     font-weight: bold; /* Teks menjadi tebal */
 }
+.login-register:hover {
+    background-color: codetblue;
+    transition: background-color 0.3s ease;
+}
 
 /*style reset password*/
 .wrapper{
