@@ -659,3 +659,76 @@ Tulis dengan urut dan benar.
 <h2>PENJELASAN CSS</h2>
 
 **PENJELASAN STYLE CSS :**
+
+1. * { ... }: Ini adalah selektor universal (*) yang digunakan untuk mengatur nilai-nilai dasar (reset) untuk semua elemen HTML di halaman web. Dalam kasus ini:
+margin: 0;: Menghapus margin bawaan pada elemen HTML.
+padding: 0;: Menghapus padding bawaan pada elemen HTML.
+box-sizing: border-box;: Mengatur model kotak (box model) menjadi "border-box", yang membuat lebar dan tinggi elemen termasuk border dan padding, sehingga menghindari masalah perhitungan ukuran.
+
+2. body { ... }: Ini adalah aturan CSS untuk elemen <body> dalam halaman HTML:
+
+font-family: Arial, sans-serif;: Mengatur jenis font untuk teks dalam elemen body.
+background-image: url('assets/background.jpg');: Menetapkan gambar latar belakang untuk halaman dengan gambar 'background.jpg' dari direktori 'assets'.
+background-size: cover;: Mengatur gambar latar belakang agar mencakup seluruh area elemen <body>.
+background-repeat: no-repeat;: Mencegah gambar latar belakang diulang.
+background-position: center;: Menempatkan gambar latar belakang di tengah elemen <body>.
+overflow: hidden;: Menghilangkan overflow, sehingga tidak akan ada gulir vertikal atau horizontal.
+color: #0f0b0a;: Menentukan warna teks dalam elemen <body>.
+position: relative;: Mengatur posisi elemen <body> sebagai relatif.
+height: 100vh;: Mengatur tinggi elemen <body> menjadi tinggi viewport (100% dari tinggi jendela browser).
+
+3. header { ... }: Ini adalah aturan CSS untuk elemen dengan kelas "header":
+
+position: absolute;: Mengatur posisi elemen header menjadi absolut, sehingga akan tetap di atas halaman.
+top: 0; left: 0; right: 0;: Membuat elemen header terisi seluruh lebar halaman.
+height: 80px;: Mengatur tinggi elemen header menjadi 80 piksel.
+background-color: transparent;: Mengatur latar belakang elemen header menjadi transparan.
+box-shadow: none;: Menghapus bayangan (shadow) elemen header.
+
+4. .logo { ... }: Ini adalah aturan CSS untuk elemen dengan kelas "logo":
+
+position: absolute;: Mengatur posisi elemen logo menjadi absolut.
+left: 20px; top: 20px;: Mengatur posisi logo pada sudut kiri atas header dengan jarak 20 piksel dari atas dan kiri.
+font-size: 24px; font-weight: bold;: Mengatur ukuran dan bobot teks untuk elemen logo.
+
+5. .content { ... }: Ini adalah aturan CSS untuk elemen dengan kelas "content":
+
+padding: 20px;: Memberikan padding 20 piksel di sekitar elemen "content".
+display: flex;: Menggunakan model tampilan flexbox.
+justify-content: flex-end;: Mengatur konten dalam elemen "content" agar mengisi sisi kanan secara seimbang.
+align-items: center;: Mengatur elemen dalam "content" agar berada di tengah secara vertikal.
+height: 100%;: Mengatur tinggi elemen "content" menjadi 100% dari tinggi elemen "body".
+
+6. .left { ... }: Ini adalah aturan CSS untuk elemen dengan kelas "left":
+
+text-align: right;: Mengatur teks dalam elemen "left" agar terletak di sebelah kanan.
+max-width: 50%;: Mengatur lebar maksimum elemen "left" agar tidak melebihi 50% dari lebar elemen "content".
+
+7. .left h1 { ... }: Ini adalah aturan CSS untuk elemen <h1> yang berada dalam elemen "left":
+
+font-size: 3em;: Mengatur ukuran teks judul menjadi 3 kali ukuran font dasar.
+margin-bottom: 20px;: Menambahkan jarak 20 piksel di bawah elemen <h1>.
+
+8. .left p { ... }: Ini adalah aturan CSS untuk elemen <p> yang berada dalam elemen "left":
+
+font-size: 1.5em;: Mengatur ukuran teks paragraf menjadi 1.5 kali ukuran font dasar.
+margin-bottom: 20px;: Menambahkan jarak 20 piksel di bawah elemen <p>.
+
+9. .login-register { ... }: Ini adalah aturan CSS untuk elemen dengan kelas "login-register":
+
+position: absolute;: Mengatur posisi elemen "login-register" menjadi absolut.
+top: 20px; right: 20px;: Mengatur elemen "login-register" pada sudut kanan atas header dengan jarak 20 piksel dari atas dan kanan.
+
+10. .login-register a { ... }: Ini adalah aturan CSS untuk tautan yang berada dalam elemen "login-register":
+
+text-decoration: none;: Menghapus dekorasi tautan seperti garis bawah.
+color: #fff;: Mengatur warna teks tautan menjadi putih.
+background-color: #333;: Mengatur latar belakang tautan menjadi warna abu-abu gelap.
+padding: 10px 20px;: Memberikan ruang bantal (padding) pada tautan.
+border-radius: 5px;: Mengatur sudut elemen tautan menjadi sedikit melengkung (bulat).
+margin-right: 10px;: Menambahkan jarak sebesar 10 piksel di sebelah kanan tautan.
+font-weight: bold;: Mengatur bobot teks tautan menjadi tebal.
+
+11. .login-register a:hover { ... }: Ini adalah aturan CSS untuk tautan saat diklik (hover state):
+background-color: cadetblue;: Mengubah warna latar belakang tautan menjadi "cadetblue" saat kursor berada di atasnya.
+transition: background-color 0.3s ease;: Mengatur transisi untuk perubahan warna latar belakang agar halus selama 0.3 detik dengan efek "ease".
