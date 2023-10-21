@@ -259,6 +259,16 @@ header .icons a:hover{
     max-width: 100%; 
 }
 
+.bakso  {
+    height: auto; 
+    max-width: 100%; 
+}
+
+.nasi  {
+    height: auto; 
+    max-width: 100%; 
+}
+
 .review {
     background: #fff;
     padding: 2rem 0;
