@@ -660,7 +660,7 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN STYLE CSS :**
 
-1. * { ... }: Ini adalah selektor universal (*) yang digunakan untuk mengatur nilai-nilai dasar (reset) untuk semua elemen HTML di halaman web. Dalam kasus ini:
+1. (*) { ... }: Ini adalah selektor universal (*) yang digunakan untuk mengatur nilai-nilai dasar (reset) untuk semua elemen HTML di halaman web. Dalam kasus ini:
 margin: 0;: Menghapus margin bawaan pada elemen HTML.
 padding: 0;: Menghapus padding bawaan pada elemen HTML.
 box-sizing: border-box;: Mengatur model kotak (box model) menjadi "border-box", yang membuat lebar dan tinggi elemen termasuk border dan padding, sehingga menghindari masalah perhitungan ukuran.
@@ -735,7 +735,7 @@ transition: background-color 0.3s ease;: Mengatur transisi untuk perubahan warna
 
 **PENJELASAN LOGIN CSS :**
 
-1. * (Universal Selector):
+1. (*) (Universal Selector):
 
 Ini adalah pemilihan universal yang berlaku untuk semua elemen HTML pada halaman. Pada kode ini, beberapa properti gaya akan diterapkan ke semua elemen.
 body:
@@ -838,7 +838,7 @@ margin-top: 5px;: Memberikan margin di atas tautan.
 
 **PENJELASAN REGISTER CSS :**
 
-1. * (Universal Selector):
+1. (*) (Universal Selector):
 
 Ini adalah pemilihan universal yang berlaku untuk semua elemen HTML pada halaman. Pada kode ini, beberapa properti gaya akan diterapkan ke semua elemen.
 padding: 0;: Mengatur padding elemen menjadi 0.
