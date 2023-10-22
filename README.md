@@ -732,3 +732,103 @@ font-weight: bold;: Mengatur bobot teks tautan menjadi tebal.
 11. .login-register a:hover { ... }: Ini adalah aturan CSS untuk tautan saat diklik (hover state):
 background-color: cadetblue;: Mengubah warna latar belakang tautan menjadi "cadetblue" saat kursor berada di atasnya.
 transition: background-color 0.3s ease;: Mengatur transisi untuk perubahan warna latar belakang agar halus selama 0.3 detik dengan efek "ease".
+
+**PENJELASAN LOGIN CSS :**
+
+1. * (Universal Selector):
+
+Ini adalah pemilihan universal yang berlaku untuk semua elemen HTML pada halaman. Pada kode ini, beberapa properti gaya akan diterapkan ke semua elemen.
+body:
+Ini mengatur properti-properti gaya untuk elemen <body> halaman web.
+display: flex;: Ini membuat konten di dalam elemen body menggunakan display jenis flex, yang akan membantu dalam mengatur elemen di dalamnya.
+justify-content: center; dan align-items: center;: Ini akan mengatur konten di dalam elemen body ke tengah secara horizontal dan vertikal.
+min-height: 100vh;: Ini mengatur tinggi minimum elemen body agar sama dengan tinggi viewport (layar pengguna), sehingga background akan selalu menutupi seluruh tampilan.
+background: cadetblue;: Ini mengatur warna latar belakang body.
+
+2. .container:
+
+Ini adalah kelas yang diberikan kepada suatu elemen dalam dokumen HTML. Kode ini mengatur tampilan elemen dengan kelas .container.
+width: 100%;: Elemen dengan kelas .container akan memiliki lebar 100% dari lebar parent-nya.
+display: flex;: Konten di dalam elemen dengan kelas .container akan menggunakan display jenis flex.
+max-width: 850px;: Elemen .container tidak akan melebihi lebar maksimum 850px.
+background: #fff;: Latar belakang elemen akan berwarna putih.
+border-radius: 15px;: Elemen akan memiliki sudut bulat dengan radius 15px.
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);: Menerapkan efek bayangan pada elemen.
+
+3. .login:
+
+Ini adalah kelas yang diberikan kepada elemen dengan kelas .login. Elemen ini memiliki lebar 400px.
+form:
+
+Elemen ini adalah formulir pada halaman web.
+width: 250px;: Formulir memiliki lebar 250px.
+margin: 60px auto;: Menerapkan margin 60px di atas dan bawah serta otomatis menengah secara horizontal.
+
+4. h1:
+
+Mengatur properti gaya untuk elemen judul h1.
+margin: 20px;: Memberikan margin di sekitar judul.
+text-align: center;: Mengatur teks dalam judul ke tengah.
+font-weight: bolder;: Mengatur ketebalan huruf tebal.
+text-transform: uppercase;: Mengubah semua huruf dalam judul menjadi huruf besar.
+color: rgb(205, 186, 15);: Mengatur warna teks judul.
+
+5. hr:
+
+Ini adalah elemen garis horizontal (hr) yang digunakan untuk memisahkan elemen dalam formulir.
+border-top: 2px solid #cbdadc;: Mengatur garis horizontal dengan lebar 2px dan warna #cbdadc.
+
+6. p:
+
+Mengatur properti gaya untuk elemen teks paragraf (p).
+text-align: center;: Mengatur teks paragraf ke tengah.
+margin: 10px;: Memberikan margin di sekitar teks paragraf.
+color: #0f0b0a;: Mengatur warna teks.
+
+7. .right img:
+
+Ini adalah gambar yang berada dalam elemen dengan kelas .right.
+width: 450px;: Mengatur lebar gambar menjadi 450px.
+height: 100%;: Gambar akan memiliki tinggi yang mengisi elemen yang mengandungnya.
+border-top-right-radius: 15px; dan border-bottom-right-radius: 15px;: Mengatur sudut bulat pada sudut kanan atas dan bawah gambar.
+
+8. form label:
+
+Mengatur properti gaya untuk label dalam formulir.
+display: block;: Label akan ditampilkan sebagai blok, sehingga akan berada di bawah elemen yang terkait.
+font-size: 16px;: Mengatur ukuran font label.
+font-weight: 600;: Mengatur ketebalan huruf.
+padding: 5px;: Memberikan padding di sekitar label.
+
+9. input:
+
+Mengatur properti gaya untuk input dalam formulir.
+width: 100%;: Input akan mengisi lebar maksimum yang tersedia.
+margin: 2px;: Memberikan margin sekitar input.
+border: none; dan outline: none;: Menghilangkan border dan outline (garis tepi dan garis pinggir) dari input.
+padding: 8px;: Memberikan padding di dalam input.
+border-radius: 5px;: Mengatur sudut bulat pada input.
+border: 1px solid gray;: Memberikan border 1px solid dengan warna abu-abu pada input.
+
+10. button:
+
+Mengatur properti gaya untuk tombol dalam formulir.
+border: none; dan outline: none;: Menghilangkan border dan outline dari tombol.
+padding: 8px;: Memberikan padding pada tombol.
+width: 252px;: Mengatur lebar tombol.
+color: #fff;: Mengatur warna teks pada tombol.
+font-size: 16px;: Mengatur ukuran font pada tombol.
+cursor: pointer;: Mengubah ikon kursor menjadi tanda tangan saat mengarah ke tombol.
+margin-top: 20px;: Memberikan margin di atas tombol.
+border-radius: 5px;: Mengatur sudut bulat pada tombol.
+background: #333;: Mengatur warna latar belakang tombol.
+
+11. button:hover:
+
+Ini adalah properti khusus untuk tombol saat digerakkan (hover).
+background: cadetblue;: Mengubah warna latar belakang tombol menjadi cadetblue saat kursor berada di atasnya.
+transition: background-color 0.3s ease;: Mengatur
+
+**PENJELASAN REGISTER CSS :**
+
+1. 
