@@ -1984,21 +1984,21 @@ Mengatur efek hover saat pengguna mengarahkan kursor ke tombol, mengubah latar b
 
 **PENJELASAN CART JS :**
 
-1. Pertama, Anda memilih beberapa elemen HTML dengan menggunakan document.querySelector(). Anda mengambil elemen-elemen seperti openShopping, closeShopping, list, listCard, body, total, dan quantity dengan tujuan untuk berinteraksi dengannya dalam kode JavaScript.
+1. Langkah pertama adalah dengan memilih beberapa elemen HTML dengan menggunakan document.querySelector(). Mengambil elemen-elemen seperti openShopping, closeShopping, list, listCard, body, total, dan quantity dengan tujuan untuk berinteraksi dengannya dalam kode JavaScript.
 
-2. Anda menambahkan event listener pada elemen dengan kelas "shop" (dalam HTML: .shop) dengan menggunakan openShopping.addEventListener(). Ini berarti ketika elemen dengan kelas "shop" diklik (biasanya akan digunakan untuk membuka keranjang belanja), maka Anda memberikan kelas "active" ke elemen <body>. Ini biasanya digunakan untuk menunjukkan bahwa keranjang belanja sedang terbuka dan ada interaksi dengan keranjang belanja.
+2. Setelah itu menambahkan event listener pada elemen dengan kelas "shop" (dalam HTML: .shop) dengan menggunakan openShopping.addEventListener(). Ini berarti ketika elemen dengan kelas "shop" diklik (biasanya akan digunakan untuk membuka keranjang belanja), dengan memberikan kelas "active" ke elemen <body>. Ini biasanya digunakan untuk menunjukkan bahwa keranjang belanja sedang terbuka dan ada interaksi dengan keranjang belanja.
 
-3. Kemudian, Anda menambahkan event listener pada elemen dengan kelas "closeShopping" (dalam HTML: .closeShopping). Ketika elemen ini diklik, Anda menghapus kelas "active" dari elemen <body>. Ini digunakan untuk menutup keranjang belanja.
+3. Kemudian tambahkan event listener pada elemen dengan kelas "closeShopping" (dalam HTML: .closeShopping). Ketika elemen ini diklik, artinya kelas "active" dari elemen <body> dihapus. Ini digunakan untuk menutup keranjang belanja.
 
-4. Anda mendefinisikan daftar produk dalam bentuk array JavaScript yang disebut products. Setiap produk memiliki beberapa atribut seperti id, name, image, dan price. Produk ini nantinya akan digunakan untuk menampilkan daftar barang yang dapat ditambahkan ke keranjang belanja.
+4. Definisikan daftar produk dalam bentuk array JavaScript yang disebut products. Setiap produk memiliki beberapa atribut seperti id, name, image, dan price. Produk ini nantinya akan digunakan untuk menampilkan daftar barang yang dapat ditambahkan ke keranjang belanja.
 
-5. Selanjutnya, Anda mendefinisikan array kosong listCards yang akan digunakan untuk menyimpan barang-barang yang telah ditambahkan ke keranjang belanja.
+5. Selanjutnya, definisikan array kosong listCards yang akan digunakan untuk menyimpan barang-barang yang telah ditambahkan ke keranjang belanja.
 
-6. Anda membuat fungsi initApp() untuk menginisialisasi aplikasi. Fungsi ini digunakan untuk menampilkan daftar produk dari array products ke dalam elemen dengan kelas "list" (dalam HTML: .list). Setiap produk ditampilkan dalam elemen dengan kelas "item" yang berisi gambar produk, nama produk, harga produk, dan tombol "Add to Cart". Tombol "Add to Cart" memiliki atribut onclick yang memanggil fungsi addToCard(key) saat tombol tersebut diklik.
+6. Membuat fungsi initApp() untuk menginisialisasi aplikasi. Fungsi ini digunakan untuk menampilkan daftar produk dari array products ke dalam elemen dengan kelas "list" (dalam HTML: .list). Setiap produk ditampilkan dalam elemen dengan kelas "item" yang berisi gambar produk, nama produk, harga produk, dan tombol "Add to Cart". Tombol "Add to Cart" memiliki atribut onclick yang memanggil fungsi addToCard(key) saat tombol tersebut diklik.
 
-7. Anda mendefinisikan fungsi addToCard(key) yang digunakan untuk menambahkan produk ke dalam keranjang belanja. Jika produk belum ada di dalam keranjang belanja, produk tersebut akan disalin dari daftar products ke dalam listCards. Setiap produk di dalam listCards juga memiliki atribut quantity yang awalnya diatur ke 1.
+7. Lalu mendefinisikan fungsi addToCard(key) yang digunakan untuk menambahkan produk ke dalam keranjang belanja. Jika produk belum ada di dalam keranjang belanja, produk tersebut akan disalin dari daftar products ke dalam listCards. Setiap produk di dalam listCards juga memiliki atribut quantity yang awalnya diatur ke 1.
 
-8. Anda mendefinisikan fungsi reloadCard() yang digunakan untuk memperbarui tampilan keranjang belanja. Fungsi ini akan membersihkan isi dari elemen dengan kelas "listCard" (dalam HTML: .listCard) dan kemudian membangun kembali tampilan keranjang belanja berdasarkan isi dari array listCards. Selain itu, fungsi ini juga menghitung total harga dari semua barang yang ada dalam keranjang belanja serta jumlah total barang yang ada di keranjang belanja, dan menampilkannya pada elemen-elemen dengan kelas "total" (dalam HTML: .total) dan "quantity" (dalam HTML: .quantity).
+8. Mendefinisikan fungsi reloadCard() yang digunakan untuk memperbarui tampilan keranjang belanja. Fungsi ini akan membersihkan isi dari elemen dengan kelas "listCard" (dalam HTML: .listCard) dan kemudian membangun kembali tampilan keranjang belanja berdasarkan isi dari array listCards. Selain itu, fungsi ini juga menghitung total harga dari semua barang yang ada dalam keranjang belanja serta jumlah total barang yang ada di keranjang belanja, dan menampilkannya pada elemen-elemen dengan kelas "total" (dalam HTML: .total) dan "quantity" (dalam HTML: .quantity).
 
-9. Terakhir, Anda mengeksekusi fungsi initApp() untuk menginisialisasi aplikasi saat halaman web dimuat. Ini akan menampilkan daftar produk yang dapat ditambahkan ke keranjang belanja saat halaman dimuat.
+9. Terakhir, lakukan eksekusi fungsi initApp() untuk menginisialisasi aplikasi saat halaman web dimuat. Ini akan menampilkan daftar produk yang dapat ditambahkan ke keranjang belanja saat halaman dimuat.
 
