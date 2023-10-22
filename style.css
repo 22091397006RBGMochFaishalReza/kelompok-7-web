@@ -27,9 +27,9 @@ header {
 
 .logo {
     position: absolute; 
-    left: 20px; 
-    top: 20px; 
-    width: 50px; 
+    left: 10px; 
+    top: 10px; 
+    width: 100px; 
     height: auto;
 }
 
