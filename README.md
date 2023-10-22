@@ -704,7 +704,7 @@ height: 100%;: Mengatur tinggi elemen "content" menjadi 100% dari tinggi elemen 
 text-align: right;: Mengatur teks dalam elemen "left" agar terletak di sebelah kanan.
 max-width: 50%;: Mengatur lebar maksimum elemen "left" agar tidak melebihi 50% dari lebar elemen "content".
 
-7. .left h1 { ... }: Ini adalah aturan CSS untuk elemen h> yang berada dalam elemen "left":
+7. .left h1 { ... }: Ini adalah aturan CSS untuk elemen h1 yang berada dalam elemen "left":
 
 font-size: 3em;: Mengatur ukuran teks judul menjadi 3 kali ukuran font dasar.
 margin-bottom: 20px;: Menambahkan jarak 20 piksel di bawah elemen h1.
