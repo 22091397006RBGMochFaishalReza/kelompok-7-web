@@ -975,4 +975,984 @@ Ini adalah aturan CSS yang hanya berlaku ketika lebar viewport kurang dari atau 
 
 **PENJELASAN RESET PASSWORD CSS :**
 
-1. 
+1. @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');:
+
+Ini adalah aturan untuk mengimpor font Poppins dari Google Fonts untuk digunakan dalam halaman web.
+
+2. (*) (Universal Selector):
+
+Ini adalah pemilihan universal yang berlaku untuk semua elemen HTML pada halaman.
+margin: 0;: Mengatur margin elemen menjadi 0.
+padding: 0;: Mengatur padding elemen menjadi 0.
+box-sizing: border-box;: Mengatur model kotak elemen menjadi "border-box," yang berarti bahwa padding dan border akan dimasukkan dalam lebar dan tinggi elemen.
+font-family: 'Poppins', sans-serif;: Mengatur jenis font untuk seluruh teks di halaman web menjadi "Poppins," dengan cadangan jenis font "sans-serif" jika font Poppins tidak tersedia.
+
+3. .wrapper:
+
+Ini adalah kelas yang diberikan kepada elemen pembungkus konten di halaman web.
+background-color: cadetblue;: Mengatur warna latar belakang elemen.
+width: 100%;: Mengatur lebar elemen menjadi 100% dari lebar viewport (layar pengguna).
+height: 100vh;: Mengatur tinggi elemen menjadi 100% dari tinggi viewport.
+padding: 15px;: Memberikan padding pada elemen.
+display: flex;: Mengatur tampilan elemen dengan display jenis flex.
+justify-content: center; dan align-items: center;: Ini akan mengatur konten di dalam elemen ke tengah secara horizontal dan vertikal.
+
+4. .container:
+
+Ini adalah kelas yang diberikan kepada elemen kontainer utama di halaman web.
+width: 500px;: Mengatur lebar elemen kontainer.
+background-color: #fff;: Mengatur warna latar belakang elemen kontainer menjadi putih.
+padding: 30px;: Memberikan padding pada elemen kontainer.
+border-radius: 16px;: Mengatur sudut bulat dengan radius 16px.
+background-color: rgba(0,0,0,0.08) 0px 4px 12px;: Menerapkan efek bayangan pada elemen kontainer untuk memberikan kedalaman dan penekanan visual.
+
+5. .title-section:
+
+Ini adalah kelas yang diberikan kepada elemen yang berisi judul dan teks penjelasan.
+margin-bottom: 30px;: Memberikan margin di bagian bawah elemen ini.
+
+6. .title:
+
+Ini adalah kelas yang diberikan kepada elemen judul.
+color: rgb(205, 186, 15);: Mengatur warna teks judul.
+font-size: 25px;: Mengatur ukuran font judul.
+font-weight: 500;: Mengatur ketebalan huruf judul.
+text-transform: capitalize;: Mengubah teks menjadi huruf kapital awal.
+margin-bottom: 10px;: Memberikan margin di bagian bawah judul.
+
+7. .para:
+
+Ini adalah kelas yang diberikan kepada elemen teks penjelasan.
+color: #38475a;: Mengatur warna teks penjelasan.
+font-size: 16px;: Mengatur ukuran font teks penjelasan.
+font-weight: 400;: Mengatur ketebalan huruf teks penjelasan.
+line-height: 1.5;: Mengatur tinggi baris teks untuk memudahkan pembacaan.
+margin-bottom: 20px;: Memberikan margin di bagian bawah teks penjelasan.
+text-transform: capitalize;: Mengubah teks menjadi huruf kapital awal.
+
+8. .input-group:
+
+Ini adalah kelas yang diberikan kepada elemen untuk mengelola grup input.
+position: relative;: Mengatur posisi elemen menjadi relatif.
+
+9. .input-group .label-title:
+
+Ini adalah kelas yang diberikan kepada elemen label dalam grup input.
+color: #38475a;: Mengatur warna teks label.
+text-transform: capitalize;: Mengubah teks label menjadi huruf kapital awal.
+margin-bottom: 11px;: Memberikan margin di bagian bawah label.
+font-size: 14px;: Mengatur ukuran font label.
+display: block;: Mengatur label agar ditampilkan sebagai blok.
+font-weight: 500;: Mengatur ketebalan huruf label.
+
+10. .input-group input:
+
+Ini adalah kelas yang diberikan kepada elemen input dalam grup input.
+width: 100%;: Mengatur lebar input agar mengisi seluruh lebar grup.
+background-color: none;: Menghilangkan latar belakang input.
+color: #38475a;: Mengatur warna teks input.
+height: 50px;: Mengatur tinggi input.
+font-size: 16px;: Mengatur ukuran font input.
+font-weight: 300;: Mengatur ketebalan huruf input.
+border: 1px solid #EAECF0;: Mengatur border dengan lebar 1px dan warna yang telah ditentukan pada input.
+padding: 9px 18px 9px 52px;: Memberikan padding di dalam input, termasuk ruang untuk ikon.
+outline: none;: Menghilangkan outline (garis tepi) dari input.
+border-radius: 8px;: Mengatur sudut bulat dengan radius 8px.
+margin-bottom: 20px;: Memberikan margin di bagian bawah input.
+
+11. .input-group input::placeholder:
+
+Ini adalah kelas yang digunakan untuk mengatur gaya placeholder dalam elemen input.
+color: #38475a;: Mengatur warna teks placeholder.
+font-size: 16px;: Mengatur ukuran font placeholder.
+font-weight: 400;: Mengatur ketebalan huruf placeholder.
+
+12. .input-group .icon:
+
+Ini adalah kelas yang diberikan kepada elemen ikon dalam grup input.
+position: absolute;: Mengatur posisi elemen ikon sebagai absolut, sehingga dapat ditempatkan di dalam input.
+color: #38475a;: Mengatur warna ikon.
+left: 13px;: Mengatur jarak dari sisi kiri input.
+top: calc(50% - 11px);: Mengatur posisi vertikal ikon sehingga berada di tengah input secara vertikal.
+text-align: center;: Mengatur teks ikon agar berada di tengah secara horizontal.
+font-size: 23px;: Mengatur ukuran font ikon.
+
+13. .submit-btn:
+
+Ini adalah kelas yang diberikan kepada tombol submit dalam formulir.
+width: 100%;: Mengatur lebar tombol agar mengisi seluruh lebar grup.
+background-color: #333;: Mengatur warna latar belakang tombol.
+border: 1px solid transparent;: Mengatur border dengan lebar 1px dan transparan pada tombol.
+border-radius: 8px;: Mengatur sudut bulat dengan radius 8px.
+font-size: 16px;: Mengatur ukuran font tombol.
+color: #fff;: Mengatur warna teks tombol.
+padding: 13px 24px;: Memberikan padding di dalam tombol.
+font-weight: 500;: Mengatur ketebalan huruf tombol.
+text-align: center;: Mengatur teks tombol agar berada di tengah secara horizontal.
+text-transform: capitalize;: Mengubah teks tombol menjadi huruf kapital awal.
+cursor: pointer;: Mengubah tampilan kursor saat berada di atas tombol.
+
+14. .submit-btn:hover:
+
+Ini adalah peraturan CSS yang berlaku ketika tombol submit digerakkan (hover).
+background-color: cadetblue;: Mengubah warna latar belakang tombol saat kursor berada di atasnya.
+
+**PENJELASAN HOME CSS :**
+
+1. (*) (Universal Selector):
+
+Ini adalah pemilihan universal yang berlaku untuk semua elemen HTML pada halaman.
+margin: 0;, padding: 0;, box-sizing: border-box;: Mengatur margin, padding, dan model kotak elemen ke nilai tertentu untuk menghindari masalah tampilan yang tidak diinginkan.
+font-family: Verdana, Geneva, Tahoma, sans-serif;: Menentukan jenis font yang akan digunakan dalam halaman. Jika Verdana tidak tersedia, browser akan mencari jenis font alternatif seperti Geneva, Tahoma, dan jenis font sans-serif.
+outline: none;, border: none;: Menghapus outline (garis tepi) dan border (garis batas) pada elemen.
+text-decoration: none;: Menghilangkan dekorasi teks seperti underlining dari tautan.
+text-transform: capitalize;: Mengubah semua teks menjadi huruf kapital awal.
+transition: .2s linear;: Mengatur efek transisi pada perubahan properti CSS selama 0,2 detik dengan perpindahan linier.
+
+2. html:
+
+font-size: 62.5%;: Mengatur ukuran font root HTML menjadi 62,5% dari ukuran default (biasanya 16px), sehingga membuat pengaturan ukuran font dalam rem lebih mudah.
+scroll-behavior: smooth;: Menyediakan efek scroll lancar saat menggulirkan halaman.
+scroll-padding-top: 6rem;: Menentukan jarak atas yang akan dipertimbangkan saat menggulir ke elemen target menggunakan scroll-behavior.
+overflow-x: hidden;: Menghilangkan scrollbar horizontal jika ada.
+
+3. section:
+
+Ini adalah gaya untuk elemen "section" di halaman.
+padding: 2rem 9%;: Memberikan padding pada elemen "section."
+
+4. .heading:
+
+Ini adalah kelas yang digunakan untuk gaya judul.
+text-align: center;: Mengatur teks judul menjadi rata tengah.
+font-size: 4rem;: Mengatur ukuran font judul.
+color: #333;: Mengatur warna teks judul.
+padding: 1rem;: Memberikan padding pada judul.
+margin: 2rem o;: Terdapat typo, harusnya margin: 2rem 0;. Ini mengatur margin atas dan bawah judul.
+background: rgba(100, 168, 237, 0.212);: Memberikan latar belakang dengan warna tertentu dengan tingkat transparansi.
+
+5. .btn:
+
+Ini adalah kelas untuk tombol.
+display: inline-block;: Mengatur tombol sebagai elemen inline block.
+margin-top: 10px;: Memberikan margin atas tombol.
+border-radius: 5rem;: Mengatur sudut bulat tombol dengan radius 5rem.
+background: #333;: Mengatur warna latar belakang tombol.
+color: #fff;: Mengatur warna teks tombol.
+padding: 10px 30px;: Memberikan padding pada tombol.
+cursor: pointer;: Mengubah ikon kursor saat berada di atas tombol.
+
+6. .btn:hover:
+
+Ini adalah peraturan CSS yang berlaku ketika tombol digerakkan (hover).
+background: cadetblue;: Mengubah warna latar belakang tombol saat kursor diarahkan ke tombol.
+
+7. header:
+
+Ini adalah gaya untuk elemen "header" halaman web.
+position: fixed;: Membuat header tetap terpasang di atas saat menggulir halaman.
+top: 0; left: 0; right: 0;: Menempatkan header di atas halaman dengan lebar penuh.
+background: #fff;: Mengatur latar belakang header menjadi putih.
+padding: 1rem 9%;: Memberikan padding di dalam header.
+display: flex;: Mengatur header dengan tampilan jenis flex.
+align-items: center;: Mengatur elemen dalam header agar berada di tengah secara vertikal.
+justify-content: space-between;: Mengatur ruang seimbang antara elemen-elemen header.
+z-index: 1001;: Memberikan tingkat z-index.
+
+8. header .navbar a:
+
+Ini adalah gaya untuk tautan di dalam navbar di header.
+font-size: 13px;: Mengatur ukuran font tautan.
+padding: 30px;: Memberikan padding di dalam tautan.
+color: black;: Mengatur warna teks tautan.
+
+9. header .navbar a:hover:
+
+Ini adalah peraturan CSS yang berlaku ketika tautan di navbar digerakkan (hover).
+color: cadetblue;: Mengubah warna teks tautan saat kursor diarahkan ke tautan.
+transition: color 0.3s ease;: Memberikan efek transisi perubahan warna selama 0,3 detik dengan perpindahan warna yang mudah.
+
+10. header .icons a:
+
+Ini adalah gaya untuk tautan ikon di header.
+font-size: 15px;: Mengatur ukuran font ikon.
+color: black;: Mengatur warna ikon.
+margin-left: 50px;: Memberikan margin kiri antara ikon.
+
+11. header .icons a:hover:
+
+Ini adalah peraturan CSS yang berlaku ketika ikon digerakkan (hover).
+color: cadetblue;: Mengubah warna ikon saat kursor diarahkan ke ikon.
+
+12. .home:
+
+Ini adalah kelas untuk bagian beranda halaman web.
+display: flex;: Mengatur tampilan elemen beranda sebagai jenis flex.
+align-items: center;: Mengatur elemen dalam beranda agar berada di tengah secara vertikal.
+min-height: 100vh;: Mengatur tinggi minimum beranda setidaknya sejajar dengan tinggi tampilan layar (viewport).
+background: url('assets/hitam.jpg');: Mengatur gambar latar belakang beranda.
+background-size: cover;: Mengatur ukuran latar belakang agar menutupi seluruh area beranda.
+background-position: center;: Mengatur posisi latar belakang menjadi tengah.
+
+13. .home .content:
+
+Ini adalah kelas yang digunakan untuk konten di dalam bagian beranda.
+max-width: 50rem;: Mengatur lebar maksimum konten.
+
+14. .home .content h3:
+
+Ini adalah gaya untuk elemen judul (h3) di dalam konten beranda.
+font-size: 40px;: Mengatur ukuran font judul.
+color: rgb(205, 186, 15);: Mengatur warna teks judul.
+
+15. .home .content span:
+
+Ini adalah gaya untuk elemen beranda.
+font-size: 20px;: Mengatur ukuran font teks.
+color: grey;: Mengatur warna teks.
+
+16. .home .content p:
+
+Ini adalah gaya untuk elemen paragraf di dalam konten beranda.
+font-size: 15px;: Mengatur ukuran font paragraf.
+color: whitesmoke;: Mengatur warna teks paragraf.
+
+17. .about .row:
+
+Ini adalah kelas untuk baris di bagian "about" halaman web.
+display: flex;: Mengatur tampilan elemen dalam baris sebagai jenis flex.
+align-items: center;: Mengatur elemen dalam baris agar berada di tengah secara vertikal.
+gap: 2rem;: Memberikan jarak antara elemen-elemen dalam baris.
+flex-wrap: wrap;: Mengatur pembungkus flex agar merapatkan elemen saat layar berukuran kecil.
+
+18. .about .row .video-container:
+
+Ini adalah kelas untuk kontainer video dalam baris "about."
+flex: 1 1 40rem;: Mengatur properti flex untuk mengisi ruang yang tersedia dalam baris.
+position: relative;: Mengatur posisi elemen relatif.
+
+19. .about .row .video-container video:
+
+Ini adalah gaya untuk elemen video dalam kontainer video.
+width: 100%;: Mengatur lebar video agar mengisi seluruh lebar kontainer.
+border: 1rem solid #fff;: Mengatur border pada video dengan tebal 1rem dan warna putih.
+border-radius: 3rem;: Mengatur sudut bulat dengan radius 3rem.
+box-shadow: rgba(0, 0, 0, 0.5);: Memberikan efek bayangan pada video.
+height: 100%;: Mengatur tinggi video agar mengisi seluruh tinggi kontainer.
+object-fit: cover;: Mengatur bagaimana video diisi ke dalam elemen video.
+
+20. .about .row .content:
+
+Ini adalah kelas untuk konten teks dalam baris "about."
+flex:1 1 40rem;: Mengatur properti flex untuk mengisi ruang yang tersedia dalam baris.
+font-size: 3rem;: Mengatur ukuran font teks.
+color: #333;: Mengatur warna teks.
+
+21. .about .row .content p:
+
+Ini adalah gaya untuk elemen paragraf dalam konten "about."
+font-size: 1.5rem;: Mengatur ukuran font teks.
+color: #999;: Mengatur warna teks.
+
+22. .product:
+
+Ini adalah kelas untuk bagian produk halaman web.
+background: #f2f2f2;: Mengatur latar belakang bagian produk menjadi abu-abu muda.
+padding: 2rem 0;: Memberikan padding di dalam bagian produk.
+
+23. .product .heading:
+
+Ini adalah gaya untuk judul di bagian produk.
+text-align: center;: Mengatur teks judul agar berada di tengah secara horizontal.
+font-size: 5rem;: Mengatur ukuran font judul.
+color: #333;: Mengatur warna teks judul.
+
+24. .product .heading span:
+
+Ini adalah gaya untuk elemen span di dalam judul produk.
+color: rgb(205, 186, 15);: Mengatur warna teks span.
+
+25. .card:
+
+Ini adalah kelas untuk kartu produk.
+position: relative;:Mengatur posisi elemen kartu sebagai relatif.
+width: 320px;: Mengatur lebar kartu.
+height: auto;: Mengizinkan tinggi kartu disesuaikan dengan kontennya.
+background: #191919;: Mengatur latar belakang kartu menjadi warna hitam.
+border-radius: 20px;: Mengatur sudut bulat kartu dengan radius 20px.
+overflow: hidden;: Mengatur agar konten yang melebihi kartu tersembunyi.
+margin: 49px;: Memberikan margin pada kartu untuk menjaga jarak antara kartu.
+
+26. .card .contentBox:
+
+Ini adalah kelas untuk kotak konten dalam kartu produk.
+position: relative;: Mengatur posisi elemen kotak konten sebagai relatif.
+padding: 20px;: Memberikan padding di dalam kotak konten.
+display: flex;: Mengatur tampilan kotak konten sebagai jenis flex.
+justify-content: center;: Mengatur konten agar berada di tengah secara horizontal.
+align-items: center;: Mengatur konten agar berada di tengah secara vertikal.
+flex-direction: column;: Mengatur arah tata letak konten ke tata letak kolom.
+z-index: 2;: Mengatur indeks z elemen.
+
+27. .card .contentBox h3:
+
+Ini adalah gaya untuk elemen judul (h3) di dalam kotak konten kartu produk.
+font-size: 18px;: Mengatur ukuran font judul.
+color: white;: Mengatur warna teks judul.
+font-weight: 500;: Mengatur ketebalan font judul.
+text-transform: uppercase;: Mengubah teks menjadi huruf besar.
+
+28. .card .contentBox .price:
+
+Ini adalah gaya untuk elemen harga dalam kotak konten kartu produk.
+font-size: 24px;: Mengatur ukuran font harga.
+color: white;: Mengatur warna teks harga.
+font-weight: 700;: Mengatur ketebalan font harga.
+letter-spacing: 1px;: Mengatur jarak antar huruf.
+margin-top: 10px;: Memberikan margin atas antara harga dan judul.
+
+29. .card .contentBox .buy:
+
+Ini adalah gaya untuk tombol beli dalam kotak konten kartu produk.
+position: relative;: Mengatur posisi elemen tombol beli sebagai relatif.
+top: 100px;: Mengatur posisi tombol beli 100px dari atas.
+opacity: 0;: Mengatur elemen tombol beli menjadi tidak terlihat.
+padding: 10px 30px;: Memberikan padding di dalam tombol beli.
+margin-top: 15px;: Memberikan margin atas pada tombol beli.
+color: #000000;: Mengatur warna teks tombol beli.
+text-decoration: none;: Menghapus dekorasi tautan.
+background: rgb(205, 186, 15);: Mengatur latar belakang tombol beli dengan warna kuning.
+border-radius: 30px;: Mengatur sudut bulat tombol beli dengan radius 30px.
+letter-spacing: 1px;: Mengatur jarak antar huruf.
+
+30. .card:hover .contentBox .buy:
+
+Ini adalah peraturan CSS yang berlaku saat kartu produk digerakkan (hover).
+top: 0;: Mengatur posisi tombol beli menjadi 0px dari atas.
+opacity: 1;: Mengatur elemen tombol beli agar terlihat.
+
+31. .keripik, .makaroni, .basreng, .mie, .bakso, .nasi:
+
+Ini adalah kelas yang digunakan untuk mengatur gambar produk (keripik, makaroni, basreng, mie, bakso, nasi) di dalam konten produk.
+height: auto;: Mengizinkan tinggi gambar disesuaikan dengan lebar aslinya.
+max-width: 100%;: Mengatur lebar maksimum gambar agar tidak melebihi lebar kotak kontennya.
+
+32. .review:
+
+Ini adalah kelas untuk bagian ulasan halaman web.
+background: #fff;: Mengatur latar belakang bagian ulasan menjadi putih.
+padding: 2rem 0;: Memberikan padding di dalam bagian ulasan.
+
+33. .review .heading:
+
+Ini adalah gaya untuk judul di bagian ulasan.
+text-align: center;: Mengatur teks judul agar berada di tengah secara horizontal.
+font-size: 5rem;: Mengatur ukuran font judul.
+color: #333;: Mengatur warna teks judul.
+
+34. .review .heading span:
+
+Ini adalah gaya untuk elemen span di dalam judul ulasan.
+color: rgb(205, 186, 15);: Mengatur warna teks span.
+
+35. .col:
+
+Ini adalah kelas untuk kolom dalam bagian ulasan.
+flex: 25%;: Mengatur kolom agar mengisi 25% lebar container.
+max-width: 25%;: Mengatur lebar maksimum kolom menjadi 25% dari lebar container.
+box-sizing: border-box;: Mengatur kotak kolom agar termasuk dalam pengukuran lebar.
+
+36. .reviews:
+
+Ini adalah kelas untuk kontainer ulasan.
+background: #f2f2f2;: Mengatur latar belakang kontainer ulasan menjadi abu-abu muda.
+padding: 20px;: Memberikan padding di dalam kontainer ulasan.
+
+37. .reviews img:
+
+Ini adalah gaya untuk gambar dalam ulasan.
+width: 100px;: Mengatur lebar gambar menjadi 100px.
+height: 100px;: Mengatur tinggi gambar menjadi 100px.
+border-radius: 50%;: Mengatur sudut bulat gambar dengan radius 50%.
+margin-bottom: 20px;: Memberikan margin bawah antara gambar dan teks.
+
+38. .name:
+
+Ini adalah kelas untuk nama dalam ulasan.
+font-size: 20px;: Mengatur ukuran font nama.
+text-transform: uppercase;: Mengubah teks menjadi huruf besar.
+margin: 20px 0;: Memberikan margin atas dan bawah pada nama.
+
+39. .stars:
+
+Ini adalah kelas yang digunakan untuk mengatur peringkat bintang dalam ulasan.
+color: rgb(205, 186, 15);: Mengatur warna teks bintang.
+
+40. .contact:
+
+Ini adalah kelas untuk bagian kontak halaman web.
+background: #fff;: Mengatur latar belakang bagian kontak menjadi putih.
+padding: 2rem 0;: Memberikan padding di dalam bagian kontak.
+
+41. .contact .heading:
+
+Ini adalah gaya untuk judul di bagian kontak.
+text-align: center;: Mengatur teks judul agar berada di tengah secara horizontal.
+font-size: 5rem;: Mengatur ukuran font judul.
+color: #333;: Mengatur warna teks judul.
+
+42. .container:
+
+Ini adalah kelas yang digunakan untuk kontainer kontak.
+position: relative;: Mengatur posisi elemen kontainer sebagai relatif.
+width: 100%;: Mengatur lebar kontainer agar mengisi seluruh lebar tampilan layar.
+height: 100%;: Mengatur tinggi kontainer agar mengisi seluruh tinggi tampilan layar.
+display: flex;: Mengatur tampilan elemen kontainer sebagai jenis flex.
+justify-content: center;: Mengatur kontainer agar berada di tengah secara horizontal.
+align-items: center;: Mengatur kontainer agar berada di tengah secara vertikal.
+padding: 20px 100px;: Memberikan padding di dalam kontainer dengan ukuran horizontal 100px dan vertikal 20px.
+
+43. .contact-box:
+
+Ini adalah kelas untuk kotak kontak dalam kontainer.
+max-width: 850px;: Mengatur lebar maksimum kotak kontak menjadi 850px.
+display: grid;: Mengatur kotak kontak sebagai tata letak grid.
+grid-template-columns: repeat(2, 1fr);: Mengatur dua kolom dalam tata letak grid, masing-masing dengan fleksibilitas yang sama.
+justify-content: center;: Mengatur konten agar berada di tengah secara horizontal.
+align-items: center;: Mengatur konten agar berada di tengah secara vertikal.
+text-align: center;: Mengatur teks dalam kotak kontak agar berada di tengah secara horizontal.
+background-color: #fff;: Mengatur latar belakang kotak kontak menjadi putih.
+box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);: Memberikan efek bayangan pada kotak kontak.
+
+44. .left:
+
+Ini adalah kelas yang digunakan untuk sisi kiri dalam kotak kontak.
+background: url('assets/kucing.jpg') no-repeat center;: Mengatur gambar latar belakang sisi kiri.
+background-size: cover;: Mengatur ukuran latar belakang agar menutupi seluruh area sisi kiri.
+height: 100%;: Mengatur tinggi sisi kiri agar mengisi seluruh tinggi kotak kontak.
+
+45. .right:
+
+Ini adalah kelas yang digunakan untuk sisi kanan dalam kotak kontak.
+padding: 25px 40px;: Memberikan padding di dalam sisi kanan.
+h2: Ini adalah selektor untuk elemen judul level 2 (h2) dalam sisi kanan.
+field: Ini adalah kelas yang digunakan untuk bidang input dalam sisi kanan.
+textarea: Ini adalah selektor untuk elemen textarea (bidang teks) dalam sisi kanan.
+
+46. .container-footer:
+
+Ini adalah kelas untuk kontainer footer (bagian bawah halaman web).
+max-width: 1170px;: Mengatur lebar maksimum kontainer footer menjadi 1170px.
+margin: auto;: Mengatur kontainer agar berada di tengah secara horizontal.
+
+47. .row-footer:
+
+Iniadalah kelas yang digunakan untuk baris dalam kontainer footer.
+display: flex;: Mengatur tampilan elemen dalam baris sebagai jenis flex.
+flex-wrap: wrap;: Mengizinkan elemen dalam baris membungkus ke baris berikutnya jika tidak cukup ruang.
+
+48. ul:
+Ini adalah gaya untuk elemen daftar dalam footer.
+list-style: none;: Menghapus gaya bawaan untuk daftar (seperti bullet points).
+
+49. .footer:
+
+Ini adalah kelas untuk kontainer footer.
+background-color: #24262b;: Mengatur warna latar belakang footer.
+padding: 70px 0;: Memberikan padding di dalam footer.
+
+50. .footer-col:
+
+Ini adalah kelas untuk kolom dalam footer.
+width: 25%;: Mengatur lebar kolom menjadi 25% dari lebar kontainer footer.
+padding: 0 15px;: Memberikan padding di dalam kolom dengan ukuran horizontal 15px dan vertikal 0.
+
+51. .footer-col h4:
+
+Ini adalah gaya untuk judul (h4) dalam kolom footer.
+font-size: 18px;: Mengatur ukuran font judul.
+color: #ffffff;: Mengatur warna teks judul.
+text-transform: capitalize;: Mengubah teks menjadi huruf kapital (kapitalisasi).
+margin-bottom: 35px;: Memberikan margin bawah pada judul.
+
+52. .footer-col h4::before:
+
+Ini adalah gaya untuk pseudo-elemen (::before) yang ditambahkan sebelum judul.
+content: '';: Menambahkan elemen konten kosong.
+position: absolute;: Mengatur posisi pseudo-elemen sebagai absolut.
+left: 0;: Mengatur posisi pseudo-elemen di bagian kiri judul.
+bottom: -10px;: Mengatur posisi pseudo-elemen 10px di bawah judul.
+background-color: rgba(100, 168, 237, 0.212);: Mengatur warna latar belakang pseudo-elemen dengan transparansi.
+height: 2px;: Mengatur tinggi pseudo-elemen menjadi 2px.
+box-sizing: border-box;: Mengatur kotak pseudo-elemen agar termasuk dalam pengukuran lebar.
+width: 50px;: Mengatur lebar pseudo-elemen menjadi 50px.
+
+53. .footer-col ul li:not(:last-child):
+
+Ini adalah gaya yang berlaku pada elemen-elemen daftar (li) dalam kolom footer kecuali elemen terakhir.
+margin-bottom: 10px;: Memberikan margin bawah antara elemen-elemen daftar.
+
+54. .footer-col ul li a:
+
+Ini adalah gaya untuk tautan dalam elemen daftar (li) di dalam kolom footer.
+font-size: 16px;: Mengatur ukuran font tautan.
+text-transform: lowercase;: Mengubah teks menjadi huruf kecil.
+color: #ffffff;: Mengatur warna teks tautan.
+text-decoration: none;: Menghapus dekorasi tautan.
+font-weight: 300;: Mengatur ketebalan font menjadi 300.
+color: #bbbbbb;: Mengatur warna teks tautan yang belum diklik.
+
+55. .footer-col ul li a:hover:
+
+Ini adalah peraturan CSS yang berlaku saat tautan di kolom footer digerakkan (hover).
+color: rgb(205, 186, 15);: Mengubah warna teks tautan saat kursor diarahkan ke tautan.
+padding-left: 8px;: Menggeser teks tautan ke kanan sejauh 8px.
+
+56. .footer-col .social-links a:
+
+Ini adalah gaya untuk tautan media sosial dalam kolom footer.
+display: inline-block;: Mengatur tautan media sosial sebagai elemen inline-block.
+height: 40px;: Mengatur tinggi tautan media sosial menjadi 40px.
+width: 40px;: Mengatur lebar tautan media sosial menjadi 40px.
+background-color: rgba(255,255,255,0.2);: Mengatur latar belakang tautan media sosial dengan transparansi.
+margin: 0 10px 10px 0;: Memberikan margin untuk menjaga jarak antara tautan-tautan media sosial.
+text-align: center;: Mengatur tautan agar berada di tengah secara horizontal.
+line-height: 40px;: Mengatur tinggi garis sejajar tautan menjadi 40px.
+border-radius: 50%;: Mengatur sudut bulat tautan dengan radius 50%.
+color: burlywood;: Mengatur warna teks tautan.
+transition: all 0.5s ease;: Memberikan efek transisi pada semua perubahan properti selama 0,5 detik dengan perpindahan yang mudah.
+
+57. .footer-col .social-links a:hover:
+Ini adalah peraturan CSS yang berlaku saat tautan media sosial di kolom footer digerakkan (hover).
+color: #fff;: Mengubah warna teks tautan media sosial saat kursor diarahkan ke tautan.
+background-color: cadetblue;: Mengubah warna latar belakang tautan media sosial menjadi cadetblue saat kursor diarahkan ke tautan.
+
+**PENJELASAN REVIEW CSS :**
+
+1. * (Universal Selector):
+
+margin: 0;: Menghapus margin pada semua elemen.
+padding: 0;: Menghapus padding pada semua elemen.
+box-sizing: border-box;: Mengatur model kotak elemen menjadi "border-box", sehingga padding dan border tidak mempengaruhi lebar dan tinggi total elemen.
+font-family: Verdana, Geneva, Tahoma, sans-serif;: Menentukan tipe font untuk seluruh teks di halaman dengan preferensi berurutan dari Verdana, Geneva, Tahoma, dan font sans-serif sebagai cadangan.
+outline: none;: Menghapus garis luar (outline) yang muncul saat elemen mendapatkan fokus.
+border: none;: Menghapus border pada semua elemen.
+text-decoration: none;: Menghapus dekorasi teks seperti garis bawah pada tautan.
+text-transform: capitalize;: Mengubah teks menjadi huruf kapital setiap awal kata.
+transition: .2s linear;: Mengatur transisi dengan durasi 0.2 detik dan efek transisi linear pada semua properti yang berubah.
+
+2. html:
+
+font-size: 62.5%;: Mengatur ukuran font di elemen HTML sebesar 62.5% dari ukuran font default (yang biasanya 16px), sehingga memudahkan penggunaan unit rem.
+
+3. header:
+
+Ini adalah aturan CSS untuk elemen header.
+position: fixed;: Membuat elemen header memiliki posisi tetap di atas halaman.
+top: 0; left: 0; right: 0;: Membuat elemen header menempel di bagian atas, kiri, dan kanan halaman.
+background: #fff;: Mengatur warna latar belakang header menjadi putih.
+padding: 2rem 9%;: Memberikan padding 2 rem di atas dan bawah, serta 9% di sisi kiri dan kanan header.
+display: flex;: Mengatur tampilan elemen header sebagai tipe flex.
+align-items: center;: Menengahkan elemen secara vertikal.
+justify-content: space-between;: Menyusun elemen secara horizontal dengan jarak yang sama di antara elemen-elemen di dalamnya.
+z-index: 1001;: Memberikan indeks z sebesar 1001, yang digunakan untuk mengendalikan tumpukan elemen tampilan.
+box-shadow: 0 .5rem 1rem rgb(0, 0, 0);: Menambahkan bayangan pada header dengan pergeseran 0 pada sumbu X, 0.5 rem pada sumbu Y, dan bayangan sejauh 1 rem.
+
+4. header .logo img:
+
+Ini adalah gaya untuk elemen gambar di dalam elemen dengan kelas "logo" di dalam elemen header.
+width: 30px;: Mengatur lebar gambar menjadi 30 piksel.
+height: auto;: Mengatur tinggi gambar agar menyesuaikan proporsinya.
+
+5. header .navbar a:
+
+Ini adalah gaya untuk tautan (a) di dalam elemen dengan kelas "navbar" di dalam elemen header.
+font-size: 13px;: Mengatur ukuran font teks tautan menjadi 13 piksel.
+padding: 30px;: Memberikan padding 30 piksel pada tautan, mengatur ruang di sekitar teks.
+color: black;: Mengatur warna teks tautan menjadi hitam.
+
+6. header .icons a:
+
+Ini adalah gaya untuk tautan (a) di dalam elemen dengan kelas "icons" di dalam elemen header.
+font-size: 15px;: Mengatur ukuran font teks tautan menjadi 15 piksel.
+color: black;: Mengatur warna teks tautan menjadi hitam.
+margin-left: 50px;: Memberikan margin kiri sebesar 50 piksel pada tautan.
+
+7. header .icons a:hover:
+
+Ini adalah peraturan CSS yang berlaku saat tautan di dalam elemen dengan kelas "icons" di dalam elemen header digerakkan (hover).
+color: cadetblue;: Mengubah warna teks tautan menjadi cadetblue saat kursor diarahkan ke tautan.
+
+8. .review:
+
+Ini adalah gaya untuk elemen dengan kelas "review".
+background: #fff;: Mengatur warna latar belakang elemen menjadi putih.
+padding: 2rem 0;: Memberikan padding 2 rem di atas dan bawah elemen.
+
+9. .review .heading:
+
+Ini adalah gaya untuk elemen dengan kelas "heading" yang berada dalam elemen dengan kelas "review".
+text-align: center;: Mengatur teks agar terletak di tengah secara horizontal.
+font-size: 5rem;: Mengatur ukuran font menjadi 5 rem (50 piksel).
+color: #333;: Mengatur warna teks menjadi abu-abu gelap.
+padding: 4rem;: Memberikan padding 4 rem di atas dan bawah, serta 4 rem di sisi kiri dan kanan elemen.
+margin: 2rem 0;: Memberikan margin 2 rem di atas dan bawah elemen.
+background: rgba(100, 168, 237, 0.212);: Mengatur latar belakang elemen dengan transparansi.
+
+10. .review .heading span:
+
+Ini adalah gaya untuk elemen dengan tag "span" yang berada dalam elemen dengan kelas "heading" di dalam elemen dengan kelas "review".
+color: rgb(205, 186, 15);: Mengatur warna teks menjadi kuning keemasan.
+
+11. .col:
+
+Ini adalah gaya untuk elemen dengan kelas "col".
+flex: 25%;: Mengatur elemen agar menempati 25% lebar kontainernya.
+max-width: 25%;: Mengatur lebar maksimal elemen menjadi 25% dari lebar kontainer.
+`box-sizing: border-box
+
+12. .reviews:
+
+Ini adalah gaya untuk elemen dengan kelas "reviews".
+background: #f2f2f2;: Mengatur warna latar belakang elemen menjadi abu-abu muda.
+padding: 20px;: Memberikan padding 20 piksel pada elemen.
+
+13. .reviews img:
+
+Ini adalah gaya untuk gambar (img) yang berada di dalam elemen dengan kelas "reviews".
+width: 100px;: Mengatur lebar gambar menjadi 100 piksel.
+height: 100px;: Mengatur tinggi gambar menjadi 100 piksel.
+border-radius: 50%;: Memberikan efek sudut melengkung pada gambar sehingga terlihat seperti lingkaran.
+margin-bottom: 20px;: Memberikan margin 20 piksel di bawah gambar.
+
+14. .name:
+
+Ini adalah gaya untuk elemen dengan kelas "name".
+font-size: 20px;: Mengatur ukuran font menjadi 20 piksel.
+text-transform: uppercase;: Mengubah teks menjadi huruf kapital.
+margin: 20px 0;: Memberikan margin 20 piksel di atas dan 0 di bawah elemen.
+
+15. .stars:
+
+Ini adalah gaya untuk elemen dengan kelas "stars".
+color: rgb(205, 186, 15);: Mengatur warna teks menjadi kuning keemasan.
+margin-bottom: 20px;: Memberikan margin 20 piksel di bawah elemen.
+
+**PENJELASAN CONTACT CSS :**
+
+1. *:
+
+Ini adalah universal selector yang memengaruhi semua elemen di halaman HTML.
+margin: 0; padding: 0;: Menghilangkan margin dan padding default dari semua elemen.
+box-sizing: border-box;: Mengatur model kotak CSS ke "border-box," yang memastikan bahwa lebar dan tinggi elemen termasuk padding dan batas.
+font-family: Verdana, Geneva, Tahoma, sans-serif;: Menentukan jenis font yang akan digunakan di seluruh halaman, dengan preferensi urutan Verdana, Geneva, Tahoma, dan font tanpa-serif (sans-serif) jika tidak tersedia.
+outline: none;: Menghilangkan garis luar (outline) yang muncul saat elemen mendapatkan fokus.
+border: none;: Menghilangkan batas (border) dari semua elemen.
+text-decoration: none;: Menghilangkan dekorasi teks seperti garis bawah dari semua tautan.
+text-transform: capitalize;: Mengatur teks agar setiap kata dimulai dengan huruf kapital.
+transition: .2s linear;: Menambahkan efek transisi berkecepatan 0.2 detik dengan fungsi perubahan linear ke elemen.
+
+2. html:
+
+Ini adalah gaya untuk elemen HTML.
+font-size: 62.5%;: Mengatur ukuran font menjadi 62.5% dari ukuran font default. Hal ini sering digunakan untuk membuat perhitungan ukuran font lebih mudah karena 1 rem akan setara dengan 10 piksel.
+
+3. header:
+
+Ini adalah gaya untuk elemen header.
+position: fixed; top: 0; left: 0; right: 0;: Membuat header menjadi posisi tetap (fixed) di bagian atas layar dengan lebar 100%.
+background: #fff;: Memberikan latar belakang putih pada header.
+padding: 2rem 9%;: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% di sisi kiri dan kanan header.
+display: flex; align-items: center; justify-content: space-between;: Mengatur header agar menggunakan model kotak fleksibel, dengan elemen-elemen di dalamnya diatur secara vertikal tengah dan horizontal diatur ke ruang di antara elemen.
+z-index: 1001;: Memberikan indeks z sebesar 1001 untuk header, yang berguna ketika ada elemen-elemen tumpukan di atasnya.
+box-shadow: 0 .5rem 1rem rgb(0, 0, 0);: Menambahkan bayangan (shadow) di bagian bawah header untuk memberikan efek kedalaman.
+
+4. header .logo img:
+
+Ini adalah gaya untuk gambar (img) yang merupakan bagian dari logo di dalam header.
+width: 30px; height: auto;: Mengatur lebar gambar menjadi 30 piksel dan mengizinkan tinggi gambar disesuaikan secara otomatis agar tetap proporsional.
+
+5. header .navbar a:
+
+Ini adalah gaya untuk tautan (a) dalam elemen dengan kelas "navbar" di dalam header.
+font-size: 13px;: Mengatur ukuran font menjadi 13 piksel.
+padding: 30px;: Memberikan padding sebesar 30 piksel pada tautan.
+color: black;: Mengatur warna teks menjadi hitam.
+
+6. header .icons a:
+
+Ini adalah gaya untuk tautan (a) dalam elemen dengan kelas "icons" di dalam header.
+font-size: 15px;: Mengatur ukuran font menjadi 15 piksel.
+color: black;: Mengatur warna teks menjadi hitam.
+margin-left: 50px;: Memberikan margin sebesar 50 piksel di sebelah kiri tautan.
+
+7. header .icons a:hover:
+
+Ini adalah gaya untuk tautan (a) dalam elemen dengan kelas "icons" di dalam header saat digerakkan (hovered).
+color: cadetblue;: Mengubah warna teks menjadi "cadetblue" saat tautan digerakkan (hover).
+
+8. .contact:
+
+Ini adalah gaya untuk elemen dengan kelas "contact".
+background: #fff;: Memberikan latar belakang putih pada elemen.
+padding: 2rem 0;: Memberikan padding sebesar 2 rem di atas dan bawah elemen.
+
+9. .contact .heading:
+
+Ini adalah gaya untuk elemen dengan kelas "heading" yang berada di dalam elemen dengan kelas "contact".
+span: Mengatur teks yang berada dalam elemen "span".
+color: rgb(205, 186, 15);: Mengatur warna teks menjadi kuning keemasan.
+text-align: center;: Mengatur teks agar berada di tengah elemen.
+font-size: 5rem;: Mengatur ukuran font menjadi 5 rem (setara dengan 50 piksel).
+color: #333;: Mengatur warna teks menjadi abu-abu gelap.
+padding: 4rem; margin: 2rem 0;: Memberikan padding 4 rem di sekitar elemen dan margin 2 rem di atas dan bawah elemen.
+background: rgba(100, 168, 237, 0.212);: Memberikan latar belakang dengan efek transparansi.
+
+10. .container:
+
+Ini adalah gaya untuk elemen dengan kelas "container".
+position: relative;: Mengatur posisi elemen menjadi relatif terhadap posisi normalnya.
+width: 100%; height: 100%;: Mengatur lebar dan tinggi elemen menjadi 100% dari parentnya.
+display: flex; justify-content: center; align-items: center;: Mengatur elemen agar menjadi model kotak fleksibel dengan konten tengah secara horizontal dan vertikal.
+padding: 20px 100px;: Memberikan padding sebesar 20 piksel di atas dan bawah serta 100 piksel di sisi kiri dan kanan elemen.
+
+11. .contact-box:
+
+Ini adalah gaya untuk elemen dengan kelas "contact-box".
+max-width: 850px;: Mengatur lebar maksimum elemen menjadi 850 piksel.
+display: grid;grid-template-columns: repeat(2, 1fr);: Membuat elemen menggunakan tata letak grid dengan 2 kolom yang memiliki lebar yang sama.
+justify-content: center; align-items: center;: Menengahkan elemen-elemen dalam tata letak grid secara horizontal dan vertikal.
+text-align: center;: Menengahkan teks dalam elemen secara horizontal.
+
+12. .left:
+
+Ini adalah gaya untuk elemen dengan kelas "left" yang merupakan salah satu bagian dari elemen dengan kelas "contact-box".
+background: url('assets/kucing.jpg') no-repeat center;: Mengatur gambar latar belakang dari elemen dengan lokasi gambar "kucing.jpg" yang diulang secara tidak berulang (no-repeat) dan posisinya di tengah (center).
+background-size: cover;: Mengatur gambar latar belakang agar mengisi seluruh area elemen.
+height: 100%;: Mengatur tinggi elemen menjadi 100% dari parentnya.
+
+13. .right:
+
+Ini adalah gaya untuk elemen dengan kelas "right" yang juga merupakan bagian dari elemen dengan kelas "contact-box".
+padding: 25px 40px;: Memberikan padding sebesar 25 piksel di atas dan bawah serta 40 piksel di sisi kiri dan kanan elemen.
+
+14. h2:
+
+Ini adalah gaya untuk elemen h2.
+position: relative;: Mengatur posisi elemen h2 menjadi relatif terhadap posisi normalnya.
+padding: 0 0 10px;: Memberikan padding sebesar 10 piksel di bawah elemen.
+margin-bottom: 10px;: Memberikan margin sebesar 10 piksel di bawah elemen.
+
+15. .field:
+
+Ini adalah gaya untuk elemen dengan kelas "field".
+width: 100%;: Mengatur lebar elemen menjadi 100% dari parentnya.
+outline: none;: Menghilangkan garis luar (outline) dari elemen saat mendapatkan fokus.
+padding: 0.5rem 1rem;: Memberikan padding sebesar 0.5 rem di atas dan bawah serta 1 rem di sisi kiri dan kanan elemen.
+font-size: 1.1rem;: Mengatur ukuran font menjadi 1.1 rem (setara dengan 11 piksel).
+margin-bottom: 22px;: Memberikan margin sebesar 22 piksel di bawah elemen.
+background-color: rgba(230,230,230,0.6);: Memberikan latar belakang dengan efek transparansi pada elemen.
+
+16. .field:hover:
+
+Ini adalah gaya untuk elemen dengan kelas "field" saat digerakkan (hovered).
+background-color: rgba(0, 0, 0, 0.1);: Mengubah latar belakang elemen menjadi lebih transparan dengan efek hover.
+
+17. textarea:
+
+Ini adalah gaya untuk elemen textarea.
+min-height: 150px;: Menentukan tinggi minimum elemen textarea menjadi 150 piksel.
+
+18. .btn:
+
+Ini adalah gaya untuk elemen dengan kelas "btn".
+display: inline-block;: Mengubah elemen menjadi inline-block.
+margin-top: 10px;: Memberikan margin sebesar 10 piksel di atas elemen.
+border-radius: 5rem;: Memberikan radius sudut (border-radius) sebesar 5 rem (setara dengan 50 piksel).
+background: #333;: Memberikan latar belakang dengan warna abu-abu gelap.
+color: #fff;: Mengatur warna teks menjadi putih.
+padding: 10px 30px;: Memberikan padding sebesar 10 piksel di atas dan bawah serta 30 piksel di sisi kiri dan kanan elemen.
+cursor: pointer;: Mengubah kursor menjadi tanda panah saat digerakkan ke elemen.
+
+19. .btn:hover:
+
+Ini adalah gaya untuk elemen dengan kelas "btn" saat digerakkan (hovered).
+background: cadetblue;: Mengubah latar belakang elemen menjadi "cadetblue" saat elemen digerakkan.
+
+
+**PENJELASAN ABOUT CSS :**
+
+1. * (universal selector):
+
+Mengatur semua elemen pada halaman untuk memiliki properti yang sama.
+margin: 0; padding: 0; box-sizing: border-box;: Menghilangkan margin dan padding default elemen, dan mengatur model box ke "border-box" yang memastikan ukuran elemen mencakup padding dan border.
+
+2. font-family:
+
+Mengatur jenis font yang akan digunakan untuk semua teks pada halaman web. Dalam hal ini, jenis font yang dipilih adalah "Verdana, Geneva, Tahoma, sans-serif."
+
+3. outline: none; border: none;:
+
+Menghilangkan outline (garis pinggir) dan border (batas) pada elemen, yang seringkali digunakan untuk menghapus efek focus pada elemen.
+
+4. text-decoration: none;:
+
+Menghilangkan dekorasi teks, seperti garis bawah pada tautan.
+
+5. text-transform: capitalize;:
+
+Mengubah teks sehingga setiap kata dimulai dengan huruf besar (capitalize).
+
+6. transition: .2s linear;:
+
+Menambahkan efek transisi dengan durasi 0.2 detik dengan percepatan linear ke semua perubahan yang melibatkan elemen dengan transisi.
+
+7. html:
+
+Mengatur jenis font dasar untuk seluruh halaman web ke 62.5% dari ukuran default. Ini memudahkan penggunaan satuan "rem" yang relatif terhadap ukuran font dasar.
+
+8. header:
+
+Mendefinisikan gaya untuk elemen header pada halaman web. Header ini diatur untuk tetap berada di bagian atas halaman dengan latar belakang putih, bayangan bawah, dan padding.
+
+9. header .logo img:
+
+Mengatur gaya untuk gambar logo dalam header, seperti lebar dan tinggi.
+
+10. header .navbar a:
+
+Mengatur gaya tautan dalam bagian navbar header, seperti ukuran font, jarak padding, dan warna teks.
+
+11. header .icons a:
+
+Mengatur gaya untuk ikon dalam header, termasuk ukuran font, warna teks, dan margin kiri.
+
+12. header .icons a:hover:
+
+Mengatur efek hover saat pengguna mengarahkan kursor ke ikon dalam header, mengubah warna teks menjadi "cadetblue."
+
+13. .about:
+
+Mendefinisikan gaya untuk bagian "about" pada halaman web. Ini termasuk latar belakang putih dan padding.
+
+14. .about .heading:
+
+Mengatur gaya untuk judul "about," termasuk ukuran font, warna, latar belakang, dan padding.
+
+15. .about .row:
+
+Mengatur gaya untuk baris dalam bagian "about," yang mencakup tata letak flex dan jarak antar elemen.
+
+16. .about .row .video-container:
+
+Mengatur gaya untuk kontainer video dalam baris "about," termasuk tata letak fleksibel dan posisi relatif.
+
+17. .about .row .video-container video:
+
+Mengatur gaya untuk elemen video dalam kontainer video, termasuk lebar, tinggi, border, bayangan, dan penyesuaian objek.
+
+18. .about .row .content:
+
+Mengatur gaya untuk konten teks dalam baris "about," termasuk ukuran font dan warna.
+
+19. .about .row .content p:
+
+Mengatur gaya untuk paragraf dalam konten teks, termasuk ukuran font, warna, dan jarak antar baris.
+
+20. .btn:
+
+Mendefinisikan gaya untuk tombol, termasuk ukuran font, warna, jarak margin atas, border-radius, padding, kursor, dan tampilan inline-block.
+
+21. .btn:hover:
+
+Mengatur efek hover saat pengguna mengarahkan kursor ke tombol, mengubah latar belakang menjadi "cadetblue."
+
+
+**PENJELASAN LEARN MORE CSS :**
+
+1. *: Ini adalah selector universal yang memilih semua elemen dalam halaman web. Pada contoh ini, digunakan untuk mengatur beberapa properti dasar pada semua elemen, termasuk margin, padding, dan font family.
+
+2. body: Ini adalah selector yang memilih elemen <body>. Aturan CSS ini mengatur tampilan latar belakang halaman web.
+
+3. .containers: Ini adalah selector kelas yang digunakan untuk memilih elemen dengan kelas "containers". Aturan CSS ini mengatur margin, warna teks, dan tata letak teks pada elemen-elemen dengan kelas tersebut.
+
+4. .heading: Ini adalah selector kelas yang digunakan untuk memilih elemen dengan kelas "heading". Aturan ini mengatur gaya teks untuk elemen-elemen dengan kelas tersebut, seperti ukuran font dan warna teks.
+
+5. .heading span: Ini adalah selector kelas yang digunakan untuk memilih elemen <span> yang berada di dalam elemen dengan kelas "heading". Aturan ini mengatur gaya teks untuk elemen-elemen <span> tersebut.
+
+6. .profiles: Ini adalah selector kelas yang digunakan untuk memilih elemen dengan kelas "profiles". Aturan ini mengatur tampilan kontainer yang berisi profil-profil pengguna.
+
+7. .profile: Ini adalah selector kelas yang digunakan untuk memilih elemen dengan kelas "profile". Aturan ini mengatur tampilan setiap profil pengguna.
+
+8. .profile img: Ini adalah selector yang memilih elemen-elemen gambar (<img>) yang berada dalam elemen dengan kelas "profile". Aturan ini mengatur tampilan gambar, seperti ukuran, border radius, dan efek hover.
+
+9. .profile:hover img: Ini adalah pseudo-class selector yang berlaku ketika pengguna mengarahkan kursor mouse ke atas elemen dengan kelas "profile." Pada saat itu, efek grayscale pada gambar akan dihapus (filter: grayscale(0)).
+
+10. .user-name: Ini adalah selector kelas yang digunakan untuk memilih elemen dengan kelas "user-name." Aturan ini mengatur tampilan teks nama pengguna.
+
+11. .profile h5: Ini adalah selector yang memilih elemen-elemen teks (<h5>) yang berada dalam elemen dengan kelas "profile." Aturan ini mengatur tampilan teks, seperti ukuran font, bobot font, dan spasi huruf.
+
+12. .profile p: Ini adalah selector yang memilih elemen-elemen paragraf (<p>) yang berada dalam elemen dengan kelas "profile." Aturan ini mengatur tampilan teks dalam paragraf, termasuk ukuran font dan tata letak teks.
+
+**PENJELASAN CART CSS :**
+
+1. body: Ini mengatur latar belakang halaman web dengan warna #e3e7e8 dan font family "system-ui".
+
+2. .container: Mengatur kontainer dengan lebar 1000px, membuatnya berada di tengah halaman (menggunakan margin: auto), dan menambahkan efek transisi selama 0.5 detik.
+
+3. header: Ini adalah bagian kepala halaman yang diatur dengan tata letak grid dengan dua kolom: satu kolom dengan lebar otomatis (1fr) dan satu kolom dengan lebar tetap 50px. Ini juga memiliki margin atas sebesar 50px.
+
+4. .shop: Ini mengatur elemen dengan kelas "shop". Posisi teks di dalamnya diatur ke kanan. Gambar di dalam elemen ini memiliki lebar 40px. Juga, ada elemen <span> dengan latar merah yang menunjukkan jumlah item di keranjang belanja, dan itu memiliki efek transisi saat diarahkan.
+
+5. .list: Ini mengatur elemen dengan kelas "list" yang menampilkan daftar item. Ini menggunakan tata letak grid dengan tiga kolom yang memiliki lebar yang sama. Terdapat jarak antar kolom (column-gap) dan antar baris (row-gap) sebesar 20px.
+
+6. .list .item: Ini mengatur elemen-elemen dengan kelas "item" dalam daftar. Mereka memiliki latar belakang berwarna #dce0e1, padding, bayangan kotak, dan penyesuaian huruf.
+
+7. .list .item img: Ini mengatur gambar dalam elemen-elemen "item" dengan lebar 90%, tinggi 430px, dan tipe objek yang sesuai.
+
+8. .list .item .title: Ini mengatur tampilan judul item dengan bobot font 600.
+
+9. .list .item .price: Ini mengatur tampilan harga item.
+
+10. .list .item button: Ini mengatur tombol "Beli" dengan latar belakang warna #1c1f25 dan teks putih. Tombol ini memiliki lebar 100% dan padding.
+
+11. .card: Ini adalah bagian keranjang belanja yang diatur dalam posisi tetap di sisi kanan layar. Ia memiliki latar belakang #453e3b, lebar tetap 500px, dan tinggi 100vh (100% tinggi viewport).
+
+12. .active .card: Ini adalah bagian dari animasi saat keranjang belanja aktif. Ketika aktif, ia akan muncul dari kanan dengan efek pergeseran (translate) dengan jarak -500px.
+
+13. .active .container: Ini juga bagian dari animasi saat keranjang belanja aktif. Ketika aktif, kontainer utama akan tergeser ke kiri dengan efek pergeseran (translate) sebesar -200px.
+
+14. .card h1: Ini mengatur tampilan judul di keranjang belanja.
+
+15. .card .checkOut: Ini adalah bagian bawah dari keranjang belanja yang memiliki dua elemen anak dengan latar belakang yang berbeda. Elemen-elemen ini mengatur tombol "Checkout" dan "Batal."
+
+16. .listCard li: Ini mengatur tampilan item dalam keranjang belanja. Ini menggunakan tata letak grid dengan beberapa kolom yang menampilkan gambar, nama, harga, dan tombol hapus.
+
+17. .listCard li div: Ini mengatur tampilan elemen-elemen dalam kolom-kolom keranjang belanja.
+
+18. .listCard li img: Ini mengatur gambar item dalam keranjang belanja.
+
+19. .listCard li button: Ini mengatur tombol hapus item dari keranjang belanja.
+
+20. .listCard .count: Ini mengatur tampilan jumlah item dalam keranjang belanja.
+
+**PENJELASAN CART JS :**
+
+1. Pertama, Anda memilih beberapa elemen HTML dengan menggunakan document.querySelector(). Anda mengambil elemen-elemen seperti openShopping, closeShopping, list, listCard, body, total, dan quantity dengan tujuan untuk berinteraksi dengannya dalam kode JavaScript.
+
+2. Anda menambahkan event listener pada elemen dengan kelas "shop" (dalam HTML: .shop) dengan menggunakan openShopping.addEventListener(). Ini berarti ketika elemen dengan kelas "shop" diklik (biasanya akan digunakan untuk membuka keranjang belanja), maka Anda memberikan kelas "active" ke elemen <body>. Ini biasanya digunakan untuk menunjukkan bahwa keranjang belanja sedang terbuka dan ada interaksi dengan keranjang belanja.
+
+3. Kemudian, Anda menambahkan event listener pada elemen dengan kelas "closeShopping" (dalam HTML: .closeShopping). Ketika elemen ini diklik, Anda menghapus kelas "active" dari elemen <body>. Ini digunakan untuk menutup keranjang belanja.
+
+4. Anda mendefinisikan daftar produk dalam bentuk array JavaScript yang disebut products. Setiap produk memiliki beberapa atribut seperti id, name, image, dan price. Produk ini nantinya akan digunakan untuk menampilkan daftar barang yang dapat ditambahkan ke keranjang belanja.
+
+5. Selanjutnya, Anda mendefinisikan array kosong listCards yang akan digunakan untuk menyimpan barang-barang yang telah ditambahkan ke keranjang belanja.
+
+6. Anda membuat fungsi initApp() untuk menginisialisasi aplikasi. Fungsi ini digunakan untuk menampilkan daftar produk dari array products ke dalam elemen dengan kelas "list" (dalam HTML: .list). Setiap produk ditampilkan dalam elemen dengan kelas "item" yang berisi gambar produk, nama produk, harga produk, dan tombol "Add to Cart". Tombol "Add to Cart" memiliki atribut onclick yang memanggil fungsi addToCard(key) saat tombol tersebut diklik.
+
+7. Anda mendefinisikan fungsi addToCard(key) yang digunakan untuk menambahkan produk ke dalam keranjang belanja. Jika produk belum ada di dalam keranjang belanja, produk tersebut akan disalin dari daftar products ke dalam listCards. Setiap produk di dalam listCards juga memiliki atribut quantity yang awalnya diatur ke 1.
+
+8. Anda mendefinisikan fungsi reloadCard() yang digunakan untuk memperbarui tampilan keranjang belanja. Fungsi ini akan membersihkan isi dari elemen dengan kelas "listCard" (dalam HTML: .listCard) dan kemudian membangun kembali tampilan keranjang belanja berdasarkan isi dari array listCards. Selain itu, fungsi ini juga menghitung total harga dari semua barang yang ada dalam keranjang belanja serta jumlah total barang yang ada di keranjang belanja, dan menampilkannya pada elemen-elemen dengan kelas "total" (dalam HTML: .total) dan "quantity" (dalam HTML: .quantity).
+
+9. Terakhir, Anda mengeksekusi fungsi initApp() untuk menginisialisasi aplikasi saat halaman web dimuat. Ini akan menampilkan daftar produk yang dapat ditambahkan ke keranjang belanja saat halaman dimuat.
+
