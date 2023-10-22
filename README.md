@@ -543,6 +543,52 @@ Tulis dengan urut dan benar.
 
 **PENJELASAN PRODUCT DAN CART PAGE :**
 
+1. &lt;!DOCTYPE html&gt; : Ini adalah deklarasi tipe dokumen HTML yang menunjukkan bahwa dokumen HTML ini menggunakan versi HTML terbaru.
+
+2. &lt;html lang="en"&gt; : Ini adalah elemen root (paling atas) dari halaman web yang menandakan dimulainya dokumen HTML. Atribut lang="en" menunjukkan bahwa bahasa dokumen adalah bahasa Inggris.
+
+3. &lt;head&gt; : Ini adalah elemen kepala dokumen HTML yang berisi informasi tentang halaman seperti meta tag, judul, dan tautan ke berkas eksternal.
+
+4. &lt;title&gt;Add to Cart&lt;/tittle&gt; : Ini adalah judul halaman yang akan ditampilkan di bilah judul browser.
+
+5. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter encoding dokumen HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
+
+6. &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; : Ini adalah meta tag yang digunakan untuk mengatur kompatibilitas dengan Internet Explorer (IE) dengan mode terbaru.
+
+7. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini adalah meta tag yang digunakan untuk mengatur tampilan responsif pada perangkat berbasis web, seperti ponsel. Itu memungkinkan halaman untuk menyesuaikan lebar dengan lebar perangkat dan mengatur tingkat pembesaran awal (skala awal).
+
+8. &lt;link rel="stylesheet" type="text/css" href="cart.css"&gt; : Ini adalah tautan ke berkas CSS eksternal (dalam hal ini "cart.css") yang akan mengatur tampilan dan gaya halaman.
+
+9. &lt;body class=""&gt; : Ini adalah elemen body dokumen, tempat konten halaman web sebenarnya ditempatkan. Kelas kosong ("") mungkin digunakan untuk menambahkan gaya CSS khusus jika diperlukan.
+
+10. &lt;div class="container"&gt; : Ini adalah div dengan kelas "container" yang digunakan untuk mengelompokkan elemen-elemen dalam halaman.
+
+11. &lt;header&gt; : Ini adalah elemen header yang berisi elemen-elemen yang menampilkan judul halaman dan ikon keranjang belanja.
+
+12. &lt;h1&gt;Your shopping card&lt;/h1&gt; : Ini adalah judul yang menunjukkan "Your shopping card"
+
+13. &lt;div class="shop"&gt; : Ini adalah div dengan kelas "shop" yang berisi gambar keranjang belanja ("shop.png") dan elemen yang menunjukkan jumlah item dalam keranjang ("quantity").
+
+14. &lt;img src="shop.png"&gt; : Ini adalah elemen gambar yang menampilkan gambar keranjang belanja.
+
+15. &lt;span class="quantity"&gt;0&lt;/span&gt; : Ini adalah elemen span yang berisi angka "0" yang mewakili jumlah item dalam keranjang belanja. Jumlah ini mungkin akan diperbarui menggunakan JavaScript.
+
+16. &lt;div class="list"&gt;&lt;/div&gt; : Ini adalah div dengan kelas "list" yang mungkin akan digunakan untuk menampilkan daftar item yang ada dalam keranjang belanja.
+
+17. &lt;div class="card"&gt; : Ini adalah div dengan kelas "card" yang mungkin akan digunakan untuk menampilkan elemen-elemen yang berkaitan dengan keranjang belanja, seperti judul, daftar item, total harga, dan tombol untuk menutup keranjang belanja.
+
+18. &lt;h1&gt;Card&lt;/h1&gt; : Ini adalah judul yang menunjukkan "Card"
+
+19. &lt;ul class="listCard"&gt;&lt;/ul&gt; : Ini adalah elemen ul (daftar tak terurut) dengan kelas "listCard" yang mungkin akan digunakan untuk menampilkan daftar item dalam keranjang belanja.
+
+20. &lt;div class="checkOut"&gt; : Ini adalah div dengan kelas "checkOut" yang mungkin akan berisi elemen-elemen terkait proses pembayaran dan penutupan keranjang belanja.
+
+21. &lt;div class="total"&gt;0&lt;/div&gt; : Ini adalah div dengan kelas "total" yang mungkin akan menampilkan total harga item dalam keranjang belanja. Angka "0" mewakili total awal yang mungkin akan diperbarui dengan JavaScript.
+
+22. &lt;div class="closeShopping"&gt;Close&lt/div&gt; : Ini adalah div dengan kelas "closeShopping" yang mungkin akan digunakan untuk tombol yang memungkinkan pengguna menutup keranjang belanja.
+
+23. &lt;script src="cart.js"&gt;&lt;/script&gt; : Ini adalah elemen script yang mengacu pada berkas JavaScript eksternal "cart.js." Ini akan memuat dan menjalankan skrip JavaScript yang mungkin diperlukan untuk mengelola keranjang belanja dan fungsionalitas lainnya di halaman.
+
 **PENJELASAN REVIEW PAGE :**
 
 1. &lt;!DOCTYPE html&gt; : Ini adalah deklarasi tipe dokumen HTML yang menunjukkan bahwa dokumen HTML ini menggunakan versi HTML terbaru.
