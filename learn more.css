@@ -11,7 +11,7 @@ body{
 .containers{
     margin: 20px 40px;
     color: white;
-    text-align: center; /* Pusatkan heading */
+    text-align: center; 
 }
 
 .heading{
@@ -26,15 +26,15 @@ body{
 
 .profiles{
     display: flex;
-    flex-wrap: wrap; /* Biarkan item wrap ke baris berikutnya */
-    justify-content: space-between; /* Membuat profil sejajar secara horizontal */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     margin: 20px 0;
 }
 
 .profile{
-    flex-basis: calc(33.33% - 20px); /* Lebar 33.33% dengan margin kiri dan kanan negatif */
-    margin: 0 10px; /* Tambahkan margin kiri dan kanan untuk menjaga jarak antara profil */
-    text-align: center; /* Pusatkan konten profil */
+    flex-basis: calc(33.33% - 20px); 
+    margin: 0 10px; 
+    text-align: center; 
 }
 
 .profile img{
@@ -52,7 +52,7 @@ body{
 
 .user-name {
     font-size: 20px;
-    margin-top: 30px; /* Tambahkan margin atas */
+    margin-top: 30px; 
     margin-bottom: 30px;
 }
 
