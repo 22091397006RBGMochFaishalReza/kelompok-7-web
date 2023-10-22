@@ -827,8 +827,152 @@ background: #333;: Mengatur warna latar belakang tombol.
 
 Ini adalah properti khusus untuk tombol saat digerakkan (hover).
 background: cadetblue;: Mengubah warna latar belakang tombol menjadi cadetblue saat kursor berada di atasnya.
-transition: background-color 0.3s ease;: Mengatur
+transition: background-color 0.3s ease;: Mengatur transisi (transition) yang mulus ketika mengubah warna latar belakang tombol, dengan durasi 0.3 detik dan jenis perubahan yang mudah (ease).
+
+12. .small-link:
+Ini adalah kelas yang diberikan kepada elemen untuk membuat tautan teks dengan ukuran font yang lebih kecil.
+font-size: 12px;: Mengatur ukuran font menjadi 12px.
+text-align: left;: Mengatur teks tautan ke kiri.
+margin-top: 5px;: Memberikan margin di atas tautan.
+
 
 **PENJELASAN REGISTER CSS :**
+
+1. * (Universal Selector):
+
+Ini adalah pemilihan universal yang berlaku untuk semua elemen HTML pada halaman. Pada kode ini, beberapa properti gaya akan diterapkan ke semua elemen.
+padding: 0;: Mengatur padding elemen menjadi 0.
+margin: 0;: Mengatur margin elemen menjadi 0.
+box-sizing: border-box;: Mengatur model kotak elemen menjadi "border-box," yang berarti bahwa padding dan border akan dimasukkan dalam lebar dan tinggi elemen.
+font-family: sans-serif;: Mengatur jenis font yang akan digunakan untuk teks di seluruh halaman sebagai jenis font "sans-serif."
+
+2. body:
+
+Ini mengatur properti-properti gaya untuk elemen <body> halaman web.
+display: flex;: Ini membuat konten di dalam elemen body menggunakan display jenis flex, yang akan membantu dalam mengatur elemen di dalamnya.
+height: 100vh;: Mengatur tinggi elemen body agar sesuai dengan tinggi viewport (layar pengguna).
+justify-content: center; dan align-items: center;: Ini akan mengatur konten di dalam elemen body ke tengah secara horizontal dan vertikal.
+background: url('assets/Header Page.jpg');: Mengatur gambar latar belakang elemen body dengan gambar yang disimpan dalam folder 'assets.'
+background-size: cover;: Mengatur ukuran gambar latar belakang agar menutupi seluruh elemen body.
+
+3. .container:
+
+Ini adalah kelas yang diberikan kepada suatu elemen dalam dokumen HTML. Kode ini mengatur tampilan elemen dengan kelas .container.
+width: 100%;: Elemen dengan kelas .container akan memiliki lebar 100% dari lebar parent-nya.
+max-width: 650px;: Elemen .container tidak akan melebihi lebar maksimum 650px.
+background: rgba(0, 0, 0, 0.5);: Mengatur latar belakang elemen dengan efek transparansi.
+padding: 28px;: Memberikan padding di dalam elemen.
+margin: 0 28px;: Memberikan margin di sisi kiri dan kanan elemen.
+border-radius: 10px;: Mengatur sudut bulat dengan radius 10px.
+box-shadow: inset -2px 2px 2px white;: Menerapkan efek bayangan di dalam elemen dengan bayangan yang berwarna putih.
+
+4. .form-title:
+
+Ini adalah kelas yang diberikan kepada elemen untuk judul formulir.
+font-size: 26px;: Mengatur ukuran font judul menjadi 26px.
+font-weight: 600;: Mengatur ketebalan huruf judul.
+text-align: center;: Mengatur teks dalam judul ke tengah.
+padding-bottom: 6px;: Memberikan padding di bagian bawah judul.
+color: white;: Mengatur warna teks judul menjadi putih.
+text-shadow: 2px 2px 2px black;: Memberikan efek bayangan teks judul.
+border-bottom: solid 1px white;: Menambahkan garis bawah pada judul dengan warna putih.
+
+5. .main-user-info:
+
+Ini adalah kelas yang diberikan kepada elemen untuk mengelola informasi pengguna utama.
+display: flex;: Mengatur tampilan elemen dengan display jenis flex.
+flex-wrap: wrap;: Mengatur elemen agar dapat melintasi baris jika terlalu banyak.
+justify-content: space-between;: Mengatur ruang antara elemen di dalam elemen ini.
+padding: 20px 0;: Memberikan padding di atas dan bawah elemen.
+
+6. .user-input-box:nth-child(2n):
+
+Ini adalah aturan CSS yang hanya berlaku untuk elemen .user-input-box yang merupakan elemen anak kedua, keempat, keenam, dst.
+justify-content: end;: Mengatur elemen agar kontennya berada di ujung kanan.
+
+7. .user-input-box:
+
+Ini adalah kelas yang diberikan kepada elemen untuk mengelola kotak input pengguna.
+display: flex;: Mengatur tampilan elemen dengan display jenis flex.
+flex-wrap: wrap;: Mengatur elemen agar dapat melintasi baris jika terlalu banyak.
+width: 50%;: Mengatur lebar elemen menjadi setengah dari lebar parent-nya.
+padding-bottom: 15px;: Memberikan padding di bagian bawah elemen.
+
+8. .user-input-box label:
+
+Ini adalah kelas yang diberikan kepada elemen label di dalam .user-input-box.
+width: 95%;: Mengatur lebar label menjadi 95% dari lebar parent-nya.
+color: white;: Mengatur warna teks label menjadi putih.
+font-size: 20px;: Mengatur ukuran font label menjadi 20px.
+font-weight: 400;: Mengatur ketebalan huruf label.
+
+9. .user-input-box input:
+
+Ini adalah kelas yang diberikan kepada elemen input di dalam .user-input-box.
+height: 40px;: Mengatur tinggi elemen input menjadi 40px.
+width: 95%;: Mengatur lebar elemen input menjadi 95% dari lebar parent-nya.
+border-radius: 7px;: Mengatur sudut bulat dengan radius 7px.
+outline: none;: Menghilangkan outline (garis pinggir) dari input.
+border: 1px solid grey;: Mengatur border dengan lebar 1px dan warna abu-abu pada input.
+padding: 0 10px;: Memberikan padding pada input.
+
+10. .gender-title:
+
+Ini adalah kelas yang diberikan kepada elemen untuk judul jenis kelamin.
+color: white;: Mengatur warna teks judul menjadi putih.
+font-size: 24px;: Mengatur ukuran font judul menjadi 24px.
+font-weight: 600;: Mengatur ketebalan huruf.
+
+11. .gender-category:
+Ini adalah kelas yang diberikan kepada elemen untuk mengelola kategori jenis kelamin.
+margin: 15px 0;: Memberikan margin pada bagian atas dan bawah elemen ini.
+color: white;: Mengatur warna teks menjadi putih.
+
+12. .gender-category label:
+
+Ini adalah kelas yang diberikan kepada elemen label di dalam .gender-category.
+padding: 0 20px 0 5px;: Memberikan padding pada sisi kiri dan kanan label untuk memberikan ruang ekstra di sekitar teks.
+
+13. .gender-category label, .gender-category input, dan .form-submit-btn input:
+
+Ini adalah beberapa peraturan CSS yang berlaku untuk elemen-elemen input, label, dan tombol dalam formulir.
+cursor: pointer;: Mengubah kursor mouse menjadi tanda tangan saat berada di atas elemen-elemen ini.
+
+14. .form-submit-btn:
+
+Ini adalah kelas yang diberikan kepada elemen untuk mengelola tombol submit pada formulir.
+margin-top: 40px;: Memberikan margin di atas tombol.
+
+15. .form-submit-btn input:
+
+Ini adalah kelas yang diberikan kepada elemen input dalam tombol submit.
+display: block;: Mengatur elemen input agar ditampilkan sebagai blok.
+width: 100%;: Mengatur lebar input agar mengisi seluruh lebar tombol.
+margin-top: 10px;: Memberikan margin di atas elemen input.
+font-size: 20px;: Mengatur ukuran font input menjadi 20px.
+padding: 10px;: Memberikan padding di dalam elemen input.
+border: none;: Menghilangkan border dari input.
+border-radius: 3px;: Mengatur sudut bulat dengan radius 3px.
+color: rgb(209, 209, 209);: Mengatur warna teks input.
+background: #333;: Mengatur warna latar belakang tombol submit.
+
+16. .form-submit-btn input:hover:
+
+Ini adalah peraturan khusus untuk tombol submit saat digerakkan (hover).
+background: cadetblue;: Mengubah warna latar belakang tombol submit menjadi cadetblue saat kursor berada di atasnya.
+color: rgb(255, 255, 255);: Mengubah warna teks tombol submit menjadi putih saat kursor berada di atasnya.
+
+17. @media (max-width: 600px):
+
+Ini adalah aturan CSS yang hanya berlaku ketika lebar viewport kurang dari atau sama dengan 600px. Ini digunakan untuk mengatur tampilan responsif pada perangkat berukuran kecil.
+.container dalam mode tampilan kecil akan memiliki lebar minimum 280px.
+.user-input-box akan memiliki margin lebih besar di mode tampilan kecil.
+.user-input-box:nth-child(2n) akan mengatur ruang antara elemen di mode tampilan kecil.
+.gender-category akan mengatur elemen dengan display jenis flex dan ruang antara elemen di mode tampilan kecil.
+.main-user-info akan memiliki maksimum tinggi dan area overflow yang dapat digulir.
+.main-user-info::-webkit-scrollbar akan menghilangkan scrollbar pada elemen .main-user-info untuk browser berbasis WebKit.
+
+
+**PENJELASAN RESET PASSWORD CSS :**
 
 1. 
