@@ -1,112 +1,112 @@
-/* Reset tampilan default */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Style latar belakang halaman */
+
 body {
-    display: flex; /* Menggunakan model display flex */
-    justify-content: center; /* Pusatkan elemen horizontal */
-    align-items: center; /* Pusatkan elemen vertikal */
-    min-height: 100vh; /* Tinggi minimum setara dengan tinggi viewport */
-    background: cadetblue; /* Warna latar belakang */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background: cadetblue; 
 }
 
-/* Style kontainer utama */
+
 .container {
-    width: 100%; /* Lebar kontainer 100% dari lebar layar */
-    display: flex; /* Menggunakan model display flex */
-    max-width: 850px; /* Lebar maksimum kontainer */
-    background: #fff; /* Warna latar belakang kontainer */
-    border-radius: 15px; /* Sudut bulatan kontainer */
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan kontainer */
+    width: 100%; 
+    display: flex; 
+    max-width: 850px;
+    background: #fff; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Style area login */
+
 .login {
-    width: 400px; /* Lebar area login */
+    width: 400px; 
 }
 
-/* Style formulir login */
+
 form {
-    width: 250px; /* Lebar formulir */
-    margin: 60px auto; /* Margin dari atas dan bawah */
+    width: 250px; 
+    margin: 60px auto; 
 }
 
-/* Style judul "Login" */
+
 h1 {
-    margin: 20px; /* Margin dari atas dan bawah */
-    text-align: center; /* Teks di tengah secara horizontal */
-    font-weight: bolder; /* Ketebalan font */
-    text-transform: uppercase; /* Huruf besar */
+    margin: 20px; 
+    text-align: center; 
+    font-weight: bolder; 
+    text-transform: uppercase; 
     color: rgb(205, 186, 15);
 }
 
-/* Style garis pemisah */
+
 hr {
-    border-top: 2px solid #cbdadc; /* Garis pemisah dengan warna tertentu */
+    border-top: 2px solid #cbdadc; 
 }
 
-/* Style teks penjelasan */
+
 p {
-    text-align: center; /* Teks di tengah secara horizontal */
-    margin: 10px; /* Margin dari atas dan bawah */
+    text-align: center; 
+    margin: 10px; 
     color: #0f0b0a;
 }
 
-/* Style gambar di sisi kanan */
+
 .right img {
-    width: 450px; /* Lebar gambar */
-    height: 100%; /* Tinggi gambar mengisi tinggi kontainer */
-    border-top-right-radius: 15px; /* Sudut bulatan sudut atas kanan */
-    border-bottom-right-radius: 15px; /* Sudut bulatan sudut bawah kanan */
+    width: 450px; 
+    height: 100%; 
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px; 
 }
 
-/* Style label pada input */
+
 form label {
-    display: block; /* Membuat label menjadi blok untuk garis baru */
-    font-size: 16px; /* Ukuran font */
-    font-weight: 600; /* Ketebalan font */
-    padding: 5px; /* Padding di sekitar label */
+    display: block; 
+    font-size: 16px; 
+    font-weight: 600; 
+    padding: 5px; 
 }
 
-/* Style input teks dan kata sandi */
+
 input {
-    width: 100%; /* Lebar input penuh */
-    margin: 2px; /* Margin dari atas dan bawah */
-    border: none; /* Menghapus border default */
-    outline: none; /* Menghapus outline pada fokus */
-    padding: 8px; /* Padding di dalam input */
-    border-radius: 5px; /* Sudut bulatan input */
-    border: 1px solid gray; /* Border dengan warna abu-abu */
+    width: 100%; 
+    margin: 2px; 
+    border: none; 
+    outline: none; 
+    padding: 8px; 
+    border-radius: 5px; 
+    border: 1px solid gray;
 }
 
-/* Style tombol login */
+
 button {
-    border: none; /* Menghapus border tombol */
-    outline: none; /* Menghapus outline pada fokus */
-    padding: 8px; /* Padding tombol */
-    width: 252px; /* Lebar tombol */
-    color: #fff; /* Warna teks tombol */
-    font-size: 16px; /* Ukuran font tombol */
-    cursor: pointer; /* Kursor berubah menjadi tangan saat dihover */
-    margin-top: 20px; /* Margin dari atas tombol */
-    border-radius: 5px; /* Sudut bulatan tombol */
-    background: #333; /* Warna latar belakang tombol */
+    border: none; 
+    outline: none; 
+    padding: 8px; 
+    width: 252px; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    border-radius: 5px; 
+    background: #333; 
 }
 
-/* Style tombol saat dihover */
+
 button:hover {
-    background: cadetblue; /* Warna latar belakang tombol saat dihover */
-    transition: background-color 0.3s ease; /*ayolah */
+    background: cadetblue; 
+    transition: background-color 0.3s ease; 
 }
 
-/* Style link "Lupa Kata Sandi?" yang lebih kecil */
+
 .small-link {
-    font-size: 12px; /* Ukuran font lebih kecil */
-    text-align: left; /* Teks rata kiri */
-    margin-top: 5px; /* Margin dari atas */
+    font-size: 12px; 
+    text-align: left; 
+    margin-top: 5px; 
 }
 
