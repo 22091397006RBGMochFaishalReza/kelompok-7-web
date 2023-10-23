@@ -27,7 +27,7 @@
 - [1.4 Definisi dan Istilah](#14-Definisi-dan-Istilah)
 - [1.5 Referensi](#15-Referensi)
 
-- [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
+- [Bab 2. Deskripsi Keseluruhan](#Bab-2-Deskripsi-Keseluruhan)
 - [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
 - [Functional Requirement](#Functional-Requirement)
 - [Non Functional Requirements](#Non-Functional-Requirements)
@@ -149,7 +149,7 @@ Intan Anuggrah Yuandi, Siti Rahmawati Kahar, Arrum Purnama. “Perancangan Web E
 
 <div align="center">
 
-## Deskripsi Keseluruhan
+## Bab 2. Deskripsi Keseluruhan
 
 </div>
 
