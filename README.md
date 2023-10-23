@@ -17,7 +17,7 @@
 
 ## Daftar Isi
 
-- [1. Pendahuluan](#1.Pendahuluan)
+- [Pendahuluan](#Pendahuluan)
 - [Bagian 2](#bagian-2)
 
 
@@ -71,7 +71,7 @@
 
 <div align="center">
 
-## 1.Pendahuluan
+## Pendahuluan
 
 </div>
 
