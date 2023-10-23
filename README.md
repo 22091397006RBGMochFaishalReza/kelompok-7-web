@@ -2082,7 +2082,7 @@ Mengatur efek hover saat pengguna mengarahkan kursor ke tombol, mengubah latar b
 
 ## 6.3 Penjelasan Javascript
 
-**PENJELASAN CART JS :**
+**PENJELASAN CART JAVASCRIPT :**
 
 1. Langkah pertama adalah dengan memilih beberapa elemen HTML dengan menggunakan document.querySelector(). Mengambil elemen-elemen seperti openShopping, closeShopping, list, listCard, body, total, dan quantity dengan tujuan untuk berinteraksi dengannya dalam kode JavaScript.
 
