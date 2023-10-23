@@ -153,7 +153,17 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 3.1 User Interfaces 
 
-User Interface dari website ini pada awalnya ada sebuah landing page website yang menampilkan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akan menuju ke menu login awal ataupun register awal. Pengguna yang belum memiliki akun harus klik register pada pojok kanan tampilan landing page. Setelah masuk ke halaman register pengguna harus memasukkan full name/nama lengkap, pengguna memasukkan username, email, no telepon, dan membuat password serta mengkonfirmasi password. Setelah Saat pengguna klik login maka pengguna akan masuk ke login page. Pada login page pengguna memasukkan email dan password untuk bisa login, setelah pengguna login maka pengguna akan masuk ke menu home page.
+**User Interfaces Landing Page** 
+User Interface dari website ini pada awalnya ada sebuah landing page website yang menampilkan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akan menuju ke menu login awal ataupun register awal. 
+
+**User Interfaces Register Page**
+Pengguna yang belum memiliki akun harus klik register pada pojok kanan tampilan landing page. Setelah masuk ke halaman register pengguna harus memasukkan full name/nama lengkap, pengguna memasukkan username, email, no telepon, dan membuat password serta mengkonfirmasi password. Pada menu di paling bawah, pengguna memilih gender atau jenis kelamin. Terdapat pilihan male/laki-laki, female/perempuan, dan other/lainnya, setelah itu klik register dan kembali ke landing page setelah itu pengguna dapat melakukan login. 
+
+**User Interfaces Login Page**
+Setelah Saat pengguna klik login maka pengguna akan masuk ke login page. Pada login page pengguna memasukkan email dan password yang telah dibuat pada register page untuk bisa login, setelah pengguna login maka pengguna akan masuk ke menu home page.
+
+**User Interfaces Home Page**
+
 
 3.2 Hardware Interface
 
