@@ -19,7 +19,6 @@
 
 - [Pendahuluan](#Pendahuluan)
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
-- [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
 
 
 1. 	Pendahuluan	
