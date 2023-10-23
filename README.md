@@ -22,6 +22,10 @@
 - [Bab 1. Pendahuluan](#Bab-1-Pendahuluan)
 
 - [1.1 Tujuan Penulisan Dokumen](#11-Tujuan-Penulisan-Dokumen)
+- [1.2 Audien yang Dituju dan Pembaca yang Disarankan](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
+- [1.3 Batasan Produk](#13-Batasan-Produk)
+- [1.4 Definisi dan Istilah](#14-Definisi-dan-Istilah)
+- [1.5 Referensi](#15-Referensi)
 
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
 - [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
@@ -88,11 +92,11 @@
 Tujuan kelompok kami dalam penulisan dokumen ini adalah untuk memberikan suatu rancangan ide sebuah platform untuk mahasiswa Universitas Negeri Surabaya dalam penjualan makanan ringan sebagai bentuk usaha memudahkan para mahasiswa Universitas Negeri Surabaya yang ingin memasarkan produknya agar dapat terjual luas.
 
 
-1.2 Audien yang Dituju dan Pembaca yang Disarankan
+## 1.2 Audien yang Dituju dan Pembaca yang Disarankan
 
 Dokumen ini ditujukan untuk kalangan remaja kisaran umur 18 tahun keatas. Audien yang akan dituju dalam konteks platform website ini adalah mahasiswa yang berniat menjual produk usahanya berupa produk buatan asli mahasiswa Universitas Negeri Surabaya.
 
-1.3 Batasan Produk
+## 1.3 Batasan Produk
 
 Platform website penjualan produk mahasiswa adalah situs web yang dirancang khusus untuk memungkinkan mahasiswa untuk menjual produk mereka. Platform ini memfasilitasi transaksi jual beli antara mahasiswa.
 
@@ -122,7 +126,7 @@ c. Developer atau admin selaku pembuat website yang mengoperasikan platform ini 
 
 d. Mendukung mahasiswa dan ekosistem kreatif mereka dapat menjadi bagian dari strategi bisnis ini untuk menciptakan dampak positif dan menciptakan hubungan jangka panjang dengan komunitas mahasiswa.
 
-1.4 Definisi dan Istilah
+## 1.4 Definisi dan Istilah
 
 SRS	:	Software Requirements Specification, atau 
 	   Spesifikasi Kebutuhan Perangkat Lunak (SKPL)
@@ -134,7 +138,7 @@ Platform	:	Sebuah wadah digital yang banyak dipakai manusia untuk berbagai macam
 
 Website	:	Kumpulan halaman web yang saling terhubung dan dapat diakses melalui internet
 
-1.5 Referensi
+## 1.5 Referensi
 
 Nana Saharna, Kasman Ruku. “Perancangan Sistem E-Commerce Berbasis Web Pada Toko Indah Surya Furniture.” Jurnal Vokasional Teknik Elektronika dan Informatika, E - ISSN: 2302-3295 Vol. 7, No. 1(2019).
 
