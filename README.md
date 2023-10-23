@@ -18,7 +18,7 @@
 ## Daftar Isi
 
 - [Pendahuluan](#Pendahuluan)
-- [Bagian 2](#bagian-2)
+- [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
 
 
 1. 	Pendahuluan	
@@ -137,7 +137,7 @@ Intan Anuggrah Yuandi, Siti Rahmawati Kahar, Arrum Purnama. “Perancangan Web E
 
 <div align="center">
 
-**2. Deskripsi Keseluruhan**
+## Deskripsi Keseluruhan
 
 </div>
 
