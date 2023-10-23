@@ -30,7 +30,6 @@
 
 - [Bab 2. Deskripsi Keseluruhan](#Bab-2-Deskripsi-Keseluruhan)
 
-
 - [2.1 Deskripsi Produk](#21-Deskripsi-Produk)
 - [2.2 Fungsi Produk](#22-Fungsi-Produk)
 - [2.3 Penggolongan Karakterik Pengguna](#23-Penggolongan-Karakterik-Pengguna)
@@ -38,6 +37,11 @@
 
   
 - [Bab 3. Kebutuhan Antarmuka Eksternal](#Bab-3-Kebutuhan-Antarmuka-Eksternal)
+
+- [3.1 User Interfaces](#31-User-Interfaces)
+- [3.2 Hardware Interface](#32-Hardware-Interface)
+- [3.3 Software Interface](#33-Software-Interface)
+- [3.4 Communication Interface](#34-Communication-Interface)
 
 
 - [Functional Requirement](#Functional-Requirement)
@@ -193,7 +197,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 </div>
 
-3.1 User Interfaces 
+## 3.1 User Interfaces 
 
 **User Interfaces Landing Page** 
 
@@ -210,15 +214,15 @@ Setelah Saat pengguna klik login maka pengguna akan masuk ke login page. Pada lo
 **User Interfaces Home Page**
 
 
-3.2 Hardware Interface
+## 3.2 Hardware Interface
 
 Pembuatan website tidak dikhususkan bagi siapapun karena website ini akan mudah dijangkau oleh siapapun yang menggunakan hardware low to high. Untuk menjangkau website ini tidak dibutuhkan spesifikasi yg tinggi dikarenakan pada umumnya pengguna atau user di kalangan kampus sudah memiliki perangkat dengan hardware yang lebih dari cukup untuk menjangkau atau membuka website ini.
 
-3.3 Software Interface
+## 3.3 Software Interface
 
 Antarmuka perangkat lunak dari situs web penjualan camilan yang diimplementasikan dalam kode HTML dan CSS di atas adalah sebuah halaman web dengan header yang mencakup logo perusahaan, tombol "Login" dan "Register" di landing page, serta latar belakang yang menarik. Konten utama halaman terdiri dari pesan selamat dengan deskripsi yang menjelaskan layanan atau produk yang ditawarkan, semuanya ditampilkan secara rapi dan responsif. Antarmuka ini berfungsi sebagai tampilan depan situs web dan memungkinkan pengguna untuk mengakses layanan penjualan camilan dengan mudah melalui tombol-tombol Login dan Register di landing page.
 
-3.4 Communication Interface
+## 3.4 Communication Interface
 
 Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementasikan dalam kode HTML dan CSS di atas adalah berdasarkan protokol HTTP melalui peramban web pengguna. Ketika pengguna mengakses halaman web, permintaan HTTP dikirimkan ke server web untuk mengambil dan menampilkan konten halaman. Halaman web ini juga dapat menyediakan formulir elektronik yang memungkinkan pengguna mengirimkan pesan atau data melalui metode HTTP POST. Dalam konteks ini, antarmuka komunikasi terutama berfokus pada interaksi antara peramban web pengguna dan server web untuk menampilkan dan mengirimkan informasi terkait penjualan camilan. Keamanan komunikasi melalui protokol HTTPS dapat diterapkan untuk melindungi data sensitif dan transmisi aman.
 
