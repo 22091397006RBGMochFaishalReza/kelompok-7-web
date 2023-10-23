@@ -215,7 +215,7 @@ Pada menu about page terdapat video promosi. Disini juga terdapat tulisan "Kenap
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Cart.png)
 
 **PENJELASAN :**
-
+Pengguna dapat menambahkan produk dengan klik tambah ke keranjang. Pengguna bisa melihat list makanan yang sudah ditambahkan ke keranjang dengan klik logo keranjang di pojok kanan. List makanan di keranjang/cart terdapat nama produk, jumlah produk yang telah ditambahkan dan jumlah harga per produk serta jumlah total harga.
 
 
 **3.1.7 User Interfaces Review Page**
@@ -223,6 +223,7 @@ Pada menu about page terdapat video promosi. Disini juga terdapat tulisan "Kenap
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Review.jpeg)
 
 **PENJELASAN :**
+Pada review page terdapat ulasan customer tentang website maupun makanan.
 
 
 **3.1.8 User Interfaces Contact Page**
@@ -230,6 +231,7 @@ Pada menu about page terdapat video promosi. Disini juga terdapat tulisan "Kenap
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Contact.jpeg)
 
 **PENJELASAN :**
+Pada contact page pengguna dapat menghubungi admin website. Pengguna dapat mengisi dengan memasukkan nama, nama email, no telepon serta pesan/message yang ingin disampaikan kepada admin. Setelah mengisi klik send to admin untuk mengirimkan pesan ke admin website.
 
 
 **3.1.9 User Interfaces Learn More Page**
@@ -237,6 +239,7 @@ Pada menu about page terdapat video promosi. Disini juga terdapat tulisan "Kenap
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Learn%20More.png)
 
 **PENJELASAN :**
+Pada menu learn more terdapat informasi lanjutan tentang developer atau pembuat website snack sales.
 
 
 ## 3.2 Hardware Interface
