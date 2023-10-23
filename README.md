@@ -17,8 +17,8 @@
 
 ## Daftar Isi
 
-- [1. 	Pendahuluan](#1. 	Pendahuluan)
-- [1.1	Tujuan Penulisan Dokumen](#1.1	Tujuan Penulisan Dokumen)
+- [Bagian 1](#bagian-1)
+- [Bagian 2](#bagian-2)
 
 
 1. 	Pendahuluan	
