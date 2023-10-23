@@ -17,43 +17,43 @@ let openShopping = document.querySelector('.shop');
         let products = [
             {
                 id: 1,
-                name: 'Product Name 1',
+                name: 'Nama Produk 1',
                 image: 'makaroni.jpg',
                 price: 350
             },
             {
                 id: 2,
-                name: 'Product Name 2',
+                name: 'Nama Produk 2',
                 image: 'basreng.jpg',
                 price: 450
             },
             {
                 id: 3,
-                name: 'Product Name 3',
+                name: 'Nama Produk 3',
                 image: 'keripikakca.jpg',
                 price: 550
             },
             {
                 id: 4,
-                name: 'Product Name 4',
+                name: 'Nama Produk 4',
                 image: 'keripiktempe.jpg',
                 price: 650
             },
             {
                 id: 5,
-                name: 'Product Name 5',
+                name: 'Nama Produk 5',
                 image: 'keripikkaca.jpg',
                 price: 750
             },
             {
                 id: 6,
-                name: 'Product Name 6',
+                name: 'Nama Produk 6',
                 image: 'keripiktempe.jpg',
                 price: 850
             }
         ];
 
-        let listCards = [];
+        let listCards = {};
 
         function initApp() {
             products.forEach((value, key) => {
@@ -62,7 +62,7 @@ let openShopping = document.querySelector('.shop');
                 newDiv.innerHTML = `<img src="assets/${value.image}">
                 <div class="title">${value.name}</div>
                 <div class="price">${value.price.toLocaleString()}</div>
-                <button onclick="addToCart(${key})">Add to Cart</button>`;
+                <button onclick="addToCart(${key})">Tambah ke Keranjang</button>`;
                 list.appendChild(newDiv);
             });
         }
@@ -79,11 +79,13 @@ let openShopping = document.querySelector('.shop');
         }
 
         function removeItem(key) {
-            listCards[key].quantity--;
-            if (listCards[key].quantity === 0) {
-                delete listCards[key];
+            if (listCards[key] && listCards[key].quantity > 0) {
+                listCards[key].quantity--;
+                if (listCards[key].quantity === 0) {
+                    delete listCards[key];
+                }
+                reloadCart();
             }
-            reloadCart();
         }
 
         function reloadCart() {
@@ -98,10 +100,12 @@ let openShopping = document.querySelector('.shop');
                     let newDiv = document.createElement('li');
                     newDiv.innerHTML = `
                         <div><img src="assets/${item.image}"/></div>
-                        <div>${item.name}</div>
-                        <div class="count">${item.quantity}</div>
-                        <button onclick="addToCart(${key})">Tambah</button>
-                        <button onclick="removeItem(${key})">Hapus</button>`;
+                        <div>
+                            <button class="remove-button" onclick="removeItem(${key})">-</button>
+                            ${item.name}
+                            <button class="add-button" onclick="addToCart(${key})">+</button>
+                        </div>
+                        <div class="count">${item.quantity}</div>`;
                     listCard.appendChild(newDiv);
                 }
             }
