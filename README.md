@@ -285,12 +285,11 @@ Untuk menampilkan tanda &lt; dan &gt; secara harfiah dalam README di GitHub, mak
 
 Tulis dengan urut dan benar. 
 
-<h1>
 
 **PENJELASAN INDEX HTML :**
 
 
-1. Pertama ada &lt;!1DOCTYPE html&gt; : Semua dokumen HTML harus dimulai dengan <!DOCTYPE>deklarasi. Deklarasi ini bukan tag HTML. Ini adalah "informasi" ke browser tentang jenis dokumen apa yang diharapkan.
+1. Pertama ada <!1DOCTYPE html> : Semua dokumen HTML harus dimulai dengan <!DOCTYPE>deklarasi. Deklarasi ini bukan tag HTML. Ini adalah "informasi" ke browser tentang jenis dokumen apa yang diharapkan.
 
 2. Selanjutnya ada &lt;html lang="en"&gt; : Tag pembuka untuk elemen HTML utama dengan atribut lang yang menentukan bahasa dokumen (dalam hal ini menggunakan bahasa Inggris).
 
