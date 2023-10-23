@@ -22,6 +22,8 @@
 - [Pendahuluan](#Pendahuluan)
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
 - [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
+- [Functional Requirement](Functional-Requirement)
+- [Non Functional Requirements](Non-Functional-Requirements)
 
 
 1. 	Pendahuluan	
@@ -206,7 +208,7 @@ Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementas
 
 <div align="center">
 
-**4. Functional Requirement**
+## Functional Requirement
 
 </div>
 
@@ -241,7 +243,7 @@ Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat w
 
 <div align="center">
 	
-**5. Non Functional Requirements**
+## Non Functional Requirements
 
 </div>
 
