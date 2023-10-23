@@ -1,6 +1,8 @@
+
 header .logo img {
-    width: 30px; 
-    height: auto; 
+    /* Tambahkan properti berikut untuk mengatur lebar dan tinggi logo */
+    width: 30px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    height: auto; /* Ini akan menjaga rasio aspek agar tidak terdistorsi */
 }
 
 header .navbar a{
