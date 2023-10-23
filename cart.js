@@ -36,19 +36,19 @@ let openShopping = document.querySelector('.shop');
             {
                 id: 4,
                 name: 'Nama Produk 4',
-                image: 'keripiktempe.jpg',
+                image: 'mie ayam.jpg',
                 price: 650
             },
             {
                 id: 5,
                 name: 'Nama Produk 5',
-                image: 'keripikkaca.jpg',
+                image: 'bakso.jpg',
                 price: 750
             },
             {
                 id: 6,
                 name: 'Nama Produk 6',
-                image: 'keripiktempe.jpg',
+                image: 'nasi goreng.jpg',
                 price: 850
             }
         ];
