@@ -11,7 +11,6 @@
 <p>	02/10/2023 </p>
 </div>
 
-<div align="justify">
 
 <div align="center">
 
@@ -2069,4 +2068,3 @@ Mengatur efek hover saat pengguna mengarahkan kursor ke tombol, mengubah latar b
 
 9. Terakhir, lakukan eksekusi fungsi initApp() untuk menginisialisasi aplikasi saat halaman web dimuat. Ini akan menampilkan daftar produk yang dapat ditambahkan ke keranjang belanja saat halaman dimuat.
 
-</div>
