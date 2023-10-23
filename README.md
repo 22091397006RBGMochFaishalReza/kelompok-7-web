@@ -13,9 +13,11 @@
 
 <div align="justify">
 
-**Table of Contents**
+<div align="center">
 
 ## Daftar Isi
+
+</div>
 
 - [Pendahuluan](#Pendahuluan)
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
