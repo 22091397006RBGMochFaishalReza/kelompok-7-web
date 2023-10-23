@@ -54,6 +54,9 @@
 
 
 - [Bab 6. Penjelasan HTML CSS dan Javascript](#Bab-6-Penjelasan-HTML-CSS-dan-Javascript)
+- [6.1 Penjelasan HTML](#61-Penjelasan-HTML)
+- [6.2 Penjelasan CSS](#62-Penjelasan-CSS)
+- [6.3 Penjelasan Javascript](#63-Penjelasan-Javascript)
 
 
 <div align="center">
@@ -255,7 +258,7 @@ Catatan : Memahami serta memenuhi persyaratan non-fungsional ini akan membantu m
 
 ## Bab 6. Penjelasan HTML CSS dan Javascript
 
-<h2>PENJELASAN HTML</h2>
+## 6.1 PENJELASAN HTML
 
 Note : Dalam README di GitHub tanda kurang dari/&lt; dan lebih dari/&gt; pada awal serta akhir tag HTML, Markdown akan menganggapnya sebagai kode HTML atau tag HTML, dan itu tidak akan ditampilkan secara harfiah pada halaman GitHub. Sebagai contoh, jika menulis &lt;p&gt; di dalam README, Markdown akan menganggapnya sebagai tag paragraf HTML dan tidak akan menampilkannya sebagai teks &lt;p&gt; yang sebenarnya.
 
@@ -736,7 +739,7 @@ Tulis dengan urut dan benar.
 13. &lt;div class="profiles"&gt;: Ini adalah div dengan kelas "profiles" yang digunakan untuk mengelompokkan profil tim.
 
 
-<h2>PENJELASAN CSS</h2>
+## 6.2 PENJELASAN CSS
 
 **PENJELASAN STYLE CSS :**
 
@@ -2015,6 +2018,9 @@ Mengatur efek hover saat pengguna mengarahkan kursor ke tombol, mengubah latar b
 19. .listCard li button: Ini mengatur tombol hapus item dari keranjang belanja.
 
 20. .listCard .count: Ini mengatur tampilan jumlah item dalam keranjang belanja.
+
+
+## 6.3 Penjelasan Javascript
 
 **PENJELASAN CART JS :**
 
