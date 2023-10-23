@@ -53,6 +53,9 @@
 - [Bab 5. Non Functional Requirements](#Bab-5-Non-Functional-Requirements)
 
 
+- [Bab 6. Penjelasan HTML,CSS,dan Javascript](#Bab-6-Penjelasan-HTML,CSS,dan-Javascript)
+
+
 <div align="center">
 
 ## Bab 1. Pendahuluan
@@ -249,6 +252,8 @@ Persyaratan non-fungsional menunjukkan karakteristik berikut:
 Catatan : Memahami serta memenuhi persyaratan non-fungsional ini akan membantu memastikan bahwa website jual beli makanan/snack dapat memberikan pengalaman yang baik dan aman bagi pengguna, serta dapat terus berkembang untuk kedepannya. 
 
 # Kelompok-7-Web
+
+## Bab 6. Penjelasan HTML,CSS,dan Javascript
 
 <h2>PENJELASAN HTML</h2>
 
