@@ -1,8 +1,8 @@
-let openShopping = document.querySelector('.shop'); // Ganti dari '.shopping' ke '.shop'
+let openShopping = document.querySelector('.shop');
 let closeShopping = document.querySelector('.closeShopping');
 let list = document.querySelector('.list');
 let listCard = document.querySelector('.listCard');
-let body = document.querySelector('body'); // Ganti dari '.body' ke 'body'
+let body = document.querySelector('body');
 let total = document.querySelector('.total');
 let quantity = document.querySelector('.quantity');
 
@@ -18,35 +18,35 @@ let products = [
     {
         id: 1,
         name: 'Product Name 1',
-        image: 'assets/KERIPIK TEMPE.jpg',
+        image: 'makaroni.jpg',
         price: 350
     },
     {
-        id: 2, // Ubah id menjadi 2
+        id: 2,
         name: 'Product Name 2',
         image: 'basreng.jpg',
         price: 450
     },
     {
-        id: 3, // Ubah id menjadi 3
+        id: 3,
         name: 'Product Name 3',
         image: 'keripikakca.jpg',
         price: 550
     },
     {
-        id: 4, // Ubah id menjadi 4
+        id: 4,
         name: 'Product Name 4',
         image: 'keripiktempe.jpg',
         price: 650
     },
     {
-        id: 5, // Ubah id menjadi 5
+        id: 5,
         name: 'Product Name 5',
         image: 'keripikkaca.jpg',
         price: 750
     },
     {
-        id: 6, // Ubah id menjadi 6
+        id: 6,
         name: 'Product Name 6',
         image: 'keripiktempe.jpg',
         price: 850
@@ -59,7 +59,7 @@ function initApp() {
     products.forEach((value, key) => {
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
-        newDiv.innerHTML = `<img src="image/${value.image}">
+        newDiv.innerHTML = `<img src="assets/${value.image}">
         <div class="title">${value.name}</div>
         <div class="price">${value.price.toLocaleString()}</div>
         <button onclick="addToCard(${key})">Add to Card</button>`;
