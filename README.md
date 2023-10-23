@@ -44,57 +44,14 @@
 - [3.4 Communication Interface](#34-Communication-Interface)
 
 
-- [Functional Requirement](#Functional-Requirement)
-- [Non Functional Requirements](#Non-Functional-Requirements)
+- [Bab 4. Functional Requirement](#Bab-4-Functional-Requirement)
+
+- [4.1 Use Case Diagram](#41-Use-CaseDiagram)
+- [4.2 Flowchart](#42-Flowchart)
 
 
-1. 	Pendahuluan	
+- [Bab 5. Non Functional Requirements](#Bab-5-Non-Functional-Requirements)
 
-1.1	Tujuan Penulisan Dokumen	
-
-1.2	Audien yang Dituju dan Pembaca yang Disarankan	
-
-1.3	Batasan Produk	
-
-1.4	Definisi dan Istilah	
-
-1.5	Referensi	
-
-2.	Deskripsi Keseluruhan	
-
-2.1	Deskripsi Produk	
-
-2.2	Fungsi Produk	
-
-2.3	Penggolongan Karakterik Pengguna	
-
-2.4	Lingkungan Operasi	
-
-2.5	Batasan Desain dan Implementasi	
-
-2.6	Dokumentasi Pengguna	
-
-3.	Kebutuhan Antarmuka Eksternal	
-
-3.1	User Interfaces	
-
-3.2	Hardware Interface	
-
-3.3	Software Interface	
-
-3.4	Communication Interface	
-
-4.	Functional Requirement	
-
-4.1	Use Case Diagram	
-
-4.2	Nama Use Case 1	
-
-4.3	Nama Use Case 2	
-
-4.4	Class Diagram	
-
-5.	Non Functional Requirements	
 
 <div align="center">
 
@@ -229,42 +186,42 @@ Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementas
 
 <div align="center">
 
-## Functional Requirement
+## Bab 4. Functional Requirement
 
 </div>
 
 Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus berperilaku. Ini mendefinisikan apa yang harus dilakukan sistem untuk memenuhi kebutuhan atau harapan pengguna. Persyaratan fungsional dapat dianggap sebagai fitur yang dideteksi pengguna. berbeda dari persyaratan non-fungsional, yang menentukan bagaimana sistem harus bekerja secara internal (misalnya, kinerja, keamanan, dll.).
 
-4.1 Use Case Diagram 
+## 4.1 Use Case Diagram 
 
 ![alt text](https://github.com/rbgmochfaishalreza/rbgmochfaishalreza.github.io/blob/master/assets/USECASE%20WEB%20KEL%207.jpg)
 
-4.2 Deskripsi Use Case 
+**Deskripsi Use Case** 
 	
 Dalam use case diagram diatas dijelaskan  bahwa user dapat melakukan login, register untuk registrasi, menjual produk untuk penjual, dan membeli produk untuk pembeli. Admin dapat mengatur data login user, menyimpan data login user, menyimpan data produk dijual dan terjual, maintenance dan upgrade sistem. 
 
-4.3 Flowchart
+## 4.2 Flowchart
 
-4.3.1 Flowchart User
+**Flowchart User**
 
 ![alt text](https://github.com/rbgmochfaishalreza/rbgmochfaishalreza.github.io/blob/master/assets/FLOW%20USER%20KEL%207.png)
 
-4.3.2 Deskripsi Flowchart User
+**Deskripsi Flowchart User**
 
 Untuk penjelasan pada flowchart yang akan dilakukan oleh user adalah pertama tama pastinya terdapat start untuk masuk kedalam website penjualan kita. Setelah itu akan ada pertanyaan sudah memiliki akun atau belum, jika sudah bisa melanjutkan ke menu login untuk memasukkan data yang digunakan pada saat mendaftar/register, jika belum memiliki akun user diharapkan memilih menu register yang akan menuntun user mengisikan data data yang diperlukan untuk registrasi. Setelah proses register sudah selesai, user akan kembali ke menu login untuk memasukkan data yang sudah diregistrasikan di awal. Setelah itu berhasil akan menuju atau masuk ke halaman beranda, di dalam halaman beranda terdapat menu pilihan yaitu jual/beli. Jika ingin menjual produk maka kita akan pilih jual lalu mengisikan nama produk, foto produk, harga produk dll. Jika kita memilih untuk membeli produk dari seseorang maka silahkan pilih menu beli, nantinya akan masuk kedalam menu beli untuk membeli produk yang tersedia di dalam toko-toko yang ada, lalu jika sudah menemukan barang yang pas untuk dibeli dapat ditambahkan ke keranjang lalu akan memproses pembayaran, selesai.
 
-4.3.3 Flowchart Admin
+**Flowchart Admin**
 
 ![alt text](https://github.com/rbgmochfaishalreza/rbgmochfaishalreza.github.io/blob/master/assets/FLOW%20ADMIN%20KEL%207.png)
  
-4.3.4 Deskripsi Flowchart Admin
+**Deskripsi Flowchart Admin**
 
 Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat website yang berkaitan tentang hal yang akan kita buat. Setelah itu kita selain membuat website juga menyediakan kebutuhan fungsional sistem, kemudian menyediakan fasilitas bagi user penjual/pembeli. Lalu kita menyimpan data register user, setelah itu mengatur data user. Kemudian kita memisahkan data register dan login. Jika belum register kita memberikan fitur membuat dan memasukkan data register lalu menyimpan data register, mengecek data register user, dan memberikan akses masuk ke website. Jika sudah bisa mengecek data register danmemberikan akses masuk ke website, setelah itu memberikan fitur pilihan jual/beli. Setelah itu semua sudah selesai admin akan menyimpan data produk dijual dan terjual, lalu menyimpan riwayat login user. Jika sistem dalam perbaikan akan maintenance dan upgrade sistem, end.
 
 
 <div align="center">
 	
-## Non Functional Requirements
+## Bab 5. Non Functional Requirements
 
 </div>
 
