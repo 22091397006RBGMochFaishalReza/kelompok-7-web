@@ -12,7 +12,9 @@
 </div>
 
 <div align="justify">
+
 **Table of Contents**
+
 1. 	Pendahuluan	
 
 1.1	Tujuan Penulisan Dokumen	
