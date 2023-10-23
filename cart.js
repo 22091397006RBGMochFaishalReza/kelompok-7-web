@@ -17,39 +17,39 @@ let openShopping = document.querySelector('.shop');
         let products = [
             {
                 id: 1,
-                name: 'Makaroni',
+                name: 'Nama Produk 1',
                 image: 'makaroni.jpg',
-                price: 30.000
+                price: 30000 
             },
             {
                 id: 2,
                 name: 'Nama Produk 2',
                 image: 'basreng.jpg',
-                price: 25.000
+                price: 25000
             },
             {
                 id: 3,
                 name: 'Nama Produk 3',
                 image: 'keripik.jpg',
-                price: 20.000
+                price: 20000
             },
             {
                 id: 4,
                 name: 'Nama Produk 4',
                 image: 'mia ayam.jpg',
-                price: 10.000
+                price: 10000
             },
             {
                 id: 5,
                 name: 'Nama Produk 5',
                 image: 'bakso.jpg',
-                price: 10.000
+                price: 10000 
             },
             {
                 id: 6,
                 name: 'Nama Produk 6',
                 image: 'nasi goreng.jpg',
-                price: 12.000
+                price: 12000 
             }
         ];
 
@@ -105,10 +105,12 @@ let openShopping = document.querySelector('.shop');
                             ${item.name}
                             <button class="add-button" onclick="addToCart(${key})">+</button>
                         </div>
-                        <div class="count">${item.quantity}</div>`;
+                        <div class="count">${item.quantity}</div>
+                        <div class="price">${item.price.toLocaleString()}</div>`; 
                     listCard.appendChild(newDiv);
                 }
             }
+            // Menampilkan total harga dengan tanda koma
             total.textContent = totalPrice.toLocaleString();
             quantity.textContent = count;
         }
