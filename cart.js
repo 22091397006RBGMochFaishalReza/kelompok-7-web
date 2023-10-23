@@ -36,7 +36,7 @@ let openShopping = document.querySelector('.shop');
             {
                 id: 4,
                 name: 'Nama Produk 4',
-                image: 'mie ayam.jpg',
+                image: 'mia ayam.jpg',
                 price: 10.000
             },
             {
