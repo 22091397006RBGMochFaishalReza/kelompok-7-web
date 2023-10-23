@@ -21,13 +21,18 @@
 
 - [Bab 1. Pendahuluan](#Bab-1-Pendahuluan)
 
+
 - [1.1 Tujuan Penulisan Dokumen](#11-Tujuan-Penulisan-Dokumen)
 - [1.2 Audien yang Dituju dan Pembaca yang Disarankan](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
 - [1.3 Batasan Produk](#13-Batasan-Produk)
 - [1.4 Definisi dan Istilah](#14-Definisi-dan-Istilah)
 - [1.5 Referensi](#15-Referensi)
 
+
+
 - [Bab 2. Deskripsi Keseluruhan](#Bab-2-Deskripsi-Keseluruhan)
+
+
 
 - [2.1 Deskripsi Produk](#21-Deskripsi-Produk)
 - [2.2 Fungsi Produk](#22-Fungsi-Produk)
@@ -160,15 +165,15 @@ Intan Anuggrah Yuandi, Siti Rahmawati Kahar, Arrum Purnama. “Perancangan Web E
 
 </div>
 
-2.1 Deskripsi Produk 
+## 2.1 Deskripsi Produk 
 
 Platform website penjualan produk mahasiswa adalah situs website yang dirancang khusus untuk memungkinkan mahasiswa dapat menjual produk mereka. Platform website ini memfasilitasi transaksi jual beli antar mahasiswa khususnya mahasiswa Universitas Negeri Surabaya. Mahasiswa yang ingin menjual produk mereka dapat menambahkan produk mereka ke dalam pemilihan menu jual produk, mahasiswa dapat menambahkan nama produk,foto serta menetapkan harga untuk dijual. Sebaliknya mahasiswa yang ingin membeli produk maka mahasiswa tersebut dapat memilih menu beli untuk melihat berbagai macam produk yang dijual oleh sesama mahasiswa Universitas Negeri Surabaya. 
 
-2.2 Fungsi Produk 
+## 2.2 Fungsi Produk 
 
 Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi mahasiswa yang ingin menjual produk buatannya di website ini serta memudahkan mahasiswa lain untuk membeli produk yang dijual di website ini. Website ini harus memberikan pelayanan fasilitas yang baik dan memungkinkan mahasiswa untuk menyalurkan potensi produk mereka supaya dapat dijual dan memberikan keuntungan tersendiri bagi mahasiswa yang menjual produk tersebut serta memungkinkan mahasiswa yang ingin membeli produk yang bermanfaat di website ini. 
 
-2.3 Penggolongan Karakterik Pengguna
+## 2.3 Penggolongan Karakterik Pengguna
 
 Tabel Karakteristik Pengguna : 
 
@@ -178,10 +183,9 @@ Tabel Karakteristik Pengguna :
 |User/ Mahasiswa (Pembeli Produk)|Membeli produk, menambahkan ke ke keranjang|Melakukan registrasi, melakukan login, memantau produk yg dibeli|Mengisi data registrasi yang sesuai, melakukan pembayaran produk yang dibeli|
 |Admin|Membuat website, maintenance dan upgrade sistem|Memberikan akses masuk untuk user, menyimpan data register,data login,dan riwayat login|Menyediakan kebutuhan fungsional sistem, menyediakan fasilitas menu pilihan jual/beli, Mengatur data register dan login, Mengecek data register dan login|
 
-2.4 Lingkungan Operasi 
+## 2.4 Lingkungan Operasi 
 
 Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website beroperasi khususnya di wilayah kampus Universitas Negeri Surabaya. Website ini dapat diakses oleh mahasiswa Universitas Negeri Surabaya. 
-
 
 
 <div align="center">
