@@ -71,7 +71,7 @@
 
 <div align="center">
 
-## **1.Pendahuluan**
+## 1.Pendahuluan
 
 </div>
 
