@@ -24,7 +24,7 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color: cadetblue;
+    color: #333;
     padding: 1rem;
     margin: 2rem o;
     background: rgba(100, 168, 237, 0.212);
@@ -107,7 +107,7 @@ header .icons a:hover{
 
 .home .content span{
     font-size: 20px;
-    color: grey;
+    color: cadetblue;
     padding: 1rem 0;
     line-height: 1.5;
 }
