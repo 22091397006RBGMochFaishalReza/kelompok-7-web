@@ -170,7 +170,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 <div align="center">
 
-## 3. Kebutuhan Antarmuka Eksternal
+## Kebutuhan Antarmuka Eksternal
 
 </div>
 
