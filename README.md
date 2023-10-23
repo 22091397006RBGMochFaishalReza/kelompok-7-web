@@ -153,7 +153,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 3.1 User Interfaces 
 
-User Interface dari website ini pada awalnya ada sebuah landing page aplikasi kami yang menampilan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akanmenuju ke menu login awal ataupun register awal.
+User Interface dari website ini pada awalnya ada sebuah landing page website yang menampilkan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akan menuju ke menu login awal ataupun register awal. Pengguna yang belum memiliki akun harus klik register pada pojok kanan tampilan landing page. Setelah masuk ke halaman register pengguna harus memasukkan full name/nama lengkap, pengguna memasukkan username, email, no telepon, dan membuat password serta mengkonfirmasi password. Setelah Saat pengguna klik login maka pengguna akan masuk ke login page. Pada login page pengguna memasukkan email dan password untuk bisa login, setelah pengguna login maka pengguna akan masuk ke menu home page.
 
 3.2 Hardware Interface
 
