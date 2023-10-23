@@ -158,6 +158,8 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 **User Interfaces Landing Page** 
 
+
+![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Landing.jpeg)
 User Interface dari website ini pada awalnya ada sebuah landing page website yang menampilkan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akan menuju ke menu login awal ataupun register awal. 
 
 **User Interfaces Register Page**
