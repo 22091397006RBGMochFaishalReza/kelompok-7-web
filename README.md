@@ -253,7 +253,7 @@ Catatan : Memahami serta memenuhi persyaratan non-fungsional ini akan membantu m
 
 # Kelompok-7-Web
 
-## Bab 6. Penjelasan HTML,CSS,dan Javascript
+## Bab 6. Penjelasan HTML CSS dan Javascript
 
 <h2>PENJELASAN HTML</h2>
 
