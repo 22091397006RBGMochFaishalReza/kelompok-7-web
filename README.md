@@ -21,7 +21,7 @@
 
 - [Pendahuluan](#Pendahuluan)
 
-- [1.1 Tujuan Penulisan Dokumen](#1.1-Tujuan-Penulisan-Dokumen)
+- [1.1 Tujuan Penulisan Dokumen](#1-.-1-Tujuan-Penulisan-Dokumen)
 
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
 - [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
