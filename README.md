@@ -19,7 +19,7 @@
 
 </div>
 
-- [Pendahuluan](#Pendahuluan)
+- [Bab 1. Pendahuluan](#Bab-1-Pendahuluan)
 
 - [1.1 Tujuan Penulisan Dokumen](#11-Tujuan-Penulisan-Dokumen)
 
@@ -79,7 +79,7 @@
 
 <div align="center">
 
-## Pendahuluan
+## Bab 1 Pendahuluan
 
 </div>
 
