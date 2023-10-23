@@ -79,7 +79,7 @@
 
 <div align="center">
 
-## Bab 1 Pendahuluan
+## Bab 1. Pendahuluan
 
 </div>
 
