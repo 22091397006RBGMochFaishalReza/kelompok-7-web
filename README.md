@@ -67,8 +67,11 @@
 
 5.	Non Functional Requirements	
 
+<div align="center">
 
 **1. Pendahuluan**
+
+</div>
 
 1.1 Tujuan Penulisan Dokumen
 	
@@ -130,7 +133,11 @@ Muhammad Susilo, Rezki Kurniati, Kasmawi. “Rancang Bangun Website Toko Online 
 Intan Anuggrah Yuandi, Siti Rahmawati Kahar, Arrum Purnama. “Perancangan Web E-Commerce Mahasiswa Berbasis Digital Marketing Untuk Menumbuhkan Jiwa Ekonomi Digital.” Jurnal Informatika Teknologi dan Sains, E - ISSN: 2686-3359 Vol. 5, No. 1(2023):183-190.
 
 
+<div align="center">
+
 **2. Deskripsi Keseluruhan**
+
+</div>
 
 2.1 Deskripsi Produk 
 
@@ -155,7 +162,11 @@ Tabel Karakteristik Pengguna :
 Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website beroperasi khususnya di wilayah kampus Universitas Negeri Surabaya. Website ini dapat diakses oleh mahasiswa Universitas Negeri Surabaya. 
 
 
+<div align="center">
+
 **3. Kebutuhan Antarmuka Eksternal**
+
+</div>
 
 3.1 User Interfaces 
 
@@ -187,7 +198,11 @@ Antarmuka perangkat lunak dari situs web penjualan camilan yang diimplementasika
 Antarmuka komunikasi dari situs web penjualan camilan (snack) yang diimplementasikan dalam kode HTML dan CSS di atas adalah berdasarkan protokol HTTP melalui peramban web pengguna. Ketika pengguna mengakses halaman web, permintaan HTTP dikirimkan ke server web untuk mengambil dan menampilkan konten halaman. Halaman web ini juga dapat menyediakan formulir elektronik yang memungkinkan pengguna mengirimkan pesan atau data melalui metode HTTP POST. Dalam konteks ini, antarmuka komunikasi terutama berfokus pada interaksi antara peramban web pengguna dan server web untuk menampilkan dan mengirimkan informasi terkait penjualan camilan. Keamanan komunikasi melalui protokol HTTPS dapat diterapkan untuk melindungi data sensitif dan transmisi aman.
 
 
+<div align="center">
+
 **4. Functional Requirement**
+
+</div>
 
 Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus berperilaku. Ini mendefinisikan apa yang harus dilakukan sistem untuk memenuhi kebutuhan atau harapan pengguna. Persyaratan fungsional dapat dianggap sebagai fitur yang dideteksi pengguna. berbeda dari persyaratan non-fungsional, yang menentukan bagaimana sistem harus bekerja secara internal (misalnya, kinerja, keamanan, dll.).
 
@@ -218,7 +233,11 @@ Untuk penjelasan pada flowchart yang akan dilakukan oleh user adalah pertama tam
 Flowchart untuk admin, dimulai dari start lalu kita sebagai admin akan membuat website yang berkaitan tentang hal yang akan kita buat. Setelah itu kita selain membuat website juga menyediakan kebutuhan fungsional sistem, kemudian menyediakan fasilitas bagi user penjual/pembeli. Lalu kita menyimpan data register user, setelah itu mengatur data user. Kemudian kita memisahkan data register dan login. Jika belum register kita memberikan fitur membuat dan memasukkan data register lalu menyimpan data register, mengecek data register user, dan memberikan akses masuk ke website. Jika sudah bisa mengecek data register danmemberikan akses masuk ke website, setelah itu memberikan fitur pilihan jual/beli. Setelah itu semua sudah selesai admin akan menyimpan data produk dijual dan terjual, lalu menyimpan riwayat login user. Jika sistem dalam perbaikan akan maintenance dan upgrade sistem, end.
 
 
+<div align="center">
+	
 **5. Non Functional Requirements**
+
+</div>
 
 Persyaratan non-fungsional, sering disingkat NFR, melengkapi persyaratan fungsional dengan menentukan bagaimana sistem perangkat lunak harus menjalankan fungsi tertentu. Developer mendefinisikan kualitas, karakteristik, dan batasan sistem, bukan fitur spesifiknya. Intinya, persyaratan non-fungsional menetapkan standar kinerja, keamanan, dan kegunaan sistem.
 
