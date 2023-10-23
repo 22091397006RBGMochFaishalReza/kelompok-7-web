@@ -162,69 +162,69 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 ## 3.1 User Interfaces 
 
-**User Interfaces Landing Page** 
+**3.1.1 User Interfaces Landing Page** 
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Landing.jpeg)
 
 **PENJELASAN :**
 User Interface dari website ini pada awalnya ada sebuah landing page website yang menampilkan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akan menuju ke menu login awal ataupun register awal. 
 
-**User Interfaces Register Page**
+**3.1.2 User Interfaces Register Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Register.jpeg)
 
 **PENJELASAN :**
 Pengguna yang belum memiliki akun harus klik register pada pojok kanan tampilan landing page. Setelah masuk ke halaman register pengguna harus memasukkan full name/nama lengkap, pengguna memasukkan username, email, no telepon, dan membuat password serta mengkonfirmasi password. Pada menu di paling bawah, pengguna memilih gender atau jenis kelamin. Terdapat pilihan male/laki-laki, female/perempuan, dan other/lainnya, setelah itu klik register dan kembali ke landing page setelah itu pengguna dapat melakukan login. 
 
-**User Interfaces Login Page**
+**3.1.3 User Interfaces Login Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Login.jpeg)
 
 **PENJELASAN :**
 Setelah Saat pengguna klik login maka pengguna akan masuk ke login page. Pada login page pengguna memasukkan email dan password yang telah dibuat pada register page untuk bisa login, setelah pengguna login maka pengguna akan masuk ke menu home page.
 
-**User Interfaces Reset Password Page**
+**3.1.4 User Interfaces Reset Password Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Reset%20Password.jpeg)
 
 **PENJELASAN :**
 
-**User Interfaces Home Page**
+**3.1.5 User Interfaces Home Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Home.jpeg)
 
 **PENJELASAN :**
 
 
-**User Interfaces About Page**
+**3.1.5 User Interfaces About Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/About.jpeg)
 
 **PENJELASAN :**
 
 
-**User Interfaces Cart/Product Page**
+**3.1.6 User Interfaces Cart/Product Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Cart.png)
 
 **PENJELASAN :**
 
 
-**User Interfaces Review Page**
+**3.1.7 User Interfaces Review Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Review.jpeg)
 
 **PENJELASAN :**
 
 
-**User Interfaces Contact Page**
+**3.1.8 User Interfaces Contact Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Contact.jpeg)
 
 **PENJELASAN :**
 
 
-**User Interfaces Learn More Page**
+**3.1.9 User Interfaces Learn More Page**
 
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Learn%20More.png)
 
