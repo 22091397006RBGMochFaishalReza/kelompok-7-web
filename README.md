@@ -164,12 +164,15 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 **User Interfaces Landing Page** 
 
-
 ![alt text](https://github.com/22091397006RBGMochFaishalReza/kelompok-7-web/blob/master/assets/Landing.jpeg)
+
+**PENJELASAN :**
 User Interface dari website ini pada awalnya ada sebuah landing page website yang menampilkan sebuah background makanan ringan lalu ada logo dari website kami juga, dan ada juga menu login dan register yang pada saat kita pencet tolmbolnya akan menuju ke menu login awal ataupun register awal. 
 
 **User Interfaces Register Page**
 
+
+**PENJELASAN :**
 Pengguna yang belum memiliki akun harus klik register pada pojok kanan tampilan landing page. Setelah masuk ke halaman register pengguna harus memasukkan full name/nama lengkap, pengguna memasukkan username, email, no telepon, dan membuat password serta mengkonfirmasi password. Pada menu di paling bawah, pengguna memilih gender atau jenis kelamin. Terdapat pilihan male/laki-laki, female/perempuan, dan other/lainnya, setelah itu klik register dan kembali ke landing page setelah itu pengguna dapat melakukan login. 
 
 **User Interfaces Login Page**
