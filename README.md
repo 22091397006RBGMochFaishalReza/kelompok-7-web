@@ -20,10 +20,13 @@
 </div>
 
 - [Pendahuluan](#Pendahuluan)
+
+- [1.1 Tujuan Penulisan Dokumen](#1.1-Tujuan-Penulisan-Dokumen)
+
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
 - [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
-- [Functional Requirement](Functional-Requirement)
-- [Non Functional Requirements](Non-Functional-Requirements)
+- [Functional Requirement](#Functional-Requirement)
+- [Non Functional Requirements](#Non-Functional-Requirements)
 
 
 1. 	Pendahuluan	
@@ -80,7 +83,7 @@
 
 </div>
 
-1.1 Tujuan Penulisan Dokumen
+## 1.1 Tujuan Penulisan Dokumen
 	
 Tujuan kelompok kami dalam penulisan dokumen ini adalah untuk memberikan suatu rancangan ide sebuah platform untuk mahasiswa Universitas Negeri Surabaya dalam penjualan makanan ringan sebagai bentuk usaha memudahkan para mahasiswa Universitas Negeri Surabaya yang ingin memasarkan produknya agar dapat terjual luas.
 
