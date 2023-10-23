@@ -13,11 +13,8 @@
 
 <div align="justify">
 
-<div align="center">
-
 **Table of Contents**
 
-</div>
 
 1. 	Pendahuluan	
 
