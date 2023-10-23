@@ -116,6 +116,7 @@ Platform	:	Sebuah wadah digital yang banyak dipakai manusia untuk berbagai macam
 Website	:	Kumpulan halaman web yang saling terhubung dan dapat diakses melalui internet
 
 1.5 Referensi
+
 Nana Saharna, Kasman Ruku. “Perancangan Sistem E-Commerce Berbasis Web Pada Toko Indah Surya Furniture.” Jurnal Vokasional Teknik Elektronika dan Informatika, E - ISSN: 2302-3295 Vol. 7, No. 1(2019).
 
 Muhammad Susilo, Rezki Kurniati, Kasmawi. “Rancang Bangun Website Toko Online Menggunakan Metode Waterfall.” Jurnal Nasional Informatika dan Teknologi Jaringan, E - ISSN: 2540-7600, P - ISSN: 2540-7597 Vol. 2, No. 2(2018).
