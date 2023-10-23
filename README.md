@@ -53,7 +53,7 @@
 - [Bab 5. Non Functional Requirements](#Bab-5-Non-Functional-Requirements)
 
 
-- [Bab 6. Penjelasan HTML,CSS,dan Javascript](#Bab-6-Penjelasan-HTML-CSS-dan-Javascript)
+- [Bab 6. Penjelasan HTML CSS dan Javascript](#Bab-6-Penjelasan-HTML-CSS-dan-Javascript)
 
 
 <div align="center">
