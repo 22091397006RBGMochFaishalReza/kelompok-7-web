@@ -19,6 +19,7 @@
 
 - [Pendahuluan](#Pendahuluan)
 - [Deskripsi Keseluruhan](#Deskripsi-Keseluruhan)
+- [Kebutuhan Antarmuka Eksternal](#Kebutuhan-Antarmuka-Eksternal)
 
 
 1. 	Pendahuluan	
@@ -167,7 +168,7 @@ Website ini beroperasi pada lingkungan umum untuk kalangan mahasiswa. Website be
 
 <div align="center">
 
-**3. Kebutuhan Antarmuka Eksternal**
+## 3. Kebutuhan Antarmuka Eksternal
 
 </div>
 
