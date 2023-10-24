@@ -110,7 +110,6 @@ let openShopping = document.querySelector('.shop');
                     listCard.appendChild(newDiv);
                 }
             }
-            // Menampilkan total harga dengan tanda koma
             total.textContent = totalPrice.toLocaleString();
             quantity.textContent = count;
         }
