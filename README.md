@@ -320,7 +320,12 @@ Catatan : Memahami serta memenuhi persyaratan non-fungsional ini akan membantu m
 
 # Kelompok-7-Web
 
+
+<div align="center">
+
 ## Bab 6. Penjelasan HTML CSS dan Javascript
+
+</div>
 
 ## 6.1 PENJELASAN HTML
 
@@ -2043,66 +2048,110 @@ Mengatur efek hover saat pengguna mengarahkan kursor ke tombol, mengubah latar b
 
 **PENJELASAN CART CSS :**
 
-1. body: Ini mengatur latar belakang halaman web dengan warna #e3e7e8 dan font family "system-ui".
+1. .logo img:
 
-2. .container: Mengatur kontainer dengan lebar 1000px, membuatnya berada di tengah halaman (menggunakan margin: auto), dan menambahkan efek transisi selama 0.5 detik.
+Ini adalah selektor CSS yang mengarah ke gambar di dalam elemen dengan kelas "logo" di dalam elemen header.
+Aturan ini mengatur lebar gambar menjadi 30 piksel dan tinggi otomatis, sehingga gambar akan menjaga rasio aspeknya dan tidak akan terdistorsi saat diubah ukurannya.
 
-3. header: Ini adalah bagian kepala halaman yang diatur dengan tata letak grid dengan dua kolom: satu kolom dengan lebar otomatis (1fr) dan satu kolom dengan lebar tetap 50px. Ini juga memiliki margin atas sebesar 50px.
+2. .navbar a:
 
-4. .shop: Ini mengatur elemen dengan kelas "shop". Posisi teks di dalamnya diatur ke kanan. Gambar di dalam elemen ini memiliki lebar 40px. Juga, ada elemen <span> dengan latar merah yang menunjukkan jumlah item di keranjang belanja, dan itu memiliki efek transisi saat diarahkan.
+Ini adalah selektor CSS yang mengarah ke tautan dalam elemen dengan kelas "navbar" di dalam elemen header.
+Aturan ini mengatur ukuran font tautan menjadi 13 piksel, padding di atas dan bawah 30 piksel, serta warna teks menjadi hitam.
 
-5. .list: Ini mengatur elemen dengan kelas "list" yang menampilkan daftar item. Ini menggunakan tata letak grid dengan tiga kolom yang memiliki lebar yang sama. Terdapat jarak antar kolom (column-gap) dan antar baris (row-gap) sebesar 20px.
+3. .icons a:
 
-6. .list .item: Ini mengatur elemen-elemen dengan kelas "item" dalam daftar. Mereka memiliki latar belakang berwarna #dce0e1, padding, bayangan kotak, dan penyesuaian huruf.
+Ini adalah selektor CSS yang mengarah ke tautan dalam elemen dengan kelas "icons" di dalam elemen header.
+Aturan ini mengatur ukuran font tautan menjadi 15 piksel, warna teks menjadi hitam, dan memberikan margin kiri sebesar 50 piksel.
+Saat tautan dihover (mouse dilewatkan di atasnya), warna teks berubah menjadi "cadetblue."
 
-7. .list .item img: Ini mengatur gambar dalam elemen-elemen "item" dengan lebar 90%, tinggi 430px, dan tipe objek yang sesuai.
+4. body:
 
-8. .list .item .title: Ini mengatur tampilan judul item dengan bobot font 600.
+Ini adalah selektor CSS yang mengarah ke elemen &lt;body&gt; dari halaman web.
+Aturan ini mengatur warna latar belakang menjadi abu-abu (#e3e7e8) dan mengatur jenis font menjadi "system-ui."
 
-9. .list .item .price: Ini mengatur tampilan harga item.
+5. .container:
 
-10. .list .item button: Ini mengatur tombol "Beli" dengan latar belakang warna #1c1f25 dan teks putih. Tombol ini memiliki lebar 100% dan padding.
+Ini adalah selektor CSS yang mengarah ke elemen dengan kelas "container" di halaman web.
+Aturan ini mengatur lebar elemen "container" menjadi 1000 piksel, mengatur margin menjadi otomatis (sehingga elemen berada di tengah horizontal), dan memberikan efek transisi selama 0.5 detik.
 
-11. .card: Ini adalah bagian keranjang belanja yang diatur dalam posisi tetap di sisi kanan layar. Ia memiliki latar belakang #453e3b, lebar tetap 500px, dan tinggi 100vh (100% tinggi viewport).
+6. header:
 
-12. .active .card: Ini adalah bagian dari animasi saat keranjang belanja aktif. Ketika aktif, ia akan muncul dari kanan dengan efek pergeseran (translate) dengan jarak -500px.
+Ini adalah selektor CSS yang mengarah ke elemen "header" di halaman web.
+Aturan ini mengatur tampilan header menggunakan CSS Grid dengan dua kolom: satu dengan lebar fr (fraksi) 1 dan satu dengan lebar 50 piksel. Ini juga memberikan margin atas sebesar 50 piksel.
 
-13. .active .container: Ini juga bagian dari animasi saat keranjang belanja aktif. Ketika aktif, kontainer utama akan tergeser ke kiri dengan efek pergeseran (translate) sebesar -200px.
+7. .shop:
 
-14. .card h1: Ini mengatur tampilan judul di keranjang belanja.
+Ini adalah selektor CSS yang mengarah ke elemen dengan kelas "shop."
+Aturan ini mengatur tampilan elemen dengan kelas "shop" menjadi posisi relatif dan mengubah tampilan elemen gambar di dalamnya menjadi lebar 40 piksel.
+Selain itu, aturan ini menambahkan sebuah elemen span dengan latar merah dan teks putih yang berbentuk lingkaran di atas gambar, dan mengubah tampilan elemen "shop" saat dihover.
 
-15. .card .checkOut: Ini adalah bagian bawah dari keranjang belanja yang memiliki dua elemen anak dengan latar belakang yang berbeda. Elemen-elemen ini mengatur tombol "Checkout" dan "Batal."
+8. .list:
 
-16. .listCard li: Ini mengatur tampilan item dalam keranjang belanja. Ini menggunakan tata letak grid dengan beberapa kolom yang menampilkan gambar, nama, harga, dan tombol hapus.
+Ini adalah selektor CSS yang mengarah ke elemen dengan kelas "list."
+Aturan ini mengatur tampilan elemen dengan kelas "list" menggunakan CSS Grid dengan tiga kolom dan menambahkan jarak antar kolom dan baris.
 
-17. .listCard li div: Ini mengatur tampilan elemen-elemen dalam kolom-kolom keranjang belanja.
+9. .list .item:
 
-18. .listCard li img: Ini mengatur gambar item dalam keranjang belanja.
+Ini adalah selektor CSS yang mengarah ke elemen dengan kelas "item" di dalam elemen dengan kelas "list."
+Aturan ini mengatur tampilan elemen dengan kelas "item," seperti warna latar belakang, bayangan kotak, dan jenis huruf.
 
-19. .listCard li button: Ini mengatur tombol hapus item dari keranjang belanja.
+10. .list .item img:
 
-20. .listCard .count: Ini mengatur tampilan jumlah item dalam keranjang belanja.
+Ini adalah selektor CSS yang mengarah ke gambar di dalam elemen dengan kelas "item" di dalam elemen dengan kelas "list."
+Aturan ini mengatur lebar gambar menjadi 90% dari lebar elemen yang mengandungnya, tinggi gambar sebesar 430 piksel, dan mengatur bagaimana gambar mengisi elemennya.
+
+11. .list .item .title:
+
+Ini adalah selektor CSS yang mengarah ke elemen dengan kelas "title" di dalam elemen dengan kelas "item."
+Aturan ini mengatur tampilan teks dengan berat huruf 600.
+
+12. .list .item .price:
+
+Ini adalah selektor CSS yang mengarah ke elemen dengan kelas "price" di dalam elemen dengan kelas "item."
+Aturan ini mengatur jarak antara elemen dengan kelas "price" dan elemen-elemen sekitarnya.
+
+13. .list .item button:
+
+Ini adalah selektor CSS yang mengarah ke tombol di dalam elemen dengan kelas "item."
+Aturan ini mengatur tampilan tombol dengan warna latar belakang dan warna teks tertentu.
 
 
 ## 6.3 Penjelasan Javascript
 
 **PENJELASAN CART JAVASCRIPT :**
 
-1. Langkah pertama adalah dengan memilih beberapa elemen HTML dengan menggunakan document.querySelector(). Mengambil elemen-elemen seperti openShopping, closeShopping, list, listCard, body, total, dan quantity dengan tujuan untuk berinteraksi dengannya dalam kode JavaScript.
+1. Pertama identifikasi beberapa elemen HTML yang akan digunakan dalam kode:
 
-2. Setelah itu menambahkan event listener pada elemen dengan kelas "shop" (dalam HTML: .shop) dengan menggunakan openShopping.addEventListener(). Ini berarti ketika elemen dengan kelas "shop" diklik (biasanya akan digunakan untuk membuka keranjang belanja), dengan memberikan kelas "active" ke elemen <body>. Ini biasanya digunakan untuk menunjukkan bahwa keranjang belanja sedang terbuka dan ada interaksi dengan keranjang belanja.
+openShopping: Ini adalah elemen yang digunakan untuk membuka keranjang belanja saat diklik.
 
-3. Kemudian tambahkan event listener pada elemen dengan kelas "closeShopping" (dalam HTML: .closeShopping). Ketika elemen ini diklik, artinya kelas "active" dari elemen <body> dihapus. Ini digunakan untuk menutup keranjang belanja.
+closeShopping: Ini adalah elemen yang digunakan untuk menutup keranjang belanja saat diklik.
 
-4. Definisikan daftar produk dalam bentuk array JavaScript yang disebut products. Setiap produk memiliki beberapa atribut seperti id, name, image, dan price. Produk ini nantinya akan digunakan untuk menampilkan daftar barang yang dapat ditambahkan ke keranjang belanja.
+list: Ini adalah elemen yang digunakan untuk menampilkan daftar produk di halaman.
 
-5. Selanjutnya, definisikan array kosong listCards yang akan digunakan untuk menyimpan barang-barang yang telah ditambahkan ke keranjang belanja.
+listCard: Ini adalah elemen yang digunakan untuk menampilkan daftar produk yang ada dalam keranjang.
 
-6. Membuat fungsi initApp() untuk menginisialisasi aplikasi. Fungsi ini digunakan untuk menampilkan daftar produk dari array products ke dalam elemen dengan kelas "list" (dalam HTML: .list). Setiap produk ditampilkan dalam elemen dengan kelas "item" yang berisi gambar produk, nama produk, harga produk, dan tombol "Add to Cart". Tombol "Add to Cart" memiliki atribut onclick yang memanggil fungsi addToCard(key) saat tombol tersebut diklik.
+body: Ini adalah elemen <body> dari halaman.
 
-7. Lalu mendefinisikan fungsi addToCard(key) yang digunakan untuk menambahkan produk ke dalam keranjang belanja. Jika produk belum ada di dalam keranjang belanja, produk tersebut akan disalin dari daftar products ke dalam listCards. Setiap produk di dalam listCards juga memiliki atribut quantity yang awalnya diatur ke 1.
+total: Ini adalah elemen yang digunakan untuk menampilkan total harga belanja.
 
-8. Mendefinisikan fungsi reloadCard() yang digunakan untuk memperbarui tampilan keranjang belanja. Fungsi ini akan membersihkan isi dari elemen dengan kelas "listCard" (dalam HTML: .listCard) dan kemudian membangun kembali tampilan keranjang belanja berdasarkan isi dari array listCards. Selain itu, fungsi ini juga menghitung total harga dari semua barang yang ada dalam keranjang belanja serta jumlah total barang yang ada di keranjang belanja, dan menampilkannya pada elemen-elemen dengan kelas "total" (dalam HTML: .total) dan "quantity" (dalam HTML: .quantity).
+quantity: Ini adalah elemen yang digunakan untuk menampilkan jumlah total produk dalam keranjang.
 
-9. Terakhir, lakukan eksekusi fungsi initApp() untuk menginisialisasi aplikasi saat halaman web dimuat. Ini akan menampilkan daftar produk yang dapat ditambahkan ke keranjang belanja saat halaman dimuat.
 
+2. Selanjutnya, Tambahkan event listener pada openShopping untuk membuka keranjang belanja dan event listener pada closeShopping untuk menutupnya. Saat openShopping diklik, kelas "active" ditambahkan ke elemen &lt;body&gt; , yang akan mengaktifkan tampilan keranjang belanja. Ketika closeShopping diklik, kelas "active" dihapus dari elemen <body, yang akan menutup keranjang belanja.
+
+
+3. Definisikan sebuah array bernama products yang berisi daftar produk. Setiap produk memiliki beberapa atribut seperti id, name, image, dan price.
+
+
+4. Definisikan objek listCards yang akan digunakan untuk menyimpan produk dalam keranjang belanja. Objek ini awalnya kosong.
+
+
+5. Definisikan fungsi initApp yang digunakan untuk menginisialisasi tampilan produk pada halaman. Dalam fungsi ini, gunakan forEach untuk iterasi melalui array products dan membuat elemen-elemen HTML untuk masing-masing produk. Setiap produk ditampilkan dalam elemen dengan kelas "item" dan termasuk gambar, nama, harga, dan tombol "Tambah ke Keranjang."
+
+
+6. Definisikan fungsi addToCart(key) yang digunakan untuk menambahkan produk ke dalam keranjang belanja. Fungsi ini menerima parameter key yang mengacu pada indeks produk dalam array products. Jika produk belum ada dalam keranjang (listCards[key] == null), maka produk akan ditambahkan ke dalam objek listCards. Jika produk sudah ada dalam keranjang, kuantitasnya akan ditingkatkan.
+
+7. Definisikan fungsi removeItem(key) yang digunakan untuk mengurangi kuantitas produk dalam keranjang atau menghapus produk dari keranjang jika kuantitas mencapai 0.
+
+
+8. Definisikan fungsi reloadCart yang digunakan untuk memperbarui tampilan keranjang belanja. Fungsi ini akan menghapus isi listCard dan kemudian mengisi ulangnya dengan produk-produk dalam keranjang. Selain itu, fungsi ini juga menghitung total harga dan jumlah produk dalam keranjang, serta menampilkan informasi tersebut pada halaman.
