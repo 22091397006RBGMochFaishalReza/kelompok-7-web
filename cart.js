@@ -17,37 +17,37 @@ let openShopping = document.querySelector('.shop');
         let products = [
             {
                 id: 1,
-                name: 'Nama Produk 1',
+                name: 'Makaroni',
                 image: 'makaroni.jpg',
                 price: 30000 
             },
             {
                 id: 2,
-                name: 'Nama Produk 2',
+                name: 'Basreng',
                 image: 'basreng.jpg',
                 price: 25000
             },
             {
                 id: 3,
-                name: 'Nama Produk 3',
+                name: 'Keripik',
                 image: 'keripik.jpg',
                 price: 20000
             },
             {
                 id: 4,
-                name: 'Nama Produk 4',
+                name: 'Mie Ayam',
                 image: 'mia ayam.jpg',
                 price: 10000
             },
             {
                 id: 5,
-                name: 'Nama Produk 5',
+                name: 'Bakso',
                 image: 'bakso.jpg',
                 price: 10000 
             },
             {
                 id: 6,
-                name: 'Nama Produk 6',
+                name: 'Nasi Goreng',
                 image: 'nasi goreng.jpg',
                 price: 12000 
             }
