@@ -46,6 +46,11 @@ header .icons a:hover{
     color:cadetblue;
 }
 
+header .navbar a:hover{
+	color:cadetblue;
+	transition: color 0.3s ease;
+}
+
 .review {
     background: #fff;
     padding: 2rem 0;
